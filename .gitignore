@@ -21,3 +21,5 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+#ignorar los checkpoints del Jupyter
+.ipynb_checkpoints
