@@ -5,3 +5,11 @@ para mañana estar instalado el Jupyter
 
 ## como escribir un paper
 El estado del arte debe ir en los antecedentes o en la metodologia
+
+
+#pregunta de examen
+por que el numpy es mas rapido?
+
+
+hacer hasta de Computation of numpy
+hasta la pagina 50
