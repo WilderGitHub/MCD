@@ -13,3 +13,10 @@ por que el numpy es mas rapido?
 
 hacer hasta de Computation of numpy
 hasta la pagina 50
+
+age & gender
+industry
+training mode distribution
+online source
+first language
+Data Science Activity_Distribution
