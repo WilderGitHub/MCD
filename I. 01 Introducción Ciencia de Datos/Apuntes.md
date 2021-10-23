@@ -45,4 +45,14 @@ temas sociales sensibles, reincidencia delictiva (recordar lo de impuestos de la
 temas de alto riesgo deberian ser transparentes como en el caso
    de diagnostico con sistema de puntos
 
+cultura, 1991, población
+skype y otros emprendimientos
 
+*/*/*/*/*/*/
+
+Pregunta Teorica: Una propuesta para impulsar Ciencia de datos en Bolivia , de desarrollo de ciencia de datos en Bolivia (propuesta general, academico o investigador, de empresa, sociedad
+		  (impulso de ciencia de datos en Bolivia).
+
+
+Practica. Operaciones necesarias para analizar datos en Pandas (hasta multiindices). Datos relacionados con el puesto de trabajo
+  (carga de datos, histograma, matloblib. histograma, tratamiento   mix, max, mean y en Pandas un Dataframe, agregacion y multiindices)
