@@ -34,5 +34,15 @@ visualization_tool.jpeg
 	hasta PARTE 4 MATLOBLIB
 	MAXIMAS MINIMAS DESVIACIONES ETC GRAFICOS Y OPINION
 	p\posible pregnta, HACER 3 PARTICIONES PAG 88
+
+HASTA HUERARCHICAL INDEXING EL EXAMEN
 	
 tarea 92 a 96
+************
+caja negra vs algoritmos interpretables (muchos parametros, casi mismos
+   resultados
+temas sociales sensibles, reincidencia delictiva (recordar lo de impuestos de la alcaldia)
+temas de alto riesgo deberian ser transparentes como en el caso
+   de diagnostico con sistema de puntos
+
+
