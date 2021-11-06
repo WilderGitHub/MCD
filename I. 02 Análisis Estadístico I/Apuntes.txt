@@ -1,0 +1,1 @@
+Las practicas hay entregar en formato RAR y al final todo el compilado. Cada rar debe tener el codigo en R, la base de datos en excel u otro formato, el word y el pdf
