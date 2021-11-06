@@ -1,0 +1,45 @@
+ggplot(diamonds,aes(x=price)) +
+geom_histogram(fill="white",color="black")
+
+#Cambiamos la anchura de los intervalos dentro de la geometría con el argumento binwidth, al aumentar
+#el número cada vez tenemos menos intervalos:
+
+ggplot(diamonds,aes(x=price)) +
+geom_histogram(fill="white",color="black",binwidth=1000)
+
+#Los histogramas representan la frecuencia absoluta, si queremos que aparezca la frecuencia relativa,
+#debemos especificarlo mediante y = (..count..)/sum(..count..):
+
+ggplot(diamonds,aes(x=price)) +
+geom_histogram(aes(y = (..count..)/sum(..count..)),
+fill="white",
+color="black",
+binwidth=1000)
+
+##Diagramas de cajas30
+
+p <- ggplot(diamonds,aes(cut,price))
+p +
+geom_boxplot(aes(fill=cut))
+
+#Podemos superponer los puntos correspondientes a las obervaciones añadiendo geom_point()
+
+p +
+geom_boxplot(aes(fill=cut))+
+geom_point()
+
+#En muchos casos es interesante considerar distintos factores. En los datos del precio de los diamantes
+#podemos considerar la calidad del corte cut y el color del diamante color. Para ello, basta con añadir una
+#instrucción a la estética del boxplot.
+
+p +
+geom_boxplot(aes(fill=factor(color)))
+
+#También podemos resaltar los outliers
+
+p +
+geom_boxplot(aes(fill=factor(color)),
+outlier.colour = "red",
+outlier.size = 1.5)
+
+#Gráficos de barras

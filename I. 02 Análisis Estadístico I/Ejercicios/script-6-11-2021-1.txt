@@ -1,0 +1,11 @@
+data(iris)
+iris
+str(iris)
+hist(iris$Petal.Length)
+install.packages("ggplot2")
+library(ggplot2) #primero activamos la librería
+ggplot(iris, aes(x = Sepal.Length)) +
+geom_histogram()
+# diferenciando las especies por color
+ggplot(iris, aes(x = Sepal.Length, fill=Species)) +
+geom_histogram()

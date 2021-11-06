@@ -1,0 +1,189 @@
+cavendish<- read.table("Cavendish.txt", header=TRUE)
+cavendish
+summary(cavendish)
+install.packages("RODBC")
+library(RODBC)
+venta=odbcConnectExcel2007(file.choose())
+#venta=odbcConnectExcel(file.choose())
+misdatos=sqlFetch(venta,'Sheet1')
+odbcClose()
+misdatos
+
+data(iris)
+str(iris)
+hist(iris$Petal.Length)
+install.packages("ggplot2")
+library(ggplot2)
+ggplot(iris,aes(x=Sepal.Length))+geom_histogram()
+ggplot(iris,aes(x=Sepal.Length, fill=Species))+geom_histogram()
+
+######
+
+### HACER REFERENCIA DE GRANTICA DE LOS GRAFICOS Y
+### LA CONFIGURACION (aes)
+
+#Ejemplo () sin añadir ningun grafico 
+diamonds
+str (diamonds)
+ggplot(diamonds)#(solo introducimos referencia de los datos)
+ggplot(diamonds, aes(x=carat))  #solo inicamos el eje X
+ggplot(diamonds, aes(x=carat, y=price))#Especificamos ambos ejes X e Y, 
+#que ahora serán fijos en todas las capas.
+ggplot(diamonds, aes(x=carat, color=cut))#Cada categoría de la variable
+# "cut" tendrá un color diferente,
+#una vez le indiquemos la geometría.
+ggplot(diamonds, aes(x=carat), color="steelblue")#Si desea tener el color, 
+#el tamaño, etc, fijo (es decir, 
+#no varía basándose en una variable del marco de
+#datos), es necesario especificarlo fuera de los aes(), 
+#como en este caso.
+###las Capas(geom)(ver pag 8)
+ggplot(diamonds, aes(x=carat, y=price, color=cut)) +
+  geom_point() +
+  geom_smooth()
+
+
+ggplot(diamonds) +
+  geom_point(aes(x=carat, y=price, color=cut)) +
+  geom_smooth(aes(x=carat, y=price, color=cut))
+
+## con geom_smooth()
+
+ggplot(diamonds) +
+  geom_point(aes(x=carat, y=price, color=cut)) +
+  geom_smooth(aes(x=carat, y=price))
+
+## o mas sencilo
+ggplot(diamonds, aes(x=carat, y=price)) +
+  geom_point(aes(color=cut)) +
+  geom_smooth()
+
+##Ahora vamos a hacer que la forma de los puntos cambie con la característica "color" del conjunto de
+##datos.
+
+ggplot(diamonds, aes(x=carat, y=price, color=cut, shape=color)) +
+  geom_point()
+
+#### Las etiquetas (labs):Las etiquetas ayudan a visualizar lo que queremos representar en un gráfico. Las más comunes son el título
+##principal del gráfico, los títulos de los ejes y las leyendas
+
+gg <- ggplot(diamonds, aes(x=carat, y=price, color=cut)) +
+  geom_point() +
+  labs(title="Diagrama de puntos", x="Tamaño del diamante", y="Precio")
+gg
+
+
+##El Tema (theme)
+###El ajuste del tamaño de las etiquetas se puede hacer usando la función theme() configurando
+###plot.title, axis.text.x y axis.text.y, que deben ser especificados dentro del element_text().
+###el título de la leyenda debe establecer el nombre utilizando scale_color_discrete(),
+
+gg1 <- gg +
+  theme(plot.title=element_text(size=30, face="bold"),
+        axis.text.x=element_text(size=15),
+        axis.text.y=element_text(size=15),
+        axis.title.x=element_text(size=20),
+        axis.title.y=element_text(size=20)) +
+  scale_color_discrete(name="Corte del diamante")
+
+### El aspecto (facet)
+#facet_wrap(fórmula) toma una fórmula como argumento. Los elementos que coloquemos a la derecha
+#corresponden a las columnas, y los que coloquemos a la izquierda definen las filas.
+#Por ejemplo, si definimos las columnas por 'cut'.
+
+gg1 +
+  facet_wrap( ~ cut, ncol=3)
+
+
+
+
+#Si definimos las filas por "color" y columnas "cut".
+
+gg1 +
+  facet_wrap(color ~ cut)
+#En facet_wrap, las escalas de los ejes X e Y se fijan para acomodar todos los puntos de forma
+#predeterminada. es posible hacer que las escalas sean libres haciendo que las gráficas parezcan distribuidas
+#más uniformemente estableciendo el argumento scales = free.
+
+gg1 +
+  facet_wrap(color ~ cut, scales="free")
+
+###La leyenda: eliminación y cambio de posición.
+
+#Si introducimos theme(legend.position = "none"), se puede quitar la leyenda. Mediante theme(legend.position
+#= "top") se puede mover la leyenda alrededor de la trama.
+#legend.justification denota el punto de anclaje de la leyenda, es decir, el punto que se colocará en
+#las coordenadas dadas por legend.position.
+
+#Ejemplo sin leyenda:
+
+p1 <- ggplot(diamonds, aes(x=carat, y=price, color=cut)) +
+  geom_point() +
+  geom_smooth() +
+  theme(legend.position="none") +
+  labs(title="legend.position='none'")
+p1
+
+#Leyenda arriba:
+p2 <- ggplot(diamonds, aes(x=carat, y=price, color=cut)) +
+  geom_point() +
+  geom_smooth() +
+  theme(legend.position="top") +
+  labs(title="legend.position='top'")
+p2
+
+#Leyenda dentro del gráfico:
+ggplot(diamonds, aes(x=carat, y=price, color=cut)) +
+  geom_point() +
+  geom_smooth() +
+  labs(title="legend.position='coords inside plot'") +
+  theme(legend.justification=c(1,0), legend.position=c(1,0))
+
+
+######   3 ##########
+ggplot(diamonds,aes(x=price)) +
+  geom_histogram(fill="white",color="black")
+
+#Cambiamos la anchura de los intervalos dentro de la geometría con el argumento binwidth, al aumentar
+#el número cada vez tenemos menos intervalos:
+
+ggplot(diamonds,aes(x=price)) +
+  geom_histogram(fill="white",color="black",binwidth=1000)
+
+#Los histogramas representan la frecuencia absoluta, si queremos que aparezca la frecuencia relativa,
+#debemos especificarlo mediante y = (..count..)/sum(..count..):
+
+ggplot(diamonds,aes(x=price)) +
+  geom_histogram(aes(y = (..count..)/sum(..count..)),
+                 fill="white",
+                 color="black",
+                 binwidth=1000)
+
+##Diagramas de cajas30
+
+p <- ggplot(diamonds,aes(cut,price))
+p +
+  geom_boxplot(aes(fill=cut))
+
+#Podemos superponer los puntos correspondientes a las obervaciones añadiendo geom_point()
+
+p +
+  geom_boxplot(aes(fill=cut))+
+  geom_point()
+
+#En muchos casos es interesante considerar distintos factores. En los datos del precio de los diamantes
+#podemos considerar la calidad del corte cut y el color del diamante color. Para ello, basta con añadir una
+#instrucción a la estética del boxplot.
+
+p +
+  geom_boxplot(aes(fill=factor(color)))
+
+#También podemos resaltar los outliers
+
+p +
+  geom_boxplot(aes(fill=factor(color)),
+               outlier.colour = "red",
+               outlier.size = 1.5)
+
+#Gráficos de barras
+
