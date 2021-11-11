@@ -185,5 +185,327 @@ p +
                outlier.colour = "red",
                outlier.size = 1.5)
 
-#Gráficos de barras
+########################
+
+
+##ESTADISTICA DESCRIPTIVA
+##Para leer este archivo con R utilizaremos los siguientes comandos:
+##para importar archivos con extension csv
+install.packages("readr")
+library(readr)
+
+sargos = read.table(file = "sargos.csv", sep = ";", dec = ",",header = TRUE)
+sargos
+
+##Podemos habilitar un \acceso directo" a las variables por su nombre utilizando la funcion:
+
+attach(sargos)
+
+str(sargos)##(str:acronimo de estructura)
+isla  ##isla es un factor; ello significa que si pedimos a R 
+##que nos muestre sus valores,nos los mostrara como alfanumericos:
+
+unclass(isla)##la funcion unclass() vemos que internamente los valores de esta variable
+##estan almacenados como numeros enteros:
+
+
+########de nuestro ejemplo, la variable que indica si un pez esta parasitado o no, ptdo
+########Podemos conseguir este efecto creando un nuevo factor a partir de esta variable, y asignando
+########etiquetas a sus valores mediante la siguiente sintaxis
+
+fptdo = factor(ptdo, levels = c(0, 1), labels = c("No Parasitado","Parasitado"))
+fptdo
+
+#######Crear variables o recodicar variables existentes?
+#######Acabamos de ver como se crea un factor (fptdo) a partir de una variable existente (ptdo). Si
+#######hubisemos utilizado la sintaxis:
+
+ptdo = factor(ptdo, levels = c(0, 1), labels = c("No Parasitado","Parasitado"))
+
+#######en lugar de crear un nuevo factor, habriamos recodicado la variable ptdo ya existente, que de
+####esta forma quedara convertida directamente en factor (y habra perdido sus valores originales,
+####en este caso 0 y 1)4. Podemos comprobarlo, por ejemplo, utilizando el comando unique(),
+####que muestra los valores distintos que toma la variable:
+
+unique(ptdo)
+
+####Es mejor crear nuevas variables o recodicar las que ya existen? 
+####Si somos principiantes en R lo mejor es crear nuevas variables;
+
+####En este caso particular la recuperacion resulta sencilla, ya que los valores originales de ptdo
+####siguen almacenados en el data.frame sargos (vinculado al entorno de trabajo actual mediante
+####el comando attach). Si borramos la variable ptdo mediante:
+
+rm(ptdo)
+
+#####en realidad solo borramos la variable recodicada; la variable ptdo del data.frame original,
+#####que permanecia en el entorno de trabajo vuelve a ser accesible:
+
+unique(ptdo)
+
+
+######Tablas de frecuencias y representaciones graficas.
+######Variables categoricas o numericas discretas.
+
+table(isla)
+prop.table(table(isla))
+
+table(larvas)
+
+prop.table(table(larvas))
+
+cumsum(table(larvas))####Para las frecuencias acumuladas utilizamos la 
+####funcion cumsum():
+
+cumsum(prop.table(table(larvas)))
+
+####Podemos construir una tabla mas compacta para estas frecuencias del siguiente 
+####modo:
+tbl = table(larvas)
+nlarvas = names(tbl)
+fi = as.vector(tbl)
+fri = as.vector(prop.table(tbl))
+Fi = cumsum(fi)
+Fri = cumsum(fri)
+data.frame(nlarvas, fi, fri, Fi, Fri)
+
+####Sugerencia: Si necesitaramos hacer frecuentemente tablas como esta, resulta conveniente
+####definir una funcion en R para ello, que nos ahorre tener que escribir todas estas lineas cada
+####vez. Esta funcion podria ser, por ejemplo:
+tablaFrec = function(x) {
+  tbl = table(x)
+  categ = names(tbl)
+  fi = as.vector(tbl)
+  fri = as.vector(prop.table(tbl))
+  Fi = cumsum(fi)
+  Fri = cumsum(fri)
+  tabla = data.frame(categ, fi, fri, Fi, Fri)
+  names(tabla)[1] = deparse(substitute(x))
+  return(tabla)
+}
+tablaFrec(larvas)
+
+####A medida que vamos trabajando con R podemos ir construyendo nuestra coleccion de funciones
+####utiles y guardarlas, por ejemplo, en el archivo MisFunciones.R. Para tenerlas disponibles
+####cada vez que usemos R bastara con ejecutar al principio de nuestra sesion:
+
+#source("MisFunciones.R")
+
+
+##########Graficos: diagramas de barras y diagramas de sectores.
+##########Diagramas de barras, que en R se obtienen con el comando barplot().
+##########Diagramas de sectores, que en R se obtienen con el comando pie().
+
+barplot(table(isla))
+pie(table(isla))
+barplot(prop.table(table(isla)))
+
+######Mejorando la presentacion de los graficos.
+
+isla = factor(isla, levels = c("HI", "LP", "LG", "TF",
+                               "GC", "FV", "LZ"), ordered = TRUE)
+par(cex.axis = 0.9, las = 1)
+barplot(prop.table(table(isla)), main = "Ejemplares capturados por isla",
+        names.arg = c("Hierro", "La\nPalma", "La \nGomera",
+                      "Tenerife", "Gran \nCanaria", "Fuerte-\nventura",
+                      "Lanza-\nrote"), col = terrain.colors(12))
+
+##### mejorando diagrama circular
+
+noms = c("Hierro", "La Palma", "La Gomera", "Tenerife",
+         "Gran Canaria", "Fuerteventura", "Lanzarote")
+pct = prop.table(table(isla)) * 100
+etiquetas = paste(noms, " (", pct, "%)", sep = "")
+pie(table(isla), col = terrain.colors(7), labels = etiquetas,
+    main = "Captura por isla")
+
+#####Tablas cruzadas para variables categoricas o numericas discretas.
+
+table(fptdo, isla)
+
+####Podemos a~nadir los totales por  las y columnas mediante addmargins:
+
+addmargins(table(fptdo, isla))
+
+
+######Las distintas tablas cruzadas de frecuencias relativas se obtienen
+######utilizando prop.table():
+
+prop.table(table(fptdo, isla))
+
+
+###Frecuencias relativas por filas: basta anadir a la funcion prop.table() 
+#el argumento margin=1. Aqui ademas redondeamos a tres decimales:
+  
+  round(prop.table(table(fptdo, isla), margin = 1), 3)
+
+#####Frecuencias relativas por columnas: Igual que en el caso anterior, 
+#pero utilizando el  argumento margin=2:
+  
+  round(prop.table(table(fptdo, isla), margin = 2), 3)
+
+#####Presentacion grafica de tablas cruzadas.
+
+#####Las tablas de frecuencias cruzadas pueden representarse gra##camente tambien mediante bar-plot().
+
+barplot(prop.table(table(sexo, isla)), col = c("pink2",
+                                               "cyan3"), beside = TRUE, legend.text = TRUE, names.arg = c("Hierro",
+                                                                                                          "La\nPalma", "La \nGomera", "Tenerife", "Gran \nCanaria",
+                                                                                                          "Fuerteven-\ntura", "Lanza-\nrote"), las = 2)
+
+
+####Tablas de Frecuencias para variables continuas.
+
+install.packages("agricolae")
+library(agricolae)
+table.freq(hist(long, plot = F))
+hist(long, xlab = "longitud", ylab = "Frecuencia", freq = FALSE,
+     main = "Longitudes observadas en la muestra", col = topo.colors(40))
+
+###Poligonos de frecuencias. 
+#par(mfrow = c(1, 2))
+#tbl = data.frame(table.freq(hist(long, plot = FALSE)))
+#plot(tbl$MC, tbl$fi, type = "b", col = "red", lwd = 3,
+#   xlab = "Marca de Clase", ylab = "Frecuencia", sub = "(Longitud del sargo)",
+#   main = "(Poligono de frecuencias absolutas)"
+#plot(tbl$MC, tbl$Fi, type = "b", col = "darkgreen", lwd = 3,
+#xlab = "Marca de Clase", ylab = "Frecuencia", sub = "(Longitud del sargo)",
+#main = "(Poligono de frecuencias absolutas \nacumuladas)"
+
+######Medidas de posicion.
+
+quantile(long, probs = c(0.05, 0.25, 0.5, 0.75, 0.9,0.95))
+
+####Medidas de tendencia central.
+median(long)
+
+moda = function(x) {
+  tbl = table(x)
+  m = which(tbl == max(tbl))
+  return(names(m))
+}
+
+moda(isla)
+
+###En el caso de variables continuas, podemos usar la siguiente funcion 
+###para obtener el  intervalo modal
+
+intModal = function(x) {
+  tbl = hist(x, plot = FALSE)
+  m = which(tbl$counts == max(tbl$counts))
+  im = data.frame(tbl$breaks[m], tbl$breaks[m + 1])
+  names(im) = c("Inf", "Sup")
+  return(im)}
+
+intModal(long)
+
+####Medidas de Dispersion.
+
+var(long)
+sd(long)
+sd(long)/mean(long)
+sd(peso)/mean(peso)
+range(long)
+diff(range(long))
+quantile(long, probs = c(0.25, 0.75), names = FALSE)
+diff(quantile(long, probs = c(0.25, 0.75), names = FALSE))
+
+###Medidas de forma.
+install.packages("agricolae")
+library(agricolae)
+skewness(ldors)
+skewness(phig)
+
+
+####Coeficiente de apuntamiento (curtosis):
+kurtosis(ldors)
+kurtosis(phig)
+
+
+####Diagrama de cajas y barras (boxplot)
+boxplot(long, col = "orange", main = "longitud")
+
+
+####Medidas de sntesis en subgrupos de la muestra.
+
+by(long, sexo, mean)
+####o de manera equivalente:
+aggregate(long, by = list(sexo), mean)
+
+
+####La presentacion de la tabla construida con el comando aggregate() mejora si:
+####La variable (o variables, ya que pueden incluirse varias) a resumir se especi####ca como
+####subconjunto (subset()) del conjunto de datos original.
+####La variable (o variables, tambien podran incluirse varias) que de####ne los grupos se renombra dentro del comando list().
+
+
+aggregate(subset(sargos, select = c(long, peso)), by = list(Sexo = sexo,
+                                                            Isla = isla), mean)
+
+
+####Para concluir esta seccion citemos que es posible utilizar la funcion boxplot() para hacer
+####diagramas de cajas y barras segun subgrupos de la muestra.
+
+boxplot(peso ~ sexo, main = "Peso", col = c("pink2",
+                                            "cyan3"))
+
+boxplot(peso ~ isla, main = "Peso", col = heat.colors(14))
+
+
+####Asociacion entre variables continuas.
+####Regresion lineal.(pag 42Tema 0)
+
+lm(peso ~ long)
+
+####El valor indicado como intercept es la ordenada en el origen b0,
+plot(long, ldors, xlab = "Longitud total", ylab = "Distancia morro-aleta dorsal",
+     main = "Regresion Longitud-Distancia a la aleta dorsal")
+recta = lm(ldors ~ long)
+abline(recta, col = "darkgreen", lwd = 2)
+
+
+plot(long, ldors, xlab = "Longitud total", ylab = "Distancia morro-aleta dorsal",
+     main = "Regresion Longitud-Distancia a la aleta dorsal",
+     type = "n")
+
+
+with(subset(sargos, sexo == "Hembra"), {
+  points(long, ldors, col = "pink3", pch = 19)
+  abline(lm(ldors ~ long), col = "pink3", lwd = 2)
+})
+
+with(subset(sargos, sexo == "Macho"), {
+  points(long, ldors, col = "cyan4", pch = 19)
+  abline(lm(ldors ~ long), col = "cyan4", lwd = 2)
+})
+
+legend("topleft", c("Hembra", "Macho"), col = c("pink3",
+                                                "cyan4"), pch = 19, lty = 2, bty = "n")
+
+####Si queremos obtener los valores numericos de las ecuaciones de ambas rectas bastara con
+#########ejecutar:
+
+lm(ldors ~ long, data = subset(sargos, sexo == "Hembra"))
+
+lm(ldors ~ long, data = subset(sargos, sexo == "Macho"))
+
+
+intModal = function(x) {
+  tbl = hist(x, plot = FALSE)
+  m = which(tbl$counts == max(tbl$counts))
+  im = data.frame(tbl$breaks[m], tbl$breaks[m + 1])
+  names(im) = c("Inf", "Sup")
+  return(im)
+}
+
+
+cov(long, ldors)
+cor(long, ldors)
+
+
+cov(data.frame(long, ldors, lpect, peso))
+
+cor(data.frame(long, ldors, lpect, peso))
+
+by(data.frame(long, peso), sexo, cor)
 
