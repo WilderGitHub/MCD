@@ -21,3 +21,13 @@ Presentar.
 1. Documento con caratula
 2. Base de datos en excel
 3. Script en R 
+
+
+
+para la practica 2
+respuesta con el codigo, ver ejempo en las filmillas, tiene que estar las formulas y el proceso
+
+Me toca
+pag 162 22-29
+
+      
