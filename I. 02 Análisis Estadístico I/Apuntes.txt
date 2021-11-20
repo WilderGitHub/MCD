@@ -30,4 +30,7 @@ respuesta con el codigo, ver ejempo en las filmillas, tiene que estar las formul
 Me toca
 pag 162 22-29
 
-      
+
+para la practica 3
+
+     2 de cada ejercicio con R.
