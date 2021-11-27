@@ -39,3 +39,5 @@ examen
 
 importar
 prob
+
+Entrega de proyecto y practicas hasta el viernes 10 21:00
