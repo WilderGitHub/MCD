@@ -73,17 +73,44 @@ z2<-(x2-media)/error.est
 
 x <- seq(media-3*error.est[1],media+3*error.est[1] , by = 1)
 y <- dnorm(x, mean = media, sd = error.est)
-
+y1 <- dnorm(x, mean = media, sd = error.est[1])
+y2 <- dnorm(x, mean = media, sd = error.est[2])
+y3 <- dnorm(x, mean = media, sd = error.est[3])
+y4 <- dnorm(x, mean = media, sd = error.est[4])
 plot(x,y)
 lines(x,y1, col="black",pch="o",lty=1)
 lines(x,y2, col="red",pch="*",lty=2)
 lines(x,y3, col="blue",pch="+",lty=3)
 lines(x,y4, col="green",pch="-",lty=4)
+legend(1,10,legend=c("y1","y2","y3","y4"), col=c("blue","red","black", "green"),
+lty=c(1,2,3,4), ncol=1)
 
-legend(1,1,legend=c("y1","y2","y3","y4"), col=c("blue","red","black", "green"),
-pch=c("o","*","+","-"),lty=c(1,2,3,4), ncol=1)
+######\
+p<-0.6
+n<-c(30,100)
+#desv<-245
+error.est<-c(sqrt((p*(1-p)/n)))
+error.est
+w<-0.05
+x1<-p - w
+x2<-p + w
+z1<-(x1-p)/error.est
+z2<-(x2-p)/error.est
+pnorm(z2)-pnorm(z1)
+# grafico
 
+x <- seq(media-3*error.est[1],media+3*error.est[1] , by = .001)
+y <- dnorm(x, mean = media, sd = error.est)
+y1 <- dnorm(x, mean = media, sd = error.est[1])
+y2 <- dnorm(x, mean = media, sd = error.est[2])
 
+#y3 <- dnorm(x, mean = media, sd = error.est[3])
+#y4 <- dnorm(x, mean = media, sd = error.est[4])
+plot(x,y)
+lines(x,y1, col="black",pch="o",lty=1)
+lines(x,y2, col="red",pch="*",lty=2)
+
+# vas a sacar ejercicio de la pagina 283 y mas
 
 
 
