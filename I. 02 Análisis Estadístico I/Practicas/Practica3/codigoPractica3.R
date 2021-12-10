@@ -159,3 +159,14 @@ margen.error <- Z * error.est
 lim.inf <- media - margen.error
 lim.sup <- media + margen.error
 cat("limite inferior: ", lim.inf, ", limite superior: ",lim.sup)
+
+
+### hipotesis ######
+
+  mediamuestral <- 0.034
+  desvia <- 0.02
+  muestra <- 40
+  media <- 0.041
+  estadistico <- (mediamuestral - media) / (desvia / sqrt(muestra))
+  estadistico
+  2*pnorm(estadistico)

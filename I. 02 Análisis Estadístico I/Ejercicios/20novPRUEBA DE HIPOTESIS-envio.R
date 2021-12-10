@@ -41,3 +41,4 @@ conf.level=0.95, correct=FALSE)
 binom.test(x=17, n=20, p=0.9, alternative="less")
 
 paired=TRUE, conf.level=0.95)
+

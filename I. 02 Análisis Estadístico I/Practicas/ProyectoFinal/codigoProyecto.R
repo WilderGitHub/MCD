@@ -7,6 +7,7 @@ library(GGally)
 pacman::p_load(pacman,party,rio,tidyverse)
 install.packages("modeest")
 library(modeest)
+
 exportaciones<-read_excel("exportaciones.xlsx")  %>% as_tibble()
 head(exportaciones)
 indices<-read_excel("indices.xlsx")  %>% as_tibble()
@@ -31,13 +32,18 @@ miHistograma(indices$`IndiceTotal`,110,150,5)
 
 ###### Barras
 barplot(table(exportaciones$`Tipo`),main="Tipo")
-barplot(table(exportaciones$`Pais`),main="Pais Destino")
-barplot(table(exportaciones$`Departamento`),main="Departamento exportador")
+par(mar=c(5,15,4,4))
+barplot(table(exportaciones$Pais),  horiz=T , las=1, main="Pais Destino", col="#69b3a2")
+barplot(table(exportaciones$Departamento),  horiz=T , las=1, main="Departamento", col="light blue")
+
 ##### Pie chart
 
 totalesPorTipo <- aggregate(Aprobadas ~ Tipo, data = exportaciones, sum)
+
 nombres=totalesPorTipo$Tipo
-etiquetas = paste(nombres, " (", pct, "%)", sep = "")
+nombres
+etiquetas = paste(nombres)
+#etiquetas = paste(nombres, " (", pct(Aprobadas), "%)", sep = "")
 pie(totalesPorTipo$Aprobadas, col = terrain.colors(4),labels = etiquetas)
 
 # Boxplot
@@ -70,7 +76,7 @@ asociacion(exportaciones$Solicitudes,exportaciones$Aprobadas)
 ggpairs(exportaciones,
         columns=c("nombre"))
 
-plot(exportaciones$Solicitudes,exportaciones$Aprobadas, xlab = "sfsadf", ylab = "wyyyyyyy", main = "sttttt")
+plot(exportaciones$Solicitudes,exportaciones$Aprobadas, xlab = "Trámites", ylab = "Efectivas", main = "Correlaciónttt")
 recta = lm(exportaciones$Aprobadas ~ exportaciones$Solicitudes)
 abline(recta, col = "darkgreen", lwd = 2)
 
@@ -82,4 +88,42 @@ ggplot(exportaciones, aes(x=Solicitudes, y=Aprobadas, color=Tipo)) +
 ggplot(exportaciones, aes(x=Solicitudes, y=Aprobadas, color=Departamento)) +
   geom_point(size=2,alpha=.3) + 
   geom_smooth(method=lm, se=FALSE, fullrange=TRUE)#+ylim(0,100)+xlim(0,100)
+
+
+######      Solicitudes   #########
+normales<-function(campo,confianza){
+  media<-mean(campo)
+  n<-length(campo)
+  desv<-sd(campo)
+  NConfianza<-c(confianza)
+  Z<-qnorm((1-NConfianza)/2,lower.tail = FALSE)
+  error.est <- desv/sqrt(n)
+  margen.error <- Z * error.est
+  lim.inf <- media - margen.error
+  lim.sup <- media + margen.error
+  cat("limite inferior: ", lim.inf, ", limite superior: ",lim.sup)
+}
+normales(exportaciones$Solicitudes,0.99)
+normales(exportaciones$Aprobadas,0.99)
+
+####### Hipotesis ##########
+
+hipotesis<-function(campo,LaMedia){
+  mediamuestral <- media<-mean(campo)
+  desvia <- desv<-sd(campo)
+  muestra <- n<-length(campo)
+  media <- LaMedia
+  estadistico <- (mediamuestral - media) / (desvia / sqrt(muestra))
+  pnorm(estadistico)
+}
+summary(exportaciones$Solicitudes)
+hipotesis(exportaciones$Solicitudes,130)
+summary(exportaciones$Aprobadas)
+hipotesis(exportaciones$Aprobadas,22)
+
+
+
+####### Indice ##########
+indices
+totalMeses <- aggregate(Aprobadas ~ Tipo, data = exportaciones, sum)
 
