@@ -19,14 +19,16 @@ head(indices)
 # exportacionesMes
 
 # Histogramas
-ggplot(exportaciones,aes(x=Solicitudes, fill=Tipo))+geom_histogram(bins = 100)
+ggplot(exportaciones,aes(x=Solicitudes, fill=Tipo, alpha=1))+geom_histogram(bins = 100)
 
 miHistograma = function(x, de, a, pasos ){hist(x, breaks = seq(from=de, to=a, by=pasos))}
 miHistograma(exportaciones$Solicitudes,0,400,20)
 miHistograma(exportaciones$Aprobadas,0,100,5)
-miHistograma(indices$`IndiceAgricolas`,90,200,2)
-miHistograma(indices$`IndiceCombustibles`,90,200,2)
-miHistograma(indices$`IndiceTotal`,90,200,2)
+miHistograma(indices$`IndiceAgricolas`,160,190,5)
+miHistograma(indices$`IndiceMinerales`,130,160,5)
+miHistograma(indices$`IndiceCombustibles`,90,140,5)
+miHistograma(indices$`IndiceTotal`,110,150,5)
+
 ###### Barras
 barplot(table(exportaciones$`Tipo`),main="Tipo")
 barplot(table(exportaciones$`Pais`),main="Pais Destino")
