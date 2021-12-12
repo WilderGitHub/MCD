@@ -25,10 +25,10 @@ ggplot(exportaciones,aes(x=Solicitudes, fill=Tipo, alpha=1))+geom_histogram(bins
 miHistograma = function(x, de, a, pasos ){hist(x, breaks = seq(from=de, to=a, by=pasos))}
 miHistograma(exportaciones$Solicitudes,0,400,20)
 miHistograma(exportaciones$Aprobadas,0,100,5)
-miHistograma(indices$`IndiceAgricolas`,160,190,5)
-miHistograma(indices$`IndiceMinerales`,130,160,5)
-miHistograma(indices$`IndiceCombustibles`,90,140,5)
-miHistograma(indices$`IndiceTotal`,110,150,5)
+#miHistograma(indices$Tipo["AGRICOLAS"],160,190,5)
+#miHistograma(indices$Tipo$MINERALES,130,160,5)
+#miHistograma(indices$Tipo$HIDROCARBUROS,90,140,5)
+miHistograma(indices$Valor,90,200,5)
 
 ###### Barras
 barplot(table(exportaciones$`Tipo`),main="Tipo")
@@ -50,9 +50,10 @@ pie(totalesPorTipo$Aprobadas, col = terrain.colors(4),labels = etiquetas)
 miBoxplot = function(bd,color, x){
   p <- ggplot(bd,aes(color,x))
   p +  geom_boxplot(aes(fill=color))   }
+boxplot(exportaciones$Solicitudes)
+miBoxplot(exportaciones,exportaciones$Tipo,exportaciones$Solicitudes)
 boxplot(exportaciones$Aprobadas)
 miBoxplot(exportaciones,exportaciones$Tipo,exportaciones$Aprobadas)
-
 ############  Estadísticos
 medidas = function(x){
   Medida<-c("Media","Mediana","Moda","Cuartil 25", "Cuartil 75","IQR", "Coef. de variación")
@@ -123,7 +124,35 @@ hipotesis(exportaciones$Aprobadas,22)
 
 
 
-####### Indice ##########
-indices
-totalMeses <- aggregate(Aprobadas ~ Tipo, data = exportaciones, sum)
+####### grafico de lineas Aprobaciones ##########
+totalMeses <- aggregate(Aprobadas ~ Fecha+Tipo, data = exportaciones, sum)
+ggplot(totalMeses, aes(x=Fecha, y=Aprobadas, color=Tipo))+
+geom_line(size=2,alpha=1)
+
+#totalMesesTipo<-totalMeses%>%
+#  filter(Tipo=="MINERALES")
+#ggplot(totalMesesTipo, aes(x=Fecha, y=Aprobadas, color=Tipo))+
+#  geom_line(size=2,alpha=1)
+
+######### grafico de lineas indices
+#indicesTio<-indices%>%
+#  filter()
+#ggplot(indices, aes(x=Fecha, y=IndiceMinerales))+
+#  geom_line(size=2,alpha=1)
+
+
+ggplot(indices, aes(x=Fecha, y=Valor, color=Tipo))+
+  geom_line(size=2,alpha=1)
+
+#indiceTipo<-indices%>%
+#  filter(Indices=="MINERALES")
+#ggplot(indiceTipo, aes(x=Fecha, y=Valor))+
+#  geom_line(size=2,alpha=1)
+
+#plot(indiceTipo$Valor,totalMesesTipo$Solicitudes)
+total <- merge(totalMeses,indices,by=c("Fecha","Tipo"))
+total
+ggplot(total, aes(x=Aprobadas, y=Valor, color=Tipo)) +
+  geom_point(size=2,alpha=.3) + 
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE)#+ylim(50,200)#+xlim(0,100)
 
