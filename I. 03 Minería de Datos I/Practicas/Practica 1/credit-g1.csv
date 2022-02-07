@@ -1,0 +1,51 @@
+checking_status;duration;credit_history;purpose;credit_amount;savings_status;employment;installment_commitment;personal_status;other_parties;residence_since;property_magnitude;age;other_payment_plans;housing;existing_credits;job;num_dependents;own_telephone;foreign_worker;class
+no_checking;24;existing_paid;radio_tv;3430;between_500_1000;>=7;3;male single;none;2;car;31;none;own;1;skilled;2;yes;yes;good
+no_checking;48;critical_other_existing_credit;education;6110;less_th_100;1<=X<4;1;male single;none;3;no_known_property;31;bank;for_free;1;skilled;1;yes;yes;good
+no_checking;12;existing_paid;radio_tv;1262;less_th_100;1<=X<4;3;male single;none;2;car;25;none;own;1;skilled;1;none;yes;good
+no_checking;12;critical_other_existing_credit;radio_tv;618;less_th_100;>=7;4;male single;none;4;real_estate;56;none;own;1;skilled;1;none;yes;good
+no_checking;24;existing_paid;new_car;1469;between_100_500;>=7;4;male mar_wid;none;4;real_estate;41;none;rent;1;unskilled resident;1;none;yes;good
+less_th_0;12;critical_other_existing_credit;new_car;3499;less_th_100;1<=X<4;3;female div_dep_mar;'co applicant';2;real_estate;29;none;own;2;skilled;1;none;yes;bad
+no_checking;15;existing_paid;furniture_equipment;2708;less_th_100;<1;2;male single;none;3;life_insurance;27;bank;own;2;unskilled resident;1;none;yes;good
+between_0_200;11;existing_paid;furniture_equipment;1577;greater_th_1000;<1;4;female div_dep_mar;none;1;real_estate;20;none;own;1;skilled;1;none;yes;good
+less_th_0;12;existing_paid;new_car;1168;less_th_100;1<=X<4;4;male mar_wid;none;3;real_estate;27;none;own;1;unskilled resident;1;none;yes;good
+no_checking;27;delayed_previously;business;5117;less_th_100;4<=X<7;3;male single;none;4;car;26;none;own;2;skilled;1;none;yes;good
+less_th_0;30;critical_other_existing_credit;used_car;10623;less_th_100;>=7;3;male single;none;4;no_known_property;38;none;for_free;3;high qualif_self emp_mgmt;2;yes;yes;good
+no_checking;12;existing_paid;used_car;1413;greater_th_1000;4<=X<7;3;male single;none;2;life_insurance;55;none;own;1;skilled;1;none;no;good
+less_th_0;48;no_credits_all_paid;used_car;4605;less_th_100;>=7;3;male single;none;4;no_known_property;24;none;for_free;2;skilled;2;none;yes;bad
+no_checking;12;critical_other_existing_credit;furniture_equipment;1402;between_500_1000;4<=X<7;3;female div_dep_mar;none;4;car;37;none;rent;1;skilled;1;yes;yes;good
+less_th_0;12;existing_paid;furniture_equipment;1262;no_known_savings;>=7;2;male div_sep;none;4;life_insurance;49;none;own;1;unskilled resident;1;yes;yes;good
+between_0_200;48;existing_paid;other;5381;no_known_savings;unemployed;3;male single;none;4;no_known_property;40;bank;for_free;1;unemp_unskilled non res;1;yes;yes;good
+no_checking;18;critical_other_existing_credit;new_car;1028;less_th_100;1<=X<4;4;female div_dep_mar;none;3;real_estate;36;none;own;2;skilled;1;none;yes;good
+between_0_200;9;existing_paid;furniture_equipment;959;less_th_100;1<=X<4;1;female div_dep_mar;none;2;car;29;none;own;1;skilled;1;none;no;bad
+less_th_0;12;existing_paid;furniture_equipment;2578;less_th_100;unemployed;3;female div_dep_mar;none;4;no_known_property;55;none;for_free;1;high qualif_self emp_mgmt;1;none;yes;good
+between_0_200;18;critical_other_existing_credit;business;1887;no_known_savings;1<=X<4;4;male mar_wid;none;4;real_estate;28;bank;own;2;skilled;1;none;yes;good
+no_checking;18;critical_other_existing_credit;radio_tv;1149;greater_th_1000;1<=X<4;4;male single;none;3;real_estate;46;none;own;2;skilled;1;none;yes;good
+no_checking;24;critical_other_existing_credit;repairs;2058;less_th_100;1<=X<4;4;male div_sep;none;2;real_estate;33;none;own;2;skilled;1;yes;yes;good
+less_th_0;36;existing_paid;new_car;1842;less_th_100;<1;4;female div_dep_mar;none;4;car;34;none;own;1;skilled;1;yes;yes;bad
+less_th_0;36;existing_paid;furniture_equipment;3620;less_th_100;1<=X<4;1;male single;guarantor;2;life_insurance;37;none;own;1;skilled;2;none;yes;good
+less_th_0;6;existing_paid;education;448;less_th_100;<1;4;female div_dep_mar;none;4;life_insurance;23;none;own;1;skilled;1;none;yes;bad
+no_checking;24;existing_paid;new_car;2255;no_known_savings;<1;4;male single;none;1;life_insurance;54;none;own;1;skilled;1;none;yes;good
+less_th_0;6;critical_other_existing_credit;new_car;1361;less_th_100;<1;2;male single;none;4;real_estate;40;none;own;1;unskilled resident;2;none;no;good
+no_checking;4;critical_other_existing_credit;radio_tv;1503;less_th_100;4<=X<7;2;male single;none;1;real_estate;42;none;own;2;unskilled resident;2;none;yes;good
+between_0_200;12;existing_paid;radio_tv;1534;less_th_100;<1;1;male mar_wid;none;1;real_estate;23;none;rent;1;skilled;1;none;yes;bad
+less_th_0;9;critical_other_existing_credit;new_car;2799;less_th_100;1<=X<4;2;male single;none;2;real_estate;36;none;rent;2;skilled;2;none;yes;good
+no_checking;9;existing_paid;furniture_equipment;1980;less_th_100;<1;2;female div_dep_mar;'co applicant';2;car;19;none;rent;2;skilled;1;none;yes;bad
+no_checking;15;existing_paid;education;4623;between_100_500;1<=X<4;3;male single;none;2;life_insurance;40;none;own;1;high qualif_self emp_mgmt;1;yes;yes;bad
+less_th_0;48;existing_paid;education;7476;less_th_100;4<=X<7;4;male single;none;1;no_known_property;50;none;for_free;1;high qualif_self emp_mgmt;1;yes;yes;good
+greater_th_200;10;critical_other_existing_credit;radio_tv;1347;no_known_savings;4<=X<7;4;male single;none;2;life_insurance;27;none;own;2;skilled;1;yes;yes;good
+between_0_200;24;existing_paid;radio_tv;2896;between_100_500;<1;2;male single;none;1;car;29;none;own;1;skilled;1;none;yes;good
+greater_th_200;24;critical_other_existing_credit;radio_tv;3148;no_known_savings;1<=X<4;3;male single;none;2;car;31;none;own;2;skilled;1;yes;yes;good
+between_0_200;20;no_credits_all_paid;used_car;6148;between_100_500;>=7;3;male mar_wid;none;4;car;31;bank;own;2;skilled;1;yes;yes;good
+between_0_200;48;all_paid;business;6416;less_th_100;>=7;4;female div_dep_mar;none;3;no_known_property;59;none;rent;1;skilled;1;none;yes;bad
+less_th_0;12;existing_paid;radio_tv;2214;less_th_100;1<=X<4;4;male single;none;3;life_insurance;24;none;own;1;unskilled resident;1;none;yes;good
+no_checking;6;critical_other_existing_credit;furniture_equipment;1221;no_known_savings;1<=X<4;1;male mar_wid;none;2;life_insurance;27;none;own;2;skilled;1;none;yes;good
+no_checking;24;delayed_previously;new_car;717;no_known_savings;>=7;4;male mar_wid;none;4;car;54;none;own;2;skilled;1;yes;yes;good
+no_checking;12;existing_paid;radio_tv;886;no_known_savings;1<=X<4;4;female div_dep_mar;none;2;car;21;none;own;1;skilled;1;none;yes;good
+no_checking;4;existing_paid;furniture_equipment;601;less_th_100;<1;1;female div_dep_mar;none;3;real_estate;23;none;rent;1;unskilled resident;2;none;yes;good
+no_checking;12;critical_other_existing_credit;furniture_equipment;3331;less_th_100;>=7;2;male single;none;4;life_insurance;42;stores;own;1;skilled;1;none;yes;good
+no_checking;36;critical_other_existing_credit;new_car;6614;less_th_100;>=7;4;male single;none;4;car;34;none;own;2;high qualif_self emp_mgmt;1;yes;yes;good
+less_th_0;27;critical_other_existing_credit;business;2442;less_th_100;>=7;4;male single;none;4;car;43;stores;own;4;high qualif_self emp_mgmt;2;yes;yes;good
+between_0_200;48;no_credits_all_paid;other;18424;less_th_100;1<=X<4;1;female div_dep_mar;none;2;life_insurance;32;bank;own;1;high qualif_self emp_mgmt;1;yes;no;bad
+between_0_200;60;existing_paid;education;6288;less_th_100;1<=X<4;4;male single;none;4;no_known_property;42;none;for_free;1;skilled;1;none;yes;bad
+greater_th_200;30;critical_other_existing_credit;radio_tv;3656;no_known_savings;>=7;4;male single;none;4;life_insurance;49;stores;own;2;unskilled resident;1;none;yes;good
+between_0_200;6;existing_paid;radio_tv;753;less_th_100;1<=X<4;2;female div_dep_mar;guarantor;3;real_estate;64;none;own;1;skilled;1;none;yes;good
