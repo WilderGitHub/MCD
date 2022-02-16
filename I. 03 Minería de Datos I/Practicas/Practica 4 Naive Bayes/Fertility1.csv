@@ -1,0 +1,101 @@
+﻿season;age;Ch_Disease;Accident;Surg_Int;H_Fever;Alcohol_Cons;Smoke;N_Hours;Diag
+Fall;30;No;Yes;Yes;Greater th 3m;Once a week;Daily;6;Altered
+Winter;31;No;Yes;No;No;Several times a week;Occasional;9;Normal
+Winter;29;No;Yes;No;Greater th 3m;Hardly ever or never;Occasional;3;Normal
+Fall;30;No;Yes;No;Greater th 3m;Once a week;Never;4;Altered
+Spring;30;No;No;Yes;Greater th 3m;Once a week;Never;8;Altered
+Winter;28;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;7;Normal
+Fall;29;Yes;Yes;No;Greater th 3m;Once a week;Never;4;Normal
+Spring;27;No;No;Yes;Less th 3m;Once a week;Occasional;14;Altered
+Spring;34;No;No;Yes;Greater th 3m;Several times a week;Daily;5;Normal
+Winter;30;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;8;Normal
+Fall;30;No;No;Yes;Less th 3m;Once a week;Occasional;5;Normal
+Spring;29;No;No;No;Greater th 3m;Once a week;Never;5;Normal
+Winter;27;No;No;No;Greater th 3m;Once a week;Daily;8;Normal
+Winter;32;No;Yes;No;No;Hardly ever or never;Daily;4;Normal
+Winter;30;Yes;Yes;No;Greater th 3m;Several times a week;Occasional;8;Altered
+Winter;27;No;Yes;Yes;No;Once a week;Never;5;Normal
+Spring;28;No;No;Yes;Greater th 3m;Every day;Daily;10;Normal
+Winter;30;No;No;No;No;Once a week;Never;3;Normal
+Spring;34;No;Yes;Yes;No;Several times a week;Never;3;Normal
+Fall;28;No;No;No;Greater th 3m;Once a week;Occasional;7;Normal
+Spring;27;No;No;Yes;Greater th 3m;Once a week;Occasional;12;Normal
+Winter;27;No;No;Yes;No;Hardly ever or never;Occasional;5;Normal
+Spring;32;No;Yes;Yes;No;Hardly ever or never;Daily;1;Altered
+Winter;27;No;No;Yes;No;Once a week;Never;6;Normal
+Fall;28;Yes;Yes;Yes;No;Once a week;Daily;7;Normal
+Spring;30;No;Yes;No;Greater th 3m;Once a week;Never;3;Normal
+Fall;28;No;Yes;Yes;Greater th 3m;Several times a day;Never;4;Normal
+Fall;31;No;Yes;Yes;Greater th 3m;Several times a week;Occasional;4;Normal
+Spring;32;No;No;No;Greater th 3m;Hardly ever or never;Daily;6;Normal
+Spring;27;No;No;Yes;Less th 3m;Once a week;Occasional;14;Normal
+Fall;30;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;4;Normal
+Fall;30;Yes;Yes;No;Greater th 3m;Several times a week;Occasional;8;Altered
+Spring;31;No;No;No;Greater th 3m;Several times a week;Daily;4;Normal
+Winter;32;No;No;No;No;Once a week;Occasional;3;Normal
+Fall;29;Yes;Yes;Yes;Greater th 3m;Hardly ever or never;Never;10;Normal
+Fall;29;No;Yes;No;Greater th 3m;Hardly ever or never;Never;6;Normal
+Winter;30;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;5;Normal
+Fall;32;No;No;No;Greater th 3m;Several times a week;Occasional;2;Normal
+Fall;32;No;No;Yes;Greater th 3m;Hardly ever or never;Daily;8;Normal
+Spring;30;No;Yes;No;Greater th 3m;Once a week;Occasional;8;Normal
+Spring;30;No;No;Yes;Greater th 3m;Several times a week;Daily;3;Normal
+Fall;32;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;6;Normal
+Spring;27;No;Yes;Yes;No;Hardly ever or never;Never;8;Normal
+Winter;28;No;Yes;Yes;Greater th 3m;Once a week;Occasional;8;Normal
+Winter;28;No;Yes;Yes;No;Hardly ever or never;Never;8;Normal
+Spring;28;No;Yes;No;Greater th 3m;Hardly ever or never;Never;10;Normal
+Winter;30;Yes;No;No;Greater th 3m;Several times a week;Never;3;Normal
+Spring;34;No;Yes;No;Greater th 3m;Once a week;Daily;5;Altered
+Spring;27;No;No;Yes;No;Hardly ever or never;Never;12;Normal
+Fall;30;No;No;Yes;Greater th 3m;Once a week;Never;4;Normal
+Fall;28;Yes;Yes;Yes;No;Once a week;Occasional;16;Normal
+Fall;32;No;No;Yes;No;Several times a week;Never;6;Altered
+Spring;30;Yes;Yes;Yes;Less th 3m;Once a week;Never;7;Normal
+Spring;31;No;No;No;Greater th 3m;Several times a week;Never;3;Normal
+Winter;28;No;No;No;Greater th 3m;Several times a week;Never;6;Normal
+Winter;23;No;Yes;No;Greater th 3m;Hardly ever or never;Never;10;Normal
+Winter;32;No;Yes;No;Greater th 3m;Hardly ever or never;Never;4;Normal
+Spring;36;No;No;No;Greater th 3m;Several times a week;Never;6;Normal
+Winter;30;No;No;No;Greater th 3m;Hardly ever or never;Never;5;Normal
+Spring;27;No;Yes;No;Less th 3m;Once a week;Never;8;Normal
+Winter;27;No;Yes;Yes;No;Once a week;Never;10;Normal
+Fall;30;No;Yes;No;Greater th 3m;Several times a week;Never;6;Altered
+Fall;28;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;7;Normal
+Fall;28;No;Yes;Yes;Greater th 3m;Several times a week;Daily;8;Normal
+Winter;32;No;No;Yes;No;Several times a week;Never;6;Normal
+Spring;30;No;No;No;Less th 3m;Hardly ever or never;Never;12;Normal
+Fall;28;No;Yes;No;Greater th 3m;Hardly ever or never;Never;10;Normal
+Fall;28;No;No;No;Greater th 3m;Hardly ever or never;Never;10;Normal
+Spring;31;Yes;No;No;Greater th 3m;Hardly ever or never;Never;6;Normal
+Spring;31;No;No;No;No;Once a week;Daily;4;Normal
+Spring;27;No;Yes;Yes;No;Once a week;Occasional;5;Normal
+Fall;34;No;No;No;Greater th 3m;Several times a day;Never;4;Normal
+Summer;32;No;Yes;Yes;Greater th 3m;Hardly ever or never;Daily;1;Normal
+Fall;28;Yes;Yes;No;Greater th 3m;Hardly ever or never;Never;3;Normal
+Spring;28;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;10;Normal
+Winter;27;No;Yes;Yes;No;Once a week;Never;7;Normal
+Summer;31;No;No;Yes;Greater th 3m;Once a week;Never;6;Normal
+Fall;30;No;Yes;No;Less th 3m;Hardly ever or never;Never;7;Altered
+Spring;33;No;No;No;No;Hardly ever or never;Never;4;Normal
+Spring;30;Yes;No;No;Greater th 3m;Once a week;Occasional;14;Normal
+Fall;25;No;Yes;Yes;No;Once a week;Occasional;8;Normal
+Winter;36;No;Yes;No;No;Several times a week;Occasional;4;Normal
+Fall;31;No;Yes;No;Greater th 3m;Hardly ever or never;Daily;4;Normal
+Spring;34;No;No;Yes;No;Hardly ever or never;Never;10;Normal
+Spring;28;Yes;Yes;No;Greater th 3m;Hardly ever or never;Never;9;Normal
+Fall;28;No;Yes;No;Greater th 3m;Hardly ever or never;Never;10;Normal
+Spring;32;No;No;No;No;Once a week;Never;6;Normal
+Fall;30;Yes;Yes;No;Greater th 3m;Once a week;Never;4;Normal
+Spring;27;No;No;Yes;Greater th 3m;Once a week;Occasional;8;Normal
+Winter;28;No;Yes;No;Less th 3m;Once a week;Daily;8;Normal
+Spring;32;No;No;No;Greater th 3m;Hardly ever or never;Never;5;Normal
+Summer;31;No;Yes;No;Greater th 3m;Once a week;Never;7;Altered
+Winter;28;No;No;No;Greater th 3m;Once a week;Daily;8;Normal
+Spring;27;No;Yes;Yes;Greater th 3m;Hardly ever or never;Never;8;Normal
+Winter;29;No;Yes;Yes;No;Hardly ever or never;Daily;4;Normal
+Spring;28;No;Yes;No;Greater th 3m;Once a week;Daily;3;Normal
+Winter;27;No;Yes;Yes;No;Hardly ever or never;Occasional;7;Normal
+Spring;28;No;No;No;Less th 3m;Once a week;Occasional;3;Normal
+Summer;30;No;Yes;Yes;No;Hardly ever or never;Never;5;Normal
+Fall;31;No;No;No;Greater th 3m;Once a week;Daily;4;Normal
