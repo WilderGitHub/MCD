@@ -1,0 +1,19 @@
+CSS Animation
+Scrollytelling Creating a One-Page Web Experience
+SQL Data Reporting and Analysis
+Using SQL with Python
+Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
+Advanced SQL for Data Scientists
+Learning SQL Programming
+Intermediate SQL for Data Scientists
+React avanzado 1
+React Hooks esencial
+Creating a Serverless Application Using React in AWS
+Build a React Application Using AWS Amplify
+React Design Patterns
+React Native Essential Training
+From React to React Native
+React.js Building an Interface
+Faster pandas
+Python Working with Predictive Analytics
+Training Neural Networks in Python
