@@ -17,3 +17,28 @@ React.js Building an Interface
 Faster pandas
 Python Working with Predictive Analytics
 Training Neural Networks in Python
+Advanced NLP with python for machine learning
+Deep Learning Getting Started
+Deep Learning Image Recognition
+Machine Learning with Scikit-Learn
+machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
+Python Projects
+SQL Eshenshal Treinin, debe ser de trenes
+
+NoSQL Essential Training
+Python for Engineers and Scientists
+JavaScript as a Second Language
+Learning ECMAScript 6+ (ES6+)
+Learning Selenium
+Git Essential Training The Basics
+Git Branches, Merges, and Remotes
+GitHub Quick Tips
+Learning React Native
+Introduction to Linux
+Git for Teams
+Learn Apache Kafka for Beginners
+Predictive Analytics Essential Training Data Mining
+Data Cleaning in Python Essential Training
+Deep Learning Foundations Natural Language Processing  with TensorFlow
+TensorFlow Working with NLP
+Machine Learning and AI Foundations Recommendations
