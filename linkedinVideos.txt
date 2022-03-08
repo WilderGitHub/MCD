@@ -1,48 +1,59 @@
-CSS Animation
-Scrollytelling Creating a One-Page Web Experience
-SQL Data Reporting and Analysis
-Using SQL with Python
-Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
-Advanced SQL for Data Scientists
-Learning SQL Programming
-Intermediate SQL for Data Scientists
-React avanzado 1
-React Hooks esencial
-Creating a Serverless Application Using React in AWS
-Build a React Application Using AWS Amplify
-React Design Patterns
-React Native Essential Training
-From React to React Native
-React.js Building an Interface
-Faster pandas
-Python Working with Predictive Analytics
-Training Neural Networks in Python
 Advanced NLP with python for machine learning
+Advanced Pandas
+Advanced SQL for Data Scientists
+Applied Machine Learning Algorithms
+Applied Machine Learning Feature Engineering
+Applied Machine Learning Foundations
+Build a React Application Using AWS Amplify
+Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
+Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
+Creating a Serverless Application Using React in AWS
+CSS Animation
+Data Cleaning in Python Essential Training
+Data Visualization in Python with Dash
+Deep Learning Foundations Natural Language Processing  with TensorFlow
 Deep Learning Getting Started
 Deep Learning Image Recognition
+Deploying Scalable Machine Learning for Data Science
+Docker for Data Scientists
+Faster pandas
+From React to React Native
+Git Branches, Merges, and Remotes
+Git Essential Training The Basics
+Git for Teams
+GitHub for Data Scientists
+GitHub Quick Tips
+Intermediate SQL for Data Scientists
+Introduction to Linux
+Introduction to Web Design and Development
+JavaScript as a Second Language
+Learn Apache Kafka for Beginners
+Learning Docker
+Learning ECMAScript 6+ (ES6+)
+Learning React Native
+Learning Selenium
+Learning SQL Programming
+Machine Learning and AI Foundations Recommendations
 Machine Learning with Scikit-Learn
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
-Python Projects
-SQL Eshenshal Treinin, debe ser de trenes
-
-NoSQL Essential Training
-Python for Engineers and Scientists
-JavaScript as a Second Language
-Learning ECMAScript 6+ (ES6+)
-Learning Selenium
-Git Essential Training The Basics
-Git Branches, Merges, and Remotes
-GitHub Quick Tips
-Learning React Native
-Introduction to Linux
-Git for Teams
-Learn Apache Kafka for Beginners
-Predictive Analytics Essential Training Data Mining
-Data Cleaning in Python Essential Training
-Deep Learning Foundations Natural Language Processing  with TensorFlow
-TensorFlow Working with NLP
-Machine Learning and AI Foundations Recommendations
-Data Visualization in Python with Dash
-Advanced Pandas
 Next Generation AI An Intro to GPT-3
-Introduction to Web Design and Development
+NoSQL Essential Training
+Predictive Analytics Essential Training Data Mining
+Python for Engineers and Scientists
+Python Projects
+Python Working with Predictive Analytics
+PyTorch Essential Training Deep Learning
+React avanzado 1
+React Design Patterns
+React for Web Designers
+React Hooks esencial
+React Native Essential Training
+React.js Building an Interface
+Scrollytelling Creating a One-Page Web Experience
+SQL Data Reporting and Analysis
+SQL Eshenshal Treinin, debe ser de trenes
+Tableau for Data Scientists
+TensorFlow Working with NLP
+Training Neural Networks in Python
+Using SQL with Python
+
