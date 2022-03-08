@@ -42,3 +42,7 @@ Data Cleaning in Python Essential Training
 Deep Learning Foundations Natural Language Processing  with TensorFlow
 TensorFlow Working with NLP
 Machine Learning and AI Foundations Recommendations
+Data Visualization in Python with Dash
+Advanced Pandas
+Next Generation AI An Intro to GPT-3
+Introduction to Web Design and Development
