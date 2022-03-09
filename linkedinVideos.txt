@@ -1,6 +1,9 @@
 Advanced NLP with python for machine learning
 Advanced Pandas
+Advanced SQL for Application Development
 Advanced SQL for Data Scientists
+Advanced SQL for Data Science Time Series
+Advanced SQL – Window Functions
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
@@ -9,6 +12,7 @@ Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analyti
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
 Creating a Serverless Application Using React in AWS
 CSS Animation
+Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
 Data Visualization in Python with Dash
 Deep Learning Foundations Natural Language Processing  with TensorFlow
@@ -39,6 +43,7 @@ machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretab
 Next Generation AI An Intro to GPT-3
 NoSQL Essential Training
 Predictive Analytics Essential Training Data Mining
+Python for Data Visualization
 Python for Engineers and Scientists
 Python Projects
 Python Working with Predictive Analytics
@@ -49,9 +54,13 @@ React for Web Designers
 React Hooks esencial
 React Native Essential Training
 React.js Building an Interface
+Relational Databases Essential Training
 Scrollytelling Creating a One-Page Web Experience
 SQL Data Reporting and Analysis
 SQL Eshenshal Treinin, debe ser de trenes
+SQL for Exploratory Data Analysis Essential Training
+SQL for Statistics Essential Training
+SQL Tips and Tricks for Data Science
 Tableau for Data Scientists
 TensorFlow Working with NLP
 Training Neural Networks in Python
