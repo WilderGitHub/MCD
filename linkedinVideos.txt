@@ -1,7 +1,6 @@
-
 Advanced NLP with python for machine learning
 Advanced Pandas
-FALTA Advanced Python: Working with Databases
+Advanced Python: Working with Databases
 Advanced SQL for Application Development
 Advanced SQL for Data Scientists
 Advanced SQL for Data Science Time Series
@@ -10,6 +9,8 @@ Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
 Build a React Application Using AWS Amplify
+FALTA   Building a Recommendation System with Python Machine Learning & AI
+FALTA   Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
 Creating a Serverless Application Using React in AWS
@@ -17,6 +18,7 @@ CSS Animation
 Data Analytics Dashboards vs. Data Stories
 Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
+FALTA   Data Ingestion with Python
 Data Visualization in Python with Dash
 Deep Learning Foundations Natural Language Processing  with TensorFlow
 Deep Learning Getting Started
@@ -38,21 +40,31 @@ JavaScript as a Second Language
 Learn Apache Kafka for Beginners
 Learning Docker
 Learning ECMAScript 6+ (ES6+)
+FALTA Learning Python
 Learning React Native
 Learning Selenium
 Learning SQL Programming
 Machine Learning and AI Foundations Recommendations
+FALTA   Machine Learning & AI Foundations: Linear Regression
 Machine Learning with Scikit-Learn
+Machine Learning and AI Foundations Clustering and Association
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
+FALTA   Machine Learning and AI Foundations: Value Estimations
 Next Generation AI An Intro to GPT-3
+FALTA   NLP with Python for Machine Learning Essential Training
 NoSQL Essential Training
 Predictive Analytics Essential Training Data Mining
-FALTA PostgreSQL Essential Training
-FALTA PostgreSQL: Advanced Queries
-FALTA PostgreSQL: Client Applications
+PostgreSQL Essential Training
+FALTA   Python Essential Training
+FALTA    Python Data Structures and Algorithms
+FALTA     Python Data Analysis
+FALTA    Python: Design Patterns
+Python for Data Science Essential Training Part 1
+Python for Data Science Essential Training Part 2
 Python for Data Visualization
 Python for Engineers and Scientists
 Python Projects
+FALTA    Python vs. JavaScript for Development
 Python Working with Predictive Analytics
 PyTorch Essential Training Deep Learning
 React avanzado 1
@@ -71,5 +83,8 @@ SQL Tips and Tricks for Data Science
 Tableau for Data Scientists
 TensorFlow Working with NLP
 Training Neural Networks in Python
+FALTA   Using Python with Excel
 Using SQL with Python
+FALTA     Web Scraping with Python
+
 
