@@ -1,5 +1,7 @@
+
 Advanced NLP with python for machine learning
 Advanced Pandas
+FALTA Advanced Python: Working with Databases
 Advanced SQL for Application Development
 Advanced SQL for Data Scientists
 Advanced SQL for Data Science Time Series
@@ -12,6 +14,7 @@ Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analyti
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
 Creating a Serverless Application Using React in AWS
 CSS Animation
+Data Analytics Dashboards vs. Data Stories
 Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
 Data Visualization in Python with Dash
@@ -27,6 +30,7 @@ Git Essential Training The Basics
 Git for Teams
 GitHub for Data Scientists
 GitHub Quick Tips
+Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
 Introduction to Linux
 Introduction to Web Design and Development
@@ -43,6 +47,9 @@ machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretab
 Next Generation AI An Intro to GPT-3
 NoSQL Essential Training
 Predictive Analytics Essential Training Data Mining
+FALTA PostgreSQL Essential Training
+FALTA PostgreSQL: Advanced Queries
+FALTA PostgreSQL: Client Applications
 Python for Data Visualization
 Python for Engineers and Scientists
 Python Projects
