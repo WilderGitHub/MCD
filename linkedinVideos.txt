@@ -49,7 +49,7 @@ FALTA   Machine Learning & AI Foundations: Linear Regression
 Machine Learning with Scikit-Learn
 Machine Learning and AI Foundations Clustering and Association
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
-FALTA   Machine Learning and AI Foundations: Value Estimations
+Machine Learning and AI Foundations: Value Estimations
 Next Generation AI An Intro to GPT-3
 FALTA   NLP with Python for Machine Learning Essential Training
 NoSQL Essential Training
