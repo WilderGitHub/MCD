@@ -10,7 +10,7 @@ Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
 Build a React Application Using AWS Amplify
 FALTA   Building a Recommendation System with Python Machine Learning & AI
-FALTA   Building Tools with Python
+Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
 Creating a Serverless Application Using React in AWS
