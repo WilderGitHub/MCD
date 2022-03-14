@@ -57,14 +57,14 @@ Predictive Analytics Essential Training Data Mining
 PostgreSQL Essential Training
 FALTA   Python Essential Training
 FALTA    Python Data Structures and Algorithms
-FALTA     Python Data Analysis
+Python Data Analysis
 FALTA    Python: Design Patterns
 Python for Data Science Essential Training Part 1
 Python for Data Science Essential Training Part 2
 Python for Data Visualization
 Python for Engineers and Scientists
 Python Projects
-FALTA    Python vs. JavaScript for Development
+Python vs. JavaScript for Development
 Python Working with Predictive Analytics
 PyTorch Essential Training Deep Learning
 React avanzado 1
@@ -83,7 +83,7 @@ SQL Tips and Tricks for Data Science
 Tableau for Data Scientists
 TensorFlow Working with NLP
 Training Neural Networks in Python
-FALTA   Using Python with Excel
+Using Python with Excel
 Using SQL with Python
 FALTA     Web Scraping with Python
 
