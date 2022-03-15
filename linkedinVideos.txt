@@ -45,13 +45,14 @@ Learning React Native
 Learning Selenium
 Learning SQL Programming
 Machine Learning and AI Foundations Recommendations
+Machine Learning and AI Foundations Classification Modeling
 FALTA   Machine Learning & AI Foundations: Linear Regression
 Machine Learning with Scikit-Learn
 Machine Learning and AI Foundations Clustering and Association
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
 Machine Learning and AI Foundations: Value Estimations
 Next Generation AI An Intro to GPT-3
-FALTA   NLP with Python for Machine Learning Essential Training
+NLP with Python for Machine Learning Essential Training
 NoSQL Essential Training
 Predictive Analytics Essential Training Data Mining
 PostgreSQL Essential Training
@@ -76,7 +77,7 @@ React.js Building an Interface
 Relational Databases Essential Training
 Scrollytelling Creating a One-Page Web Experience
 SQL Data Reporting and Analysis
-SQL Eshenshal Treinin, debe ser de trenes
+SQL Essential Training
 SQL for Exploratory Data Analysis Essential Training
 SQL for Statistics Essential Training
 SQL Tips and Tricks for Data Science
@@ -85,6 +86,6 @@ TensorFlow Working with NLP
 Training Neural Networks in Python
 Using Python with Excel
 Using SQL with Python
-FALTA     Web Scraping with Python
+Web Scraping with Python
 
 
