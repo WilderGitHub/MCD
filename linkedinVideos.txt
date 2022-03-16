@@ -80,6 +80,7 @@ SQL Data Reporting and Analysis
 SQL Essential Training
 SQL for Exploratory Data Analysis Essential Training
 SQL for Statistics Essential Training
+SQL Queries Made Easy
 SQL Tips and Tricks for Data Science
 Tableau for Data Scientists
 TensorFlow Working with NLP
