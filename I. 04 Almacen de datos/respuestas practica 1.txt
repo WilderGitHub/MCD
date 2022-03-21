@@ -1,0 +1,62 @@
+1.
+
+INSERT INTO carrera VALUES (12,'Maestría en Finanzas')
+INSERT INTO carrera VALUES (13,'Maestría Marketing Digital')
+INSERT INTO carrera VALUES (14,'Maestría Software')
+
+2.
+INSERT INTO materia (id_materia, materia) VALUES (12,'Finanzas Corporativas');
+INSERT INTO materia (id_materia, materia) VALUES (13,'Análisis Financiero');
+INSERT INTO materia (id_materia, materia) VALUES (14,'Marketing Digital con Facebook');
+INSERT INTO materia (id_materia, materia) VALUES (15,'Manejo de CRM');
+SELECT * FROM materia ORDER BY id_materia;
+3.
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (22,12345,'Barry Allen',1,1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (23,234234,'Clark Kent',1,1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (24,54345,'Peter Parker',1,1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (25,23342,'Steven Rogers',1,1);
+SELECT * FROM alumno;
+4.
+INSERT INTO pais VALUES (3,'Estados Unidos');
+SELECT * FROM pais;
+5.
+INSERT INTO departamento VALUES (13,'California',3);
+SELECT * FROM departamento;
+INSERT INTO localidad VALUES (12,'San Francisco',(SELECT id_departamento FROM departamento WHERE departamento ='California'));
+INSERT INTO localidad VALUES (13,'Santa Clara',(SELECT id_departamento FROM departamento WHERE departamento ='California'));
+INSERT INTO localidad VALUES (14,'Las Vegas',(SELECT id_departamento FROM departamento WHERE departamento ='California'));
+SELECT * FROM localidad;
+
+6.a)
+UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE localidad = 'San Francisco') 
+    WHERE id_alumno = 'Barry Allen';
+UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE localidad = 'San Francisco')
+    WHERE id_alumno = (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Clark Kent');
+UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE localidad = 'San Francisco')
+    WHERE id_alumno = (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Peter Parker');
+UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE localidad = 'San Francisco')
+    WHERE id_alumno = (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Steven Rogers');
+
+SELECT a.nombre_completo, b.localidad FROM alumno a, localidad b WHERE a.id_localidad =  b.id_localidad;
+
+6.b
+
+INSERT INTO alumnocarrera
+    VALUES  (42,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Barry Allen'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría en Finanzas'),SYSDATE);
+INSERT INTO alumnocarrera
+    VALUES  (43,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Clark Kent'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría en Finanzas'),SYSDATE);
+INSERT INTO alumnocarrera
+    VALUES  (44,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Peter Parker'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría en Finanzas'),SYSDATE);
+INSERT INTO alumnocarrera
+    VALUES  (45,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Steven Rogers'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría en Finanzas'),SYSDATE);
+
+SELECT a.id_alumnocarrera,b.id_alumno, b.nombre_completo, c.carrera FROM alumnocarrera a, alumno b, carrera c 
+    WHERE b.id_alumno = a.id_alumno AND c.id_carrera = a.id_carrera;   

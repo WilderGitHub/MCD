@@ -1,0 +1,354 @@
+-- TABLE: ALUMNO 
+--
+
+CREATE TABLE ALUMNO(
+    ID_ALUMNO          NUMBER(10, 0)    NOT NULL,
+    CI                 VARCHAR2(50)     NOT NULL,
+    NOMBRE_COMPLETO    VARCHAR2(250),
+    NOMBRE             VARCHAR2(50),
+    APELLIDOPAT        VARCHAR2(50),
+    APELLIDOMAT        VARCHAR2(50),
+    ID_GRUPO           NUMBER(10, 0)    NOT NULL,
+    CORREO             VARCHAR2(70),
+    TRABAJO            VARCHAR2(150),
+    ID_LOCALIDAD       NUMBER(10, 0)    NOT NULL,
+    CONSTRAINT PK_ID_ALUMNO PRIMARY KEY (ID_ALUMNO)
+)
+;
+
+
+
+-- 
+-- TABLE: ALUMNOCARRERA 
+--
+
+CREATE TABLE ALUMNOCARRERA(
+    ID_ALUMNOCARRERA    CHAR(10)         NOT NULL,
+    ID_ALUMNO           NUMBER(10, 0)    NOT NULL,
+    ID_CARRERA          NUMBER(10, 0)    NOT NULL,
+    FECHA_REGISTRO      DATE,
+    CONSTRAINT PK_ALUMNO_CARRERA PRIMARY KEY (ID_ALUMNOCARRERA)
+)
+;
+
+
+
+-- 
+-- TABLE: ALUMNOMATERIA 
+--
+
+CREATE TABLE ALUMNOMATERIA(
+    ID_ALUMNOMATERIA    CHAR(10)         NOT NULL,
+    ID_ALUMNO           NUMBER(10, 0)    NOT NULL,
+    ID_MATERIA          NUMBER(10, 0)    NOT NULL,
+    ID_LOCALIDAD        NUMBER(10, 0)    NOT NULL,
+    MONTO               NUMBER(10, 0),
+    FECHA_REGISTRO      DATE,
+    CONSTRAINT PK_ID_ALUMNO_MATERIA PRIMARY KEY (ID_ALUMNOMATERIA)
+)
+;
+
+
+
+-- 
+-- TABLE: CARRERA 
+--
+
+CREATE TABLE CARRERA(
+    ID_CARRERA    NUMBER(10, 0)    NOT NULL,
+    CARRERA       VARCHAR2(150),
+    CONSTRAINT PD_ID_CARRERA PRIMARY KEY (ID_CARRERA)
+)
+;
+
+
+
+-- 
+-- TABLE: DEPARTAMENTO 
+--
+
+CREATE TABLE DEPARTAMENTO(
+    ID_DEPARTAMENTO    NUMBER(10, 0)    NOT NULL,
+    DEPARTAMENTO       VARCHAR2(50),
+    ID_PAIS            NUMBER(10, 0)    NOT NULL,
+    CONSTRAINT PD_ID_DEPARTAMENTO PRIMARY KEY (ID_DEPARTAMENTO)
+)
+;
+
+
+
+-- 
+-- TABLE: LOCALIDAD 
+--
+
+CREATE TABLE LOCALIDAD(
+    ID_LOCALIDAD       NUMBER(10, 0)    NOT NULL,
+    LOCALIDAD          VARCHAR2(50),
+    ID_DEPARTAMENTO    NUMBER(10, 0)    NOT NULL,
+    CONSTRAINT PK_ID_LOCALIDAD PRIMARY KEY (ID_LOCALIDAD)
+)
+;
+
+
+
+-- 
+-- TABLE: MATERIA 
+--
+
+CREATE TABLE MATERIA(
+    ID_MATERIA    NUMBER(10, 0)    NOT NULL,
+    MATERIA       VARCHAR2(250),
+    CONSTRAINT PK_ID_MATERIA PRIMARY KEY (ID_MATERIA)
+)
+;
+
+
+
+-- 
+-- TABLE: MATERIACARRERA 
+--
+
+CREATE TABLE MATERIACARRERA(
+    ID_MATERIACARRERA    CHAR(10)         NOT NULL,
+    FECHA_REGISTRO       CHAR(10),
+    ID_CARRERA           NUMBER(10, 0)    NOT NULL,
+    ID_MATERIA           NUMBER(10, 0)    NOT NULL,
+    CONSTRAINT PK21 PRIMARY KEY (ID_MATERIACARRERA)
+)
+;
+
+
+
+-- 
+-- TABLE: PAIS 
+--
+
+CREATE TABLE PAIS(
+    ID_PAIS    NUMBER(10, 0)    NOT NULL,
+    PAIS       VARCHAR2(50),
+    CONSTRAINT PK_ID_PAIS PRIMARY KEY (ID_PAIS)
+)
+;
+
+
+
+-- 
+-- TABLE: ALUMNO 
+--
+
+ALTER TABLE ALUMNO ADD CONSTRAINT FK_LOCALIDAD_ALUMNO 
+    FOREIGN KEY (ID_LOCALIDAD)
+    REFERENCES LOCALIDAD(ID_LOCALIDAD)
+;
+
+
+-- 
+-- TABLE: ALUMNOCARRERA 
+--
+
+ALTER TABLE ALUMNOCARRERA ADD CONSTRAINT FK_ALUMNO_ALUMNOCARRERA 
+    FOREIGN KEY (ID_ALUMNO)
+    REFERENCES ALUMNO(ID_ALUMNO)
+;
+
+ALTER TABLE ALUMNOCARRERA ADD CONSTRAINT FK_CARRERA_ALUMNOCARRERA 
+    FOREIGN KEY (ID_CARRERA)
+    REFERENCES CARRERA(ID_CARRERA)
+;
+
+
+-- 
+-- TABLE: ALUMNOMATERIA 
+--
+
+ALTER TABLE ALUMNOMATERIA ADD CONSTRAINT FK_ALUMNO_ALUMNOMATERIA 
+    FOREIGN KEY (ID_ALUMNO)
+    REFERENCES ALUMNO(ID_ALUMNO)
+;
+
+ALTER TABLE ALUMNOMATERIA ADD CONSTRAINT FK_LOCALIDAD_LOCALIDADMATERIA 
+    FOREIGN KEY (ID_LOCALIDAD)
+    REFERENCES LOCALIDAD(ID_LOCALIDAD)
+;
+
+ALTER TABLE ALUMNOMATERIA ADD CONSTRAINT FK_MATERIA_ALUMNOMATERIA 
+    FOREIGN KEY (ID_MATERIA)
+    REFERENCES MATERIA(ID_MATERIA)
+;
+
+
+-- 
+-- TABLE: DEPARTAMENTO 
+--
+
+ALTER TABLE DEPARTAMENTO ADD CONSTRAINT FK_PAIS_DEPARTAMENTO 
+    FOREIGN KEY (ID_PAIS)
+    REFERENCES PAIS(ID_PAIS)
+;
+
+
+-- 
+-- TABLE: LOCALIDAD 
+--
+
+ALTER TABLE LOCALIDAD ADD CONSTRAINT FK_DEPARTAMENTO_LOCALIDAD 
+    FOREIGN KEY (ID_DEPARTAMENTO)
+    REFERENCES DEPARTAMENTO(ID_DEPARTAMENTO)
+;
+
+
+-- 
+-- TABLE: MATERIACARRERA 
+--
+
+ALTER TABLE MATERIACARRERA ADD CONSTRAINT REFCARRERA28 
+    FOREIGN KEY (ID_CARRERA)
+    REFERENCES CARRERA(ID_CARRERA)
+;
+
+ALTER TABLE MATERIACARRERA ADD CONSTRAINT REFMATERIA29 
+    FOREIGN KEY (ID_MATERIA)
+    REFERENCES MATERIA(ID_MATERIA)
+;
+
+
+--- ********************
+INSERT INTO MATERIA (id_materia,Materia) VALUES (1,'Introducción a Ciencia de Datos');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (2,'Analisis Estadistico');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (3,'Almacenes de Datos');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (4,'Minería de datos 1');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (5,'Big Data');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (6,'Base de Datos Avanzadas');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (7,'Análisis estadístico 2');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (8,'Introduccion Deep Learning');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (9,'Machine Learning');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (10,'Gestión estratégica');
+INSERT INTO MATERIA (id_materia,Materia) VALUES (11,'Sistemas de apoyo a la toma de decisiones');
+INSERT INTO carrera (id_carrera,carrera) values (1,'Maestría de Ciencia de Datos');
+INSERT INTO carrera (id_carrera,carrera) values (2,'Maestría de Business Intelligence');
+INSERT INTO carrera (id_carrera,carrera) values (3,'Ing. Comercial');
+INSERT INTO carrera (id_carrera,carrera) values (4,'Ing. Sistemas');
+INSERT INTO carrera (id_carrera,carrera) values (5,'Ing. Mecatrónica');
+INSERT INTO carrera (id_carrera,carrera) values (6,'Matemáticas');
+INSERT INTO carrera (id_carrera,carrera) values (7,'Psicología');
+INSERT INTO carrera (id_carrera,carrera) values (8,'Maestría en Control de Gestión y estrategia financiera');
+INSERT INTO carrera (id_carrera,carrera) values (9,'Informática');
+INSERT INTO carrera (id_carrera,carrera) values (10,'Maestria en Administracion de Empresas');
+INSERT INTO carrera (id_carrera,carrera) values (11,'Auditoria Financiera');
+
+INSERT INTO pais (id_pais,pais) values (1,'Bolivia');
+INSERT INTO pais (id_pais,pais) values (2,'Argentina');
+
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (1,'La Paz',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (2,'Cochabamba',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (3,'Santa Cruz',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (4,'Oruro',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (5,'Chuquisaca',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (6,'Potosí',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (7,'Pando',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (8,'Beni',1);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (9,'Buenos Aires',2);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (10,'Rosario',2);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (11,'Tucuman',2);
+INSERT INTO departamento (id_departamento,departamento,id_pais) values (12,'Mendoza',2);
+
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (1,'Nuestra Sra de La Paz',1);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (2,'El Alto',1);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (3,'Caranavi',1);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (4,'Capacabana',1);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (5,'Caracollo',1);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (6,'Cercado',2);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (7,'Quillacollo',2);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (8,'Sacaba',2);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (9,'Capinota',2);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (10,'Tarata',2);
+INSERT INTO localidad (id_localidad,localidad,id_departamento) values (11,'MessiLocalidad',10);
+
+
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (1,'4922895','Nilton Apaza Condori','Nilton','Apaza','Condori',1,'nilton.apcon@gmail.com','BroadSoft',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (2,'4770066','Juana Campos Villalpando','Juana','Campos','Villalpando',2,'jucavi4ever@gmail.com','Bancosol',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (3,'6843393','Roberto Nelsen Chambi Reas','Roberto Nelsen','Chambi','Reas',3,'robertonelsencr@gmail.com','Comité Nacional De Despacho De Carga',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (4,'5239669','Caleb Jezer Enrriquez Guzman','Caleb Jezer','Enrriquez','Guzman',4,'caleb.enrriquez@gmail.com','Papelera Vinto',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (5,'7131425','Jose Renan Estenssoro Mercado','Jose Renan','Estenssoro','Mercado',5,'josee906@gmail.com','sin trabajo',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (6,'4771553','Alejandro Erick Guisbert Flor','Alejandro Erick','Guisbert','Flor',4,'aleguisf@gmail.com','MUSERPOL',8);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (7,'6649434','Ariel Augusto Lenis Davila','Ariel Augusto','Lenis','Davila',3,'ariel.lenisd@gmail.com','Jalasoft',8);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (8,'4880529','Silvia Alina Loza Pary','Silvia Alina','Loza','Pary',2,'silvis.loza@gmail.com','Freenlacer',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (9,'6753917','Carlos Fernando Marca Choque','Carlos Fernando','Marca','Choque',3,'carlosfernandomarcachoque@gmail.com','Banco Bisa S.A.',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (10,'4844759','Joanna Andrea Mendieta Aguilera','Joanna Andrea','Mendieta','Aguilera',2,'joannaandrea72@gmail.com','Bisa Seguros y Reaseguros SA',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (11,'3371876','Ovidio Roger Paton Gutierrez','Ovidio Roger','Paton','Gutierrez',3,'oviroger@gmail.com','KPOGroup',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (12,'4331763','Juan Carlos Peralta Olivera','Juan Carlos','Peralta','Olivera',2,'juancarlosperaltaolivera@gmail.com','ENDE Tecnologías',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (13,'8846218','Cesar Andres Quiroga Coronado','Cesar Andres','Quiroga','Coronado',1,'cesar.a.quiroga.c@gmail.com','Axiros',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (14,'8320698','Oscar Ramirez Guachalla','Oscar','Ramirez','Guachalla',2,'oscar.ramirez.guachalla@gmail.com','Entidad de Deposito de Valores',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (15,'10033172','Ana Belén Rocabado Martínez','Ana Belén','Rocabado','Martínez',4,'anarocabmar@gmail.com','Jalasoft',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (16,'4763631','Ramón Wilder Serdan Cárdenas','Ramón Wilder','Serdan','Cárdenas',3,'wserdan@gmail.com','Banco Central de Bolivia',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (17,'4060117','Ruth Daniela Villalobos Espada','Ruth Daniela','Villalobos','Espada',2,'ruthdanivillalobos@gmail.com','Jalasoft',8);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (18,'6130631','Guido Alejandro Villarroel Bellott','Guido Alejandro','Villarroel','Bellott',3,'gvillarroelbellott@gmail.com','',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (19,'2380727','José Antonio Villegas Zelaya','José Antonio','Villegas','Zelaya',2,'manixvz@gmail.com','Publicidad y Videos',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (20,'6055604','Arthur Ignacio Yujra Apaza','Arthur Ignacio','Yujra','Apaza',2,'yo.arthur.ignacio@gmail.com','',1);
+INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,NOMBRE,APELLIDOPAT,APELLIDOMAT,id_grupo,CORREO,Trabajo,id_localidad) values (21,'7935881','Alicia del Rosario Zamorano Gongora','Alicia del Rosario','Zamorano','Gongora',2,'zamoranoalicia@gmail.com','Nisum',1);
+
+
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (1,13,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (2,13,3);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (3,21,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (4,21,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (5,20,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (6,20,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (7,8,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (8,4,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (9,4,5);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (10,8,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (11,5,7);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (12,5,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (13,2,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (14,2,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (15,19,9);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (16,19,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (17,11,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (18,11,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (19,14,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (20,14,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (21,6,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (22,6,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (23,6,6);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (24,6,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (25,25,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (26,25,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (27,9,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (28,9,5);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (29,22,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (30,22,4);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (31,22,10);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (32,24,9);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (33,24,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (34,24,11);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (35,7,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (36,7,9);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (37,17,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (38,17,11);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (39,17,8);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (40,1,1);
+INSERT INTO alumnocarrera (id_AlumnoCarrera,id_alumno,id_carrera) values (41,1,4);
+
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (1,1,1,TO_DATE('1/1/2019','dd/mm/yyyy'),500,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (2,1,2,TO_DATE('1/2/2019','dd/mm/yyyy'),700,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (3,1,3,TO_DATE('1/3/2019','dd/mm/yyyy'),2000,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (4,2,1,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (5,2,2,TO_DATE('2/12/2019','dd/mm/yyyy'),300,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (6,2,3,TO_DATE('3/12/2019','dd/mm/yyyy'),2000,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (7,3,1,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (8,3,2,TO_DATE('2/12/2019','dd/mm/yyyy'),300,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (9,15,1,TO_DATE('3/12/2019','dd/mm/yyyy'),2000,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (10,15,10,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (11,14,9,TO_DATE('2/12/2019','dd/mm/yyyy'),300,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (12,14,2,TO_DATE('3/12/2019','dd/mm/yyyy'),2000,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (13,22,1,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (14,22,3,TO_DATE('2/12/2019','dd/mm/yyyy'),300,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (15,22,2,TO_DATE('3/12/2019','dd/mm/yyyy'),2000,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (16,11,1,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (17,11,4,TO_DATE('2/12/2019','dd/mm/yyyy'),300,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (18,7,1,TO_DATE('3/12/2019','dd/mm/yyyy'),2000,1);
+INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (19,7,2,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
+
+
+
