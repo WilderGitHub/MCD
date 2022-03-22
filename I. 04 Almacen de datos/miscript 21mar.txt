@@ -350,5 +350,20 @@ INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,
 INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (18,7,1,TO_DATE('3/12/2019','dd/mm/yyyy'),2000,1);
 INSERT INTO alumnomateria (id_AlumnoMateria,id_Alumno,id_Materia,Fecha_registro,Monto,id_localidad) values (19,7,2,TO_DATE('1/12/2019','dd/mm/yyyy'),500,1);
 
+INSERT INTO materiacarrera VALUES (1,SYSDATE,1,1);
+INSERT INTO materiacarrera VALUES (2,SYSDATE,1,2);
+INSERT INTO materiacarrera VALUES (3,SYSDATE,1,3);
+INSERT INTO materiacarrera VALUES (4,SYSDATE,1,4);
+INSERT INTO materiacarrera VALUES (5,SYSDATE,1,5);
+INSERT INTO materiacarrera VALUES (6,SYSDATE,1,6);
+INSERT INTO materiacarrera VALUES (7,SYSDATE,1,7);
+INSERT INTO materiacarrera VALUES (8,SYSDATE,1,8);
+INSERT INTO materiacarrera VALUES (9,SYSDATE,1,9);
+INSERT INTO materiacarrera VALUES (10,SYSDATE,1,10);
+INSERT INTO materiacarrera VALUES (11,SYSDATE,1,11);
+INSERT INTO materiacarrera VALUES (12,SYSDATE,12,13);
+INSERT INTO materiacarrera VALUES (13,SYSDATE,13,14);
+INSERT INTO materiacarrera VALUES (14,SYSDATE,14,15);
+INSERT INTO materiacarrera VALUES (15,SYSDATE,12,12);
 
 

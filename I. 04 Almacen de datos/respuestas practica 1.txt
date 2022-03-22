@@ -1,25 +1,25 @@
-1.
+--1.
 
-INSERT INTO carrera VALUES (12,'Maestría en Finanzas')
-INSERT INTO carrera VALUES (13,'Maestría Marketing Digital')
-INSERT INTO carrera VALUES (14,'Maestría Software')
+INSERT INTO carrera VALUES (12,'Maestría en Finanzas');
+INSERT INTO carrera VALUES (13,'Maestría Marketing Digital');
+INSERT INTO carrera VALUES (14,'Maestría Software');
 
-2.
+--2.
 INSERT INTO materia (id_materia, materia) VALUES (12,'Finanzas Corporativas');
 INSERT INTO materia (id_materia, materia) VALUES (13,'Análisis Financiero');
 INSERT INTO materia (id_materia, materia) VALUES (14,'Marketing Digital con Facebook');
 INSERT INTO materia (id_materia, materia) VALUES (15,'Manejo de CRM');
 SELECT * FROM materia ORDER BY id_materia;
-3.
+--3.
 INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (22,12345,'Barry Allen',1,1);
 INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (23,234234,'Clark Kent',1,1);
 INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (24,54345,'Peter Parker',1,1);
 INSERT INTO alumno (id_alumno,CI,NOMBRE_COMPLETO,id_grupo,id_localidad) values (25,23342,'Steven Rogers',1,1);
 SELECT * FROM alumno;
-4.
+--4.
 INSERT INTO pais VALUES (3,'Estados Unidos');
 SELECT * FROM pais;
-5.
+--5.
 INSERT INTO departamento VALUES (13,'California',3);
 SELECT * FROM departamento;
 INSERT INTO localidad VALUES (12,'San Francisco',(SELECT id_departamento FROM departamento WHERE departamento ='California'));
@@ -27,7 +27,7 @@ INSERT INTO localidad VALUES (13,'Santa Clara',(SELECT id_departamento FROM depa
 INSERT INTO localidad VALUES (14,'Las Vegas',(SELECT id_departamento FROM departamento WHERE departamento ='California'));
 SELECT * FROM localidad;
 
-6.a)
+--6.a)
 UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE localidad = 'San Francisco') 
     WHERE id_alumno = 'Barry Allen';
 UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE localidad = 'San Francisco')
@@ -39,7 +39,7 @@ UPDATE alumno SET id_localidad= (SELECT id_localidad FROM localidad WHERE locali
 
 SELECT a.nombre_completo, b.localidad FROM alumno a, localidad b WHERE a.id_localidad =  b.id_localidad;
 
-6.b
+--6.b
 
 INSERT INTO alumnocarrera
     VALUES  (42,
@@ -60,3 +60,102 @@ INSERT INTO alumnocarrera
 
 SELECT a.id_alumnocarrera,b.id_alumno, b.nombre_completo, c.carrera FROM alumnocarrera a, alumno b, carrera c 
     WHERE b.id_alumno = a.id_alumno AND c.id_carrera = a.id_carrera;   
+
+--6.c
+INSERT INTO alumnomateria
+    VALUES  (20,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Barry Allen'),
+            (SELECT id_materia FROM materia where materia = 'Finanzas Corporativas'),14,345,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (21,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Clark Kent'),
+            (SELECT id_materia FROM materia where materia = 'Finanzas Corporativas'),14,600,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (22,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Peter Parker'),
+            (SELECT id_materia FROM materia where materia = 'Análisis Financiero'),14,700,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (23,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Steven Rogers'),
+            (SELECT id_materia FROM materia where materia = 'Análisis Financiero'),14,800,SYSDATE);
+            
+SELECT a.id_alumnomateria,b.id_alumno, b.nombre_completo, c.materia FROM alumnomateria a, alumno b, materia c 
+    WHERE b.id_alumno = a.id_alumno AND c.id_materia = a.id_materia order by id_alumnomateria desc; 
+
+--7.a.
+
+INSERT INTO alumno (id_alumno,CI,nombre_completo, id_grupo,id_localidad) 
+    VALUES (26, 54322,'Bruce Wayne',1,(SELECT id_localidad FROM localidad WHERE localidad = 'Santa Clara'));
+INSERT INTO alumno (id_alumno,CI,nombre_completo, id_grupo,id_localidad) 
+    VALUES (27, 76545,'Oliver Queen',1,(SELECT id_localidad FROM localidad WHERE localidad = 'Santa Clara'));
+INSERT INTO alumno (id_alumno,CI,nombre_completo, id_grupo,id_localidad) 
+    VALUES (28, 456465,'Donna Troy',1,(SELECT id_localidad FROM localidad WHERE localidad = 'Santa Clara'));
+
+SELECT a.nombre_completo, b.localidad FROM alumno a, localidad b WHERE a.id_localidad =  b.id_localidad order by localidad desc;
+
+-- 7.b.
+INSERT INTO alumnocarrera
+    VALUES  (46,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Bruce Wayne'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría Marketing Digital'),SYSDATE);
+INSERT INTO alumnocarrera
+    VALUES  (47,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Oliver Queen'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría Marketing Digital'),SYSDATE);
+INSERT INTO alumnocarrera
+    VALUES  (48,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Donna Troy'),
+            (SELECT id_carrera FROM carrera where carrera = 'Maestría Marketing Digital'),SYSDATE);
+
+SELECT a.id_alumnocarrera,b.id_alumno, b.nombre_completo, c.carrera FROM alumnocarrera a, alumno b, carrera c 
+    WHERE b.id_alumno = a.id_alumno AND c.id_carrera = a.id_carrera ORDER BY id_alumnocarrera DESC; 
+-- 7.c
+INSERT INTO alumnomateria
+    VALUES  (24,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Bruce Wayne'),
+            (SELECT id_materia FROM materia where materia = 'Manejo de CRM'),14,654,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (25,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Oliver Queen'),
+            (SELECT id_materia FROM materia where materia = 'Manejo de CRM'),14,660,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (26,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Donna Troy'),
+            (SELECT id_materia FROM materia where materia = 'Manejo de CRM'),14,2700,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (27,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Bruce Wayne'),
+            (SELECT id_materia FROM materia where materia = 'Marketing Digital con Facebook'),14,300,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (28,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Oliver Queen'),
+            (SELECT id_materia FROM materia where materia = 'Marketing Digital con Facebook'),14,400,SYSDATE);
+INSERT INTO alumnomateria
+    VALUES  (29,
+            (SELECT id_alumno FROM alumno WHERE nombre_completo = 'Donna Troy'),
+            (SELECT id_materia FROM materia where materia = 'Marketing Digital con Facebook'),14,700,SYSDATE);
+SELECT a.id_alumnomateria,b.id_alumno, b.nombre_completo, c.materia FROM alumnomateria a, alumno b, materia c 
+    WHERE b.id_alumno = a.id_alumno AND c.id_materia = a.id_materia order by materia desc; 
+
+-- 8.
+select count(*) as Inscritos, sum(monto) as Recaudado from alumnomateria;
+-- 9.
+select count(*) as Preinscritos from alumnocarrera;
+
+-- 10.
+SELECT carrera, count(materia) as Materias FROM materia a, carrera b, materiacarrera c
+    WHERE b.id_carrera = c.id_carrera AND a.id_materia = c.id_materia 
+    GROUP BY carrera ORDER BY Materias DESC;
+
+--11.
+SELECT nombre_completo , count(materia) as Materias FROM materia a, alumno b, alumnomateria c
+    WHERE b.id_alumno = c.id_alumno AND a.id_materia = c.id_materia 
+    GROUP BY nombre_completo ORDER BY Materias DESC;
+
+-- 12
+
+SELECT pais, count(nombre_completo) as alumnos, sum(monto) as monto
+    FROM pais p, departamento d, localidad l, alumno a, alumnomateria m
+    WHERE p.id_pais = d.id_pais AND d.id_departamento = l.id_localidad
+        AND l.id_localidad = a.id_localidad AND a.id_alumno=m.id_alumno 
+    GROUP BY pais ORDER BY monto DESC;
