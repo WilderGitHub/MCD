@@ -1,0 +1,4 @@
+https://www.kaggle.com/code/mehmetbicici/airline-passenger-satisfaction-eda-ml
+https://www.kaggle.com/code/chandrimad31/flight-passenger-satisfaction-eda-and-prediction
+https://www.kaggle.com/code/yasserhessein/airline-passenger-eda-7-algorithms-accuracy97
+https://www.kaggle.com/code/nikhilsharma4/data-visualization-and-ml-for-psg-satisfaction
