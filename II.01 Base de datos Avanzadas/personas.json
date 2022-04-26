@@ -1,0 +1,143 @@
+[
+    {
+    "first_name": "JUAN",
+    "last_name": "PEREZ",
+    "fechanac":"1989-06-4",
+    "contact_info": [
+        {
+            "contact_data": "72023456",
+            "contact_type": "PHONE"
+        },
+        {
+            "contact_data": "jperez@gmail.com",
+            "contact_type": "EMAIL"
+        }
+    ]
+}
+,
+{
+    "first_name": "WILDER",
+    "last_name": "SERDAN",
+    "fechanac":"1977-2-17",
+    "contact_info": [
+        {
+            "contact_data": "73736998",
+            "contact_type": "PHONE"
+        },
+        {
+            "contact_data": "wserdanr@gmail.com",
+            "contact_type": "EMAIL"
+        }
+    ]
+}
+,
+{
+    "first_name": "ANA",
+    "last_name": "GOMEZ",
+    "fechanac":"1980-07-04",
+    "contact_info": [
+        {
+            "contact_data": "5465782",
+            "contact_type": "PHONE"
+        }
+    ]
+}
+,
+{
+    "first_name": "MARIA",
+    "last_name": "GOTTRET",
+    "fechanac":"1992-08-04",
+    "contact_info": [
+        {
+            "contact_data": "7458787",
+            "contact_type": "PHONE"
+        }
+    ]
+}
+,
+{
+    "first_name": "ESTER",
+    "last_name": "PEREZ",
+    "fechanac":"2000-09-04",
+    "contact_info": [
+        {
+            "contact_data": "60687844",
+            "contact_type": "PHONE"
+        }
+    ]
+}
+,
+{
+    "first_name": "WILLIAM",
+    "last_name": "TORRICO",
+    "contact_info": [
+        {
+            "contact_data": "WIL@GMAIL.COM",
+            "contact_type": "EMAIL"
+        },
+        {
+            "contact_data": "FACEBOOK/WILLIAM",
+            "contact_type": "FACEBOOK"
+        },
+        {
+            "contact_data": "2325454",
+            "contact_type": "PHONE"
+        }
+    ]
+}
+,
+{
+    "first_name": "CARMEN",
+    "last_name": "CORRALES",
+    "contact_info": [
+        {
+            "contact_data": "CARMEN@GMAIL.COM",
+            "contact_type": "EMAIL"
+        },
+        {
+            "contact_data": "FACEBOOK/CARMENJULIAI",
+            "contact_type": "FACEBOOK"
+        },
+        {
+            "contact_data": "7894554",
+            "contact_type": "PHONE"
+        }
+    ]
+}
+,
+{
+    "first_name": "JUAN",
+    "last_name": "ESCOBAR",
+    "fechanac":"1960-07-08",
+    "contact_info": [
+        {
+            "contact_data": "JAUNN@GMAIL.COM",
+            "contact_type": "EMAIL"
+        }
+    ]
+}
+,
+{
+    "first_name": "PAUL",
+    "last_name": "BUSTOS",
+    "fechanac":"2000-10-04",
+    "contact_info": [
+        {
+            "contact_data": "PAULN@GMAIL.COM",
+            "contact_type": "EMAIL"
+        }
+    ]
+}
+,
+{
+    "first_name": "LILI",
+    "last_name": "VILLAMIL",
+    "fechanac":"1980-01-14",
+    "contact_info": [
+        {
+            "contact_data": "LILY@GMAIL.COM",
+            "contact_type": "EMAIL"
+        }
+    ]
+}
+]
