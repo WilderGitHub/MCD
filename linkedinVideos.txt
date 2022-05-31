@@ -51,6 +51,7 @@ Machine Learning and AI Foundations Classification Modeling
 FALTA   Machine Learning & AI Foundations: Linear Regression
 Machine Learning with Scikit-Learn
 Machine Learning and AI Foundations Clustering and Association
+Machine Learning and AI Foundations Prediction, Causation, and Statistical Inference
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
 Machine Learning and AI Foundations: Value Estimations
 Machine Learning with Python Decision Trees
@@ -91,6 +92,7 @@ SQL Queries Made Easy
 SQL Tips and Tricks for Data Science
 Tableau for Data Scientists
 TensorFlow Working with NLP
+Text Analytics and Predictions with Python Essential Training
 Training Neural Networks in Python
 Training Neural Networks in Python
 Using Python with Excel
