@@ -8,6 +8,7 @@ Advanced SQL – Window Functions
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
+AWS Machine Learning by Example
 Build a React Application Using AWS Amplify
 FALTA   Building a Recommendation System with Python Machine Learning & AI
 Building Tools with Python
@@ -16,6 +17,7 @@ Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
 Creating a Serverless Application Using React in AWS
 CSS Animation
 Data Analytics Dashboards vs. Data Stories
+Data Science Foundations Data Mining in Python
 Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
 FALTA   Data Ingestion with Python
@@ -51,7 +53,10 @@ Machine Learning with Scikit-Learn
 Machine Learning and AI Foundations Clustering and Association
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
 Machine Learning and AI Foundations: Value Estimations
+Machine Learning with Python Decision Trees
+Machine Learning with Python k-Means Clustering
 Next Generation AI An Intro to GPT-3
+Natural Language Processing with PyTorch
 NLP with Python for Machine Learning Essential Training
 NoSQL Essential Training
 Predictive Analytics Essential Training Data Mining
@@ -61,6 +66,7 @@ FALTA   Python Essential Training
 FALTA    Python Data Structures and Algorithms
 Python Data Analysis
 FALTA    Python: Design Patterns
+Python para data science y big data esencial
 Python for Data Science Essential Training Part 1
 Python for Data Science Essential Training Part 2
 Python for Data Visualization
@@ -85,6 +91,7 @@ SQL Queries Made Easy
 SQL Tips and Tricks for Data Science
 Tableau for Data Scientists
 TensorFlow Working with NLP
+Training Neural Networks in Python
 Training Neural Networks in Python
 Using Python with Excel
 Using SQL with Python
