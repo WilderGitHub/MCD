@@ -8,8 +8,13 @@ Advanced SQL – Window Functions
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
+AWS Essential Training for Architects
+AWS for Developers RDS MySQL Database with Lambdas
+AWS for Developers DynamoDB
 AWS Machine Learning by Example
+Building Dynamic Websites using AWS Lambdas
 Build a React Application Using AWS Amplify
+Building RESTful APIs with Flask
 FALTA   Building a Recommendation System with Python Machine Learning & AI
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
@@ -29,6 +34,8 @@ Deploying Scalable Machine Learning for Data Science
 Docker for Data Scientists
 Faster pandas
 From React to React Native
+Flask Essential Training
+Full Stack Web Development with Flask
 Git Branches, Merges, and Remotes
 Git Essential Training The Basics
 Git for Teams
@@ -40,9 +47,11 @@ Introduction to Linux
 Introduction to Web Design and Development
 JavaScript as a Second Language
 Learn Apache Kafka for Beginners
+Learning Amazon Web Services (AWS) for Developers
 Learning Docker
 Learning ECMAScript 6+ (ES6+)
 FALTA Learning Python
+Learning Amazon Web Services Lambda
 Learning React Native
 Learning Selenium
 Learning SQL Programming
@@ -56,6 +65,7 @@ machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretab
 Machine Learning and AI Foundations: Value Estimations
 Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
+MonogoDB Essential Training
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 NLP with Python for Machine Learning Essential Training
@@ -83,6 +93,7 @@ React Hooks esencial
 React Native Essential Training
 React.js Building an Interface
 Relational Databases Essential Training
+Serverless Static Websites on AWS
 Scrollytelling Creating a One-Page Web Experience
 SQL Data Reporting and Analysis
 SQL Essential Training
