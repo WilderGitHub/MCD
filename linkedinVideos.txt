@@ -1,3 +1,5 @@
+AI Algorithms for Gaming
+Advanced Express
 Advanced NLP with python for machine learning
 Advanced Pandas
 Advanced Python: Working with Databases
@@ -14,44 +16,70 @@ AWS for Developers DynamoDB
 AWS Machine Learning by Example
 Building Dynamic Websites using AWS Lambdas
 Build a React Application Using AWS Amplify
+Building Modern Projects with React
 Building RESTful APIs with Flask
+Building a Website with Node.js and Express.js
 FALTA   Building a Recommendation System with Python Machine Learning & AI
+Bootstrap 5 Essential Training
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
+Create a Quick, Clean, and Cheap Website with Bootstrap Templates
 Creating a Serverless Application Using React in AWS
 CSS Animation
+CSS Combining Grid and Flexbox
+CSS Scrolling and Parallax
 Data Analytics Dashboards vs. Data Stories
+Database Clinic Neo4J
 Data Science Foundations Data Mining in Python
 Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
 FALTA   Data Ingestion with Python
+Databases for Node.js Developers
 Data Visualization in Python with Dash
 Deep Learning Foundations Natural Language Processing  with TensorFlow
 Deep Learning Getting Started
 Deep Learning Image Recognition
 Deploying Scalable Machine Learning for Data Science
 Docker for Data Scientists
+Express Essential Training
 Faster pandas
 From React to React Native
 Flask Essential Training
 Full Stack Web Development with Flask
+Functional Programming with Python
 Git Branches, Merges, and Remotes
 Git Essential Training The Basics
 Git for Teams
 GitHub for Data Scientists
+Git Intermediate Techniques
 GitHub Quick Tips
 Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
 Introduction to Linux
 Introduction to Web Design and Development
+JSON Essential Training
 JavaScript as a Second Language
+JavaScript Arrays
+JavaScript Async
+JavaScript Best Practices for Data
+JavaScript Essential Training
+JavaScript Maps and Sets
+JavaScript Patterns
+JavaScript Prototypes
+JavaScript Recursion
 Learn Apache Kafka for Beginners
 Learning Amazon Web Services (AWS) for Developers
 Learning Docker
 Learning ECMAScript 6+ (ES6+)
+Learning Full-Stack JavaScript Development MongoDB, Node, and React
+Learning GitHub
+Learning JavaScript Debugging
+Learning Node.js
+Learning React.js
 FALTA Learning Python
 Learning Amazon Web Services Lambda
+Learning Functional Programming with JavaScript ES6+
 Learning React Native
 Learning Selenium
 Learning SQL Programming
@@ -69,7 +97,9 @@ MonogoDB Essential Training
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 NLP with Python for Machine Learning Essential Training
+Node.js Essential Training
 NoSQL Essential Training
+Practice JavaScript Loops and Conditionals
 Predictive Analytics Essential Training Data Mining
 PostgreSQL Essential Training
 Power BI Essential Training
@@ -88,11 +118,15 @@ Python Working with Predictive Analytics
 PyTorch Essential Training Deep Learning
 React avanzado 1
 React Design Patterns
+React.js Essential Training
+React.js Essential Training (2020)
 React for Web Designers
 React Hooks esencial
 React Native Essential Training
+React Software Architecture
 React.js Building an Interface
 Relational Databases Essential Training
+Sass Essential Training
 Serverless Static Websites on AWS
 Scrollytelling Creating a One-Page Web Experience
 SQL Data Reporting and Analysis
