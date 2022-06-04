@@ -1,0 +1,36 @@
+Las siguientes instrucciones debern realizarlas en Postgres y Mongo (Para Mongo lean: https://www.mongodb.com/docs/v4.4/tutorial/query-documents/):
+
+
+1. Agregar la siguiente información.
+    - 2 contactos con nombre completo y fecha de nacimiento . Ademas deben tener telefono (PHONE) y correo (EMAIL)
+    - 3 contactos con nombre completo y fecha de nacimiento. Su informacion de contacto es solo telefono.
+    - 2 contactos con nombre completo y sin fecha de nacimiento. Deben tenero telefono, correo y url facebook (contact_type: FACEBOOK)
+    - 3 contactos con nombre completo y con fecha de nacimiento que solo tengan correo.
+
+2. Obtener de la agenda todas las personas que tengan telefono (contact_type = PHONE) y sean mayores de edad.
+
+Juan Perez, 10/05/2000, ( Phone: 72034442)
+Maria Gomez, 10/05/1990, ( Phone: 62034432, Email: mgomez@gmail.com)
+
+select p.person_id,p.first_name,p.last_name,p.fechanac,c.contact_type,c.contact_data from contact_info c,person p 
+where c.person_id in (select cc.person_id from contact_info cc where cc.contact_type='PHONE') 
+and p.person_id=c.person_id and p.fechanac > '1990-01-01' 
+ORDER BY p.person_id;
+
+3. Listar las que personas no tienen registrado el correo electrónico.
+
+Juan Perez, 10/05/2000, ( Phone: 72034442)
+Rodolfo Gomez, 10/05/1990, ( Phone: 71334432)
+Pedro Paramo,  ( Phone: 61034432, Facebook: facebook/pararmo)
+
+select p.person_id,p.first_name,p.last_name,p.fechanac,c.contact_type,c.contact_data from contact_info c,person p
+where c.person_id not in (select cc.person_id from contact_info cc where cc.contact_type='EMAIL')
+and p.person_id=c.person_id;
+
+4. Obtener todas las personas cuyo telefono comience con 7
+
+Juan Perez, 10/05/2000, ( Phone: 72034442)
+Rodolfo Gomez, 10/05/1990, ( Phone: 71334432)
+
+ SELECT p.person_id, p.first_name, p.last_name, p.fechanac,c.contact_type, c.contact_data
+FROM person p JOIN contact_info c ON ( p.person_id = c.person_id) WHERE c.contact_data like '7%';

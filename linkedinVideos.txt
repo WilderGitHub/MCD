@@ -7,6 +7,8 @@ Advanced SQL for Application Development
 Advanced SQL for Data Scientists
 Advanced SQL for Data Science Time Series
 Advanced SQL – Window Functions
+After Effects CC 2021 Essential Training Motion Graphics
+After Effects Principles of Motion Graphics
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
@@ -54,6 +56,7 @@ Git for Teams
 GitHub for Data Scientists
 Git Intermediate Techniques
 GitHub Quick Tips
+How Do I Do That in After Effects
 Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
 Introduction to Linux
@@ -69,6 +72,7 @@ JavaScript Patterns
 JavaScript Prototypes
 JavaScript Recursion
 Learn Apache Kafka for Beginners
+Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
 Learning Docker
 Learning ECMAScript 6+ (ES6+)
@@ -94,6 +98,7 @@ Machine Learning and AI Foundations: Value Estimations
 Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
 MonogoDB Essential Training
+Motion Design in After Effects
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 NLP with Python for Machine Learning Essential Training

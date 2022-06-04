@@ -1,6 +1,6 @@
 2. Obtener de la agenda todas las personas que tengan telefono (contact_type = PHONE) y sean mayores de edad.
 
-db.collection.find({
+db.agenda.find({
   "fechanac": {
     "$gte": ISODate("1990-01-01")
   },
@@ -14,11 +14,11 @@ db.collection.find({
   "contact_info.contact_type": 1,
   "contact_info.contact_data": 1,
   
-})
+}).pretty();
 
 3. Listar las que personas no tienen registrado el correo electrónico.
 
-db.collection.find({
+db.agenda.find({
   "contact_info.contact_type": {
     $ne: "EMAIL"
   }
@@ -35,7 +35,7 @@ db.collection.find({
 
 4. Obtener todas las personas cuyo telefono comience con 7
 
-db.collection.aggregate([
+db.agenda.aggregate([
   {
     $unwind: "$contact_info"
   },
