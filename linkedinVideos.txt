@@ -12,11 +12,21 @@ After Effects Principles of Motion Graphics
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 1 Cloud Services Overview
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 2 Storage Design
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 3 Virtual Private Cloud
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 4 Compute Services
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 5 Identity and Access Management
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 6 Auto Scaling and Virtual Network Services
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 7 Application Deployment
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 8 Databases
+AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 9 Services and Design Scenarios
 AWS Essential Training for Architects
 AWS for Developers RDS MySQL Database with Lambdas
 AWS for Developers DynamoDB
 AWS Machine Learning by Example
 Building Dynamic Websites using AWS Lambdas
+Building a GraphQL Project with React.js
 Build a React Application Using AWS Amplify
 Building Modern Projects with React
 Building RESTful APIs with Flask
@@ -26,6 +36,7 @@ Bootstrap 5 Essential Training
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
+Craft a Great GitHub Profile
 Create a Quick, Clean, and Cheap Website with Bootstrap Templates
 Creating a Serverless Application Using React in AWS
 CSS Animation
@@ -44,6 +55,7 @@ Deep Learning Getting Started
 Deep Learning Image Recognition
 Deploying Scalable Machine Learning for Data Science
 Docker for Data Scientists
+Exam Tips AWS Certified Solutions Architect - Associate (SAA-C02)
 Express Essential Training
 Faster pandas
 From React to React Native
@@ -56,6 +68,7 @@ Git for Teams
 GitHub for Data Scientists
 Git Intermediate Techniques
 GitHub Quick Tips
+GraphQL Essential Training
 How Do I Do That in After Effects
 Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
@@ -77,7 +90,9 @@ Learning Amazon Web Services (AWS) for Developers
 Learning Docker
 Learning ECMAScript 6+ (ES6+)
 Learning Full-Stack JavaScript Development MongoDB, Node, and React
+Learning Git and GitHub
 Learning GitHub
+Learning GraphQL
 Learning JavaScript Debugging
 Learning Node.js
 Learning React.js
@@ -97,6 +112,7 @@ machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretab
 Machine Learning and AI Foundations: Value Estimations
 Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
+Mastering Web Developer Interview Code
 MonogoDB Essential Training
 Motion Design in After Effects
 Next Generation AI An Intro to GPT-3
@@ -106,8 +122,10 @@ Node.js Essential Training
 NoSQL Essential Training
 Practice JavaScript Loops and Conditionals
 Predictive Analytics Essential Training Data Mining
+Program Databases with Transact-SQL
 PostgreSQL Essential Training
 Power BI Essential Training
+Publishing Apps and Sites with GitHub
 FALTA   Python Essential Training
 FALTA    Python Data Structures and Algorithms
 Python Data Analysis
@@ -140,6 +158,10 @@ SQL for Exploratory Data Analysis Essential Training
 SQL for Statistics Essential Training
 SQL Queries Made Easy
 SQL Tips and Tricks for Data Science
+Statistics Foundations The Basics
+Statistics Foundations 2
+Statistics Foundations 3
+Statistics Foundations Probability
 Tableau for Data Scientists
 TensorFlow Working with NLP
 Text Analytics and Predictions with Python Essential Training
