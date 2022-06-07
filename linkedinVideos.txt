@@ -42,11 +42,16 @@ Creating a Serverless Application Using React in AWS
 CSS Animation
 CSS Combining Grid and Flexbox
 CSS Scrolling and Parallax
+D3.js Essential Training for Data Scientists
 Data Analytics Dashboards vs. Data Stories
 Database Clinic Neo4J
+Data Engineering Foundations
+Data Science Foundations Data Engineering
 Data Science Foundations Data Mining in Python
 Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
+Data Visualization Tips and Tricks
+Data Visualizations with Plotly
 FALTA   Data Ingestion with Python
 Databases for Node.js Developers
 Data Visualization in Python with Dash
@@ -87,6 +92,8 @@ JavaScript Recursion
 Learn Apache Kafka for Beginners
 Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
+Learning Data Visualization
+Learning Data Visualization with D3.js
 Learning Docker
 Learning ECMAScript 6+ (ES6+)
 Learning Full-Stack JavaScript Development MongoDB, Node, and React
@@ -122,6 +129,7 @@ Node.js Essential Training
 NoSQL Essential Training
 Practice JavaScript Loops and Conditionals
 Predictive Analytics Essential Training Data Mining
+Processing Text with Python Essential Training
 Program Databases with Transact-SQL
 PostgreSQL Essential Training
 Power BI Essential Training
@@ -162,6 +170,7 @@ Statistics Foundations The Basics
 Statistics Foundations 2
 Statistics Foundations 3
 Statistics Foundations Probability
+Tableau Essential Training
 Tableau for Data Scientists
 TensorFlow Working with NLP
 Text Analytics and Predictions with Python Essential Training
@@ -169,6 +178,7 @@ Training Neural Networks in Python
 Training Neural Networks in Python
 Using Python with Excel
 Using SQL with Python
+Using Tableau to Discover Powerful Business Insights (2021)
 Web Scraping with Python
 
 
