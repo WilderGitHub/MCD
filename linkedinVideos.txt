@@ -9,6 +9,8 @@ Advanced SQL for Data Science Time Series
 Advanced SQL – Window Functions
 After Effects CC 2021 Essential Training Motion Graphics
 After Effects Principles of Motion Graphics
+Amazon Redshift Essentials
+Apache Spark Essential Training Big Data Engineering
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
@@ -22,6 +24,7 @@ AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 7 Application 
 AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 8 Databases
 AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 9 Services and Design Scenarios
 AWS Essential Training for Architects
+AWS Essential Training for Developers
 AWS for Developers RDS MySQL Database with Lambdas
 AWS for Developers DynamoDB
 AWS Machine Learning by Example
@@ -45,6 +48,10 @@ CSS Scrolling and Parallax
 D3.js Essential Training for Data Scientists
 Data Analytics Dashboards vs. Data Stories
 Database Clinic Neo4J
+Database Foundations Administration
+Database Foundations Application Development
+Database Foundations Data Structures
+Database Foundations Database Management
 Data Engineering Foundations
 Data Science Foundations Data Engineering
 Data Science Foundations Data Mining in Python
@@ -52,7 +59,7 @@ Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
 Data Visualization Tips and Tricks
 Data Visualizations with Plotly
-FALTA   Data Ingestion with Python
+Data Ingestion with Python
 Databases for Node.js Developers
 Data Visualization in Python with Dash
 Deep Learning Foundations Natural Language Processing  with TensorFlow
@@ -103,15 +110,15 @@ Learning GraphQL
 Learning JavaScript Debugging
 Learning Node.js
 Learning React.js
-FALTA Learning Python
+Learning Python
 Learning Amazon Web Services Lambda
 Learning Functional Programming with JavaScript ES6+
+Learning R
 Learning React Native
 Learning Selenium
 Learning SQL Programming
 Machine Learning and AI Foundations Recommendations
 Machine Learning and AI Foundations Classification Modeling
-FALTA   Machine Learning & AI Foundations: Linear Regression
 Machine Learning with Scikit-Learn
 Machine Learning and AI Foundations Clustering and Association
 Machine Learning and AI Foundations Prediction, Causation, and Statistical Inference
@@ -134,10 +141,10 @@ Program Databases with Transact-SQL
 PostgreSQL Essential Training
 Power BI Essential Training
 Publishing Apps and Sites with GitHub
-FALTA   Python Essential Training
-FALTA    Python Data Structures and Algorithms
+Python Essential Training
+Python Data Structures and Algorithms
 Python Data Analysis
-FALTA    Python: Design Patterns
+Python: Design Patterns
 Python para data science y big data esencial
 Python for Data Science Essential Training Part 1
 Python for Data Science Essential Training Part 2
@@ -147,6 +154,8 @@ Python Projects
 Python vs. JavaScript for Development
 Python Working with Predictive Analytics
 PyTorch Essential Training Deep Learning
+R Data Science Code Challenges
+R Essential Training Wrangling and Visualizing Data
 React avanzado 1
 React Design Patterns
 React.js Essential Training
@@ -170,6 +179,7 @@ Statistics Foundations The Basics
 Statistics Foundations 2
 Statistics Foundations 3
 Statistics Foundations Probability
+Stream Processing Design Patterns with Spark
 Tableau Essential Training
 Tableau for Data Scientists
 TensorFlow Working with NLP
