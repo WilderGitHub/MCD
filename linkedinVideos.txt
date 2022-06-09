@@ -6,6 +6,10 @@ Advanced Python: Working with Databases
 Advanced SQL for Application Development
 Advanced SQL for Data Scientists
 Advanced SQL for Data Science Time Series
+Advanced SQL High Performance Relational Divisions
+Advanced SQL Logical Query Processing, Part 1
+Advanced SQL Logical Query Processing, Part 2
+Advanced SQL Solving Interpolation Challenges
 Advanced SQL – Window Functions
 After Effects CC 2021 Essential Training Motion Graphics
 After Effects Principles of Motion Graphics
@@ -39,6 +43,8 @@ Bootstrap 5 Essential Training
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
+Coding for Visual Learners Learning JavaScript from Scratch
+Controlling CSS with JavaScript
 Craft a Great GitHub Profile
 Create a Quick, Clean, and Cheap Website with Bootstrap Templates
 Creating a Serverless Application Using React in AWS
@@ -91,11 +97,15 @@ JavaScript as a Second Language
 JavaScript Arrays
 JavaScript Async
 JavaScript Best Practices for Data
+JavaScript Code Challenges
 JavaScript Essential Training
 JavaScript Maps and Sets
+JavaScript on the Go Async
+JavaScript on the Go Choosing a Framework
 JavaScript Patterns
 JavaScript Prototypes
 JavaScript Recursion
+JavaScript The Tricky Bits
 Learn Apache Kafka for Beginners
 Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
@@ -107,6 +117,7 @@ Learning Full-Stack JavaScript Development MongoDB, Node, and React
 Learning Git and GitHub
 Learning GitHub
 Learning GraphQL
+Learning JavaScript Animations with GreenSock
 Learning JavaScript Debugging
 Learning Node.js
 Learning React.js
@@ -129,7 +140,8 @@ Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
 MonogoDB Essential Training
-Motion Design in After Effects
+Motion Design in After Effe
+Motion Graphics for Social Mediacts
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 NLP with Python for Machine Learning Essential Training
@@ -170,8 +182,10 @@ Relational Databases Essential Training
 Sass Essential Training
 Serverless Static Websites on AWS
 Scrollytelling Creating a One-Page Web Experience
+SQL Data Science Code Challenges
 SQL Data Reporting and Analysis
 SQL Essential Training
+SQL for Data Analysis
 SQL for Exploratory Data Analysis Essential Training
 SQL for Statistics Essential Training
 SQL Queries Made Easy
