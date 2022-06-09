@@ -1,5 +1,6 @@
 AI Algorithms for Gaming
 Advanced Express
+Advanced Java Programming
 Advanced NLP with python for machine learning
 Advanced Pandas
 Advanced Python: Working with Databases
