@@ -110,6 +110,7 @@ Learning GraphQL
 Learning JavaScript Debugging
 Learning Node.js
 Learning React.js
+Learning Power BI Desktop
 Learning Python
 Learning Amazon Web Services Lambda
 Learning Functional Programming with JavaScript ES6+
