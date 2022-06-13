@@ -15,7 +15,9 @@ Advanced SQL – Window Functions
 After Effects CC 2021 Essential Training Motion Graphics
 After Effects Principles of Motion Graphics
 Amazon Redshift Essentials
+Apache PySpark by Example
 Apache Spark Essential Training Big Data Engineering
+Apache Spark Deep Learning Essential Training
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
@@ -72,6 +74,7 @@ Data Visualization in Python with Dash
 Deep Learning Foundations Natural Language Processing  with TensorFlow
 Deep Learning Getting Started
 Deep Learning Image Recognition
+Deep Learning Model Optimization and Tuning
 Deploying Scalable Machine Learning for Data Science
 Docker for Data Scientists
 Exam Tips AWS Certified Solutions Architect - Associate (SAA-C02)
@@ -91,7 +94,9 @@ GraphQL Essential Training
 How Do I Do That in After Effects
 Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
+Introducing AI to Your Organization
 Introduction to Linux
+Introduction to Spark SQL and DataFrames
 Introduction to Web Design and Development
 JSON Essential Training
 JavaScript as a Second Language
@@ -130,6 +135,7 @@ Learning R
 Learning React Native
 Learning Selenium
 Learning SQL Programming
+Learning TensorFlow with JavaScript
 Machine Learning and AI Foundations Recommendations
 Machine Learning and AI Foundations Classification Modeling
 Machine Learning with Scikit-Learn
@@ -145,6 +151,7 @@ Motion Design in After Effe
 Motion Graphics for Social Mediacts
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
+Next Generation AI An Intro to GPT-3
 NLP with Python for Machine Learning Essential Training
 Node.js Essential Training
 NoSQL Essential Training
@@ -183,6 +190,7 @@ Relational Databases Essential Training
 Sass Essential Training
 Serverless Static Websites on AWS
 Scrollytelling Creating a One-Page Web Experience
+Spark for Machine Learning & AI
 SQL Data Science Code Challenges
 SQL Data Reporting and Analysis
 SQL Essential Training
@@ -198,10 +206,13 @@ Statistics Foundations Probability
 Stream Processing Design Patterns with Spark
 Tableau Essential Training
 Tableau for Data Scientists
+TensorFlow Working with Images
 TensorFlow Working with NLP
+TensorFlow Neural Networks and Working with Tables
 Text Analytics and Predictions with Python Essential Training
 Training Neural Networks in Python
-Training Neural Networks in Python
+Transfer Learning for Images Using PyTorch Essential Training
+Transformers Text Classification for NLP Using BERT
 Using Python with Excel
 Using SQL with Python
 Using Tableau to Discover Powerful Business Insights (2021)
