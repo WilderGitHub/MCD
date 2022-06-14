@@ -21,6 +21,10 @@ Apache Spark Deep Learning Essential Training
 Applied Machine Learning Algorithms
 Applied Machine Learning Feature Engineering
 Applied Machine Learning Foundations
+AWS Certified Database – Specialty (DBS-C01) Cert Prep 1 Introduction and Services
+AWS Certified Database – Specialty (DBS-C01) Cert Prep 2 Design and Deployment
+AWS Certified Database – Specialty (DBS-C01) Cert Prep 3 Migration and Management
+AWS Certified Database – Specialty (DBS-C01) Cert Prep 4 Monitoring and Troubleshooting
 AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 1 Cloud Services Overview
 AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 2 Storage Design
 AWS Certified Solutions Architect - Associate (SAA-C02) Cert Prep 3 Virtual Private Cloud
@@ -35,6 +39,11 @@ AWS Essential Training for Developers
 AWS for Developers RDS MySQL Database with Lambdas
 AWS for Developers DynamoDB
 AWS Machine Learning by Example
+AWS Well-Architected Framework Cost Optimization Pillar
+AWS Well-Architected Framework Operational Excellence Pillar
+AWS Well-Architected Framework Performance Efficiency Pillar
+AWS Well-Architected Framework Reliability Pillar
+AWS Well-Architected Framework Security Pillar
 Building Dynamic Websites using AWS Lambdas
 Building a GraphQL Project with React.js
 Build a React Application Using AWS Amplify
@@ -76,6 +85,7 @@ Deep Learning Getting Started
 Deep Learning Image Recognition
 Deep Learning Model Optimization and Tuning
 Deploying Scalable Machine Learning for Data Science
+DevOps with AWS
 Docker for Data Scientists
 Exam Tips AWS Certified Solutions Architect - Associate (SAA-C02)
 Express Essential Training
@@ -115,6 +125,7 @@ JavaScript The Tricky Bits
 Learn Apache Kafka for Beginners
 Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
+Learning Amazon Web Services Lambda
 Learning Data Visualization
 Learning Data Visualization with D3.js
 Learning Docker
@@ -135,6 +146,7 @@ Learning R
 Learning React Native
 Learning Selenium
 Learning SQL Programming
+Learning the AWS Well-Architected Framework
 Learning TensorFlow with JavaScript
 Machine Learning and AI Foundations Recommendations
 Machine Learning and AI Foundations Classification Modeling
@@ -171,6 +183,7 @@ Python for Data Science Essential Training Part 1
 Python for Data Science Essential Training Part 2
 Python for Data Visualization
 Python for Engineers and Scientists
+Python Project Build a Quiz Application
 Python Projects
 Python vs. JavaScript for Development
 Python Working with Predictive Analytics
