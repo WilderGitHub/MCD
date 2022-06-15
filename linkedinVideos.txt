@@ -15,6 +15,12 @@ Advanced SQL – Window Functions
 After Effects CC 2021 Essential Training Motion Graphics
 After Effects Principles of Motion Graphics
 Amazon Redshift Essentials
+Android Development Essential Training 1 Your First App
+Android Development Essential Training 2 User Interface Design
+Android Development Essential Training 3 Navigation
+Android Development Essential Training 4 Working with Data
+Android Development Essential Training 5 Storage and Databases
+Android Studio Essential Training
 Apache PySpark by Example
 Apache Spark Essential Training Big Data Engineering
 Apache Spark Deep Learning Essential Training
@@ -54,7 +60,10 @@ FALTA   Building a Recommendation System with Python Machine Learning & AI
 Bootstrap 5 Essential Training
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
+Cert Prep LPI Linux Essentials (010-160)
+Choosing a Cloud Platform for Developers AWS, Azure, and GCP
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
+Cloud Computing Careers and Certifications First Steps
 Coding for Visual Learners Learning JavaScript from Scratch
 Controlling CSS with JavaScript
 Craft a Great GitHub Profile
@@ -88,6 +97,7 @@ Deploying Scalable Machine Learning for Data Science
 DevOps with AWS
 Docker for Data Scientists
 Exam Tips AWS Certified Solutions Architect - Associate (SAA-C02)
+Electron Building Cross Platform Desktop Apps
 Express Essential Training
 Faster pandas
 From React to React Native
@@ -126,6 +136,7 @@ Learn Apache Kafka for Beginners
 Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
 Learning Amazon Web Services Lambda
+Learning AWS Amplify
 Learning Data Visualization
 Learning Data Visualization with D3.js
 Learning Docker
@@ -136,6 +147,7 @@ Learning GitHub
 Learning GraphQL
 Learning JavaScript Animations with GreenSock
 Learning JavaScript Debugging
+Learning Linux Command Line
 Learning Node.js
 Learning React.js
 Learning Power BI Desktop
@@ -148,6 +160,8 @@ Learning Selenium
 Learning SQL Programming
 Learning the AWS Well-Architected Framework
 Learning TensorFlow with JavaScript
+Linux Foundation Cert Prep Essential Commands (Ubuntu)
+Linux Overview and Installation
 Machine Learning and AI Foundations Recommendations
 Machine Learning and AI Foundations Classification Modeling
 Machine Learning with Scikit-Learn
@@ -155,6 +169,7 @@ Machine Learning and AI Foundations Clustering and Association
 Machine Learning and AI Foundations Prediction, Causation, and Statistical Inference
 machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretable-machine-learning-solutions
 Machine Learning and AI Foundations: Value Estimations
+Machine Learning in Mobile Applications
 Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
@@ -196,6 +211,7 @@ React.js Essential Training
 React.js Essential Training (2020)
 React for Web Designers
 React Hooks esencial
+React Native Ecosystem and Workflow
 React Native Essential Training
 React Software Architecture
 React.js Building an Interface
