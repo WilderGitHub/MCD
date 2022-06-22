@@ -2,6 +2,7 @@ AI Algorithms for Gaming
 Advanced Express
 Advanced Java Programming
 Advanced NLP with python for machine learning
+Advanced Motion Graphics
 Advanced Pandas
 Advanced Python: Working with Databases
 Advanced SQL for Application Development
@@ -12,7 +13,10 @@ Advanced SQL Logical Query Processing, Part 1
 Advanced SQL Logical Query Processing, Part 2
 Advanced SQL Solving Interpolation Challenges
 Advanced SQL – Window Functions
+After Effects CC 2021 Character Animation Essential Training
+After Effects CC 2022 Essential Training
 After Effects CC 2021 Essential Training Motion Graphics
+After Effects CC 2021 Essential Training VFX
 After Effects Principles of Motion Graphics
 Amazon Redshift Essentials
 Android Development Essential Training 1 Your First App
@@ -104,6 +108,7 @@ From React to React Native
 Flask Essential Training
 Full Stack Web Development with Flask
 Functional Programming with Python
+Getting Started in After Effects for Photoshop Users
 Git Branches, Merges, and Remotes
 Git Essential Training The Basics
 Git for Teams
@@ -112,6 +117,7 @@ Git Intermediate Techniques
 GitHub Quick Tips
 GraphQL Essential Training
 How Do I Do That in After Effects
+Integrating Real 3D Objects in After Effects
 Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
 Introducing AI to Your Organization
@@ -174,8 +180,9 @@ Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
 MonogoDB Essential Training
-Motion Design in After Effe
-Motion Graphics for Social Mediacts
+Motion Control 3D Bringing Photos to Life in Three Dimensions with After Effects and Photoshop CC
+Motion Design in After Effects
+Motion Graphics for Social Media
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 Next Generation AI An Intro to GPT-3
@@ -235,6 +242,7 @@ Statistics Foundations Probability
 Stream Processing Design Patterns with Spark
 Tableau Essential Training
 Tableau for Data Scientists
+Telling Your Story on the Web in 60 Seconds
 TensorFlow Working with Images
 TensorFlow Working with NLP
 TensorFlow Neural Networks and Working with Tables
