@@ -2,8 +2,10 @@ AI Algorithms for Gaming
 Advanced Express
 Advanced Java Programming
 Advanced NLP with python for machine learning
+Advanced Microsoft Power BI
 Advanced Motion Graphics
 Advanced Pandas
+Advanced Power BI Custom Visuals with d3.js
 Advanced Python: Working with Databases
 Advanced SQL for Application Development
 Advanced SQL for Data Scientists
@@ -88,6 +90,7 @@ Data Science Foundations Data Engineering
 Data Science Foundations Data Mining in Python
 Data Science Foundations Python Scientific Stack
 Data Cleaning in Python Essential Training
+Data Visualization Best Practices
 Data Visualization Tips and Tricks
 Data Visualizations with Plotly
 Data Ingestion with Python
@@ -102,6 +105,8 @@ DevOps with AWS
 Docker for Data Scientists
 Exam Tips AWS Certified Solutions Architect - Associate (SAA-C02)
 Electron Building Cross Platform Desktop Apps
+Excel Business Intelligence Power Pivot and DAX
+Excel Business Intelligence Power Query
 Express Essential Training
 Faster pandas
 From React to React Native
@@ -194,6 +199,9 @@ Predictive Analytics Essential Training Data Mining
 Processing Text with Python Essential Training
 Program Databases with Transact-SQL
 PostgreSQL Essential Training
+Power BI Dataflows Essential Training
+Power BI Data Modeling with DAX
+Power BI Data Visualization and Dashboard Tips, Tricks, & Techniques
 Power BI Essential Training
 Publishing Apps and Sites with GitHub
 Python Essential Training
