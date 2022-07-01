@@ -66,6 +66,10 @@ FALTA   Building a Recommendation System with Python Machine Learning & AI
 Bootstrap 5 Essential Training
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
+Business Analytics Foundations Predictive, Prescriptive, and Experimental Analytics
+Business Analytics Forecasting with Exponential Smoothing
+Business Analytics Forecasting with Seasonal Baseline Smoothing
+Business Analytics Forecasting with Trended Baseline Smoothing
 Cert Prep LPI Linux Essentials (010-160)
 Choosing a Cloud Platform for Developers AWS, Azure, and GCP
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
@@ -109,6 +113,8 @@ Excel Business Intelligence Power Pivot and DAX
 Excel Business Intelligence Power Query
 Express Essential Training
 Faster pandas
+Financial Forecasting with Big Data
+From Excel to Tableau
 From React to React Native
 Flask Essential Training
 Full Stack Web Development with Flask
@@ -121,6 +127,9 @@ GitHub for Data Scientists
 Git Intermediate Techniques
 GitHub Quick Tips
 GraphQL Essential Training
+Hands-On Data Science 1 Analyzing Employee Data with SQL
+Hands-On Data Science 2 Sales Dashboard with Tableau
+Hands-On Data Science 3 Sales Analysis in Python
 How Do I Do That in After Effects
 Integrating Real 3D Objects in After Effects
 Interaction Design Dashboards and Visualization
@@ -159,6 +168,7 @@ Learning GraphQL
 Learning JavaScript Animations with GreenSock
 Learning JavaScript Debugging
 Learning Linux Command Line
+Learning Microsoft SQL Server 2019
 Learning Node.js
 Learning React.js
 Learning Power BI Desktop
@@ -184,10 +194,12 @@ Machine Learning in Mobile Applications
 Machine Learning with Python Decision Trees
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
+Microsoft SQL Server 2019 Essential Training
 MonogoDB Essential Training
 Motion Control 3D Bringing Photos to Life in Three Dimensions with After Effects and Photoshop CC
 Motion Design in After Effects
 Motion Graphics for Social Media
+MySQL Advanced Topics
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 Next Generation AI An Intro to GPT-3
@@ -248,6 +260,7 @@ Statistics Foundations 2
 Statistics Foundations 3
 Statistics Foundations Probability
 Stream Processing Design Patterns with Spark
+Tableau and R for Analytics Projects
 Tableau Essential Training
 Tableau for Data Scientists
 Telling Your Story on the Web in 60 Seconds
@@ -255,6 +268,7 @@ TensorFlow Working with Images
 TensorFlow Working with NLP
 TensorFlow Neural Networks and Working with Tables
 Text Analytics and Predictions with Python Essential Training
+The Essential Elements of Predictive Analytics and Data Mining
 Training Neural Networks in Python
 Transfer Learning for Images Using PyTorch Essential Training
 Transformers Text Classification for NLP Using BERT
