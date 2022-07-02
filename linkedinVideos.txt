@@ -1,4 +1,5 @@
 AI Algorithms for Gaming
+Academic Research Foundations Quantitative
 Advanced Express
 Advanced Java Programming
 Advanced NLP with python for machine learning
@@ -62,7 +63,7 @@ Build a React Application Using AWS Amplify
 Building Modern Projects with React
 Building RESTful APIs with Flask
 Building a Website with Node.js and Express.js
-FALTA   Building a Recommendation System with Python Machine Learning & AI
+Building a Recommendation System with Python Machine Learning & AI
 Bootstrap 5 Essential Training
 Building Tools with Python
 Business Analytics Foundations Descriptive, Exploratory, and Explanatory Analytics
@@ -90,6 +91,7 @@ Database Foundations Application Development
 Database Foundations Data Structures
 Database Foundations Database Management
 Data Engineering Foundations
+Data Infrastructure and AIML
 Data Science Foundations Data Engineering
 Data Science Foundations Data Mining in Python
 Data Science Foundations Python Scientific Stack
@@ -130,6 +132,7 @@ GraphQL Essential Training
 Hands-On Data Science 1 Analyzing Employee Data with SQL
 Hands-On Data Science 2 Sales Dashboard with Tableau
 Hands-On Data Science 3 Sales Analysis in Python
+Hands-On Natural Language Processing
 How Do I Do That in After Effects
 Integrating Real 3D Objects in After Effects
 Interaction Design Dashboards and Visualization
@@ -192,10 +195,12 @@ machine-learning-and-ai-foundations-producing-explainable-ai-xai-and-interpretab
 Machine Learning and AI Foundations: Value Estimations
 Machine Learning in Mobile Applications
 Machine Learning with Python Decision Trees
+Machine Learning with Python Foundations
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
 Microsoft SQL Server 2019 Essential Training
 MonogoDB Essential Training
+More Python Tips, Tricks, and Techniques for Data Science
 Motion Control 3D Bringing Photos to Life in Three Dimensions with After Effects and Photoshop CC
 Motion Design in After Effects
 Motion Graphics for Social Media
@@ -242,6 +247,7 @@ React Native Ecosystem and Workflow
 React Native Essential Training
 React Software Architecture
 React.js Building an Interface
+Reinforcement Learning Foundations
 Relational Databases Essential Training
 Sass Essential Training
 Serverless Static Websites on AWS
