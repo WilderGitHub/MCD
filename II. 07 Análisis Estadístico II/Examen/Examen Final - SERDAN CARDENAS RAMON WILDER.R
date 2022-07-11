@@ -1,4 +1,4 @@
-# Pregunta 1.
+############################# Pregunta 1. #########################
 library(dplyr)
 datos <- as.data.frame(state.x77)
 datos <- rename(habitantes = Population, analfabetismo = Illiteracy,
@@ -67,9 +67,42 @@ install.packages('car')
 library(car)
 vif(mejormodelo)
 
-# 2)
+############################# Pregunta 2. #########################
 
-# 3)
+
+grupoAntes       <- c( 2, 4, 6, 1, 3 )
+grupoDespues     <- c( 5, 2, 7, 1, 6 )
+
+diferencias <- c(grupoAntes - grupoDespues)
+rbind(grupoAntes, grupoDespues, diferencias)
+
+
+rangosDeDiferencias <- rank(abs(diferencias[diferencias != 0]))
+rangosDeDiferencias <- c(rangosDeDiferencias[1:3], 0, rangosDeDiferencias[4])
+rangosDeDiferencias
+
+
+DataFrame <-  data.frame(grupoAntes = grupoAntes, grupoDespues = grupoDespues, 
+              signo = sign(diferencias),
+              diferencia = abs(diferencias), rangos = rangosDeDiferencias)
+DataFrame
+
+positivos <- sum(DataFrame[DataFrame$signo == 1,"rangos"])
+negativos <- sum(DataFrame[ DataFrame$signo == -1,"rangos"] )
+estadisticoW <- min(c( positivos, negativos ))
+estadisticoW
+
+wilcox.test(x = grupoAntes, y = grupoDespues, 
+            alternative = "two.sided", mu = 0, paired = TRUE)
+
+
+library(coin)
+data <- data.frame(grupoAntes = grupoAntes,grupoDespues = grupoDespues)
+wilcoxsign_test(grupoAntes ~ grupoDespues, data = data, distribution = "exact")
+
+
+
+############################# Pregunta 3. #########################
 
 #read.delim(file, header = TRUE, sep = "\t", dec = ".", ...)
 insectos<-read.delim("insectos.txt", header = TRUE, sep = "\t")
@@ -146,7 +179,10 @@ p <- plot_ly(insectos, x=~insectos$abdomen, y=~insectos$pata,
              z=~insectos$organo_sexual, color=~especie) %>%
   add_markers(size=1) 
 print(p)
-# 4)
+
+
+
+############################# Pregunta 4. #########################
 
 # 4a) El modelo inicial
 

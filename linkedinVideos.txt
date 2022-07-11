@@ -1,6 +1,7 @@
 AI Algorithms for Gaming
 Academic Research Foundations Quantitative
 Advanced Express
+Advanced GitHub Actions
 Advanced Java Programming
 Advanced NLP with python for machine learning
 Advanced Microsoft Power BI
@@ -21,6 +22,7 @@ After Effects CC 2022 Essential Training
 After Effects CC 2021 Essential Training Motion Graphics
 After Effects CC 2021 Essential Training VFX
 After Effects Principles of Motion Graphics
+Algorithmic Thinking with Python Foundations
 Amazon Redshift Essentials
 Android Development Essential Training 1 Your First App
 Android Development Essential Training 2 User Interface Design
@@ -61,6 +63,7 @@ Building Dynamic Websites using AWS Lambdas
 Building a GraphQL Project with React.js
 Build a React Application Using AWS Amplify
 Building Modern Projects with React
+Building Monorepos on GitHub
 Building RESTful APIs with Flask
 Building a Website with Node.js and Express.js
 Building a Recommendation System with Python Machine Learning & AI
@@ -71,6 +74,8 @@ Business Analytics Foundations Predictive, Prescriptive, and Experimental Analyt
 Business Analytics Forecasting with Exponential Smoothing
 Business Analytics Forecasting with Seasonal Baseline Smoothing
 Business Analytics Forecasting with Trended Baseline Smoothing
+C++ Essential Training
+Camtasia Essential Training Advanced Techniques
 Cert Prep LPI Linux Essentials (010-160)
 Choosing a Cloud Platform for Developers AWS, Azure, and GCP
 Choosing a Database PostgreSQL, MySQL, Mongo, and Cloud
@@ -120,6 +125,7 @@ From Excel to Tableau
 From React to React Native
 Flask Essential Training
 Full Stack Web Development with Flask
+Fundamentals of Dynamic Programming
 Functional Programming with Python
 Getting Started in After Effects for Photoshop Users
 Git Branches, Merges, and Remotes
@@ -134,6 +140,7 @@ Hands-On Data Science 2 Sales Dashboard with Tableau
 Hands-On Data Science 3 Sales Analysis in Python
 Hands-On Natural Language Processing
 How Do I Do That in After Effects
+InDesign 2022 Essential Training
 Integrating Real 3D Objects in After Effects
 Interaction Design Dashboards and Visualization
 Intermediate SQL for Data Scientists
@@ -167,7 +174,9 @@ Learning ECMAScript 6+ (ES6+)
 Learning Full-Stack JavaScript Development MongoDB, Node, and React
 Learning Git and GitHub
 Learning GitHub
+Learning GitHub Packages
 Learning GraphQL
+Learning Java
 Learning JavaScript Animations with GreenSock
 Learning JavaScript Debugging
 Learning Linux Command Line
@@ -205,6 +214,7 @@ Motion Control 3D Bringing Photos to Life in Three Dimensions with After Effects
 Motion Design in After Effects
 Motion Graphics for Social Media
 MySQL Advanced Topics
+Nail Your SQL Interview
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 Next Generation AI An Intro to GPT-3
@@ -216,12 +226,16 @@ Predictive Analytics Essential Training Data Mining
 Processing Text with Python Essential Training
 Program Databases with Transact-SQL
 PostgreSQL Essential Training
+Postman Essential Training
 Power BI Dataflows Essential Training
 Power BI Data Modeling with DAX
 Power BI Data Visualization and Dashboard Tips, Tricks, & Techniques
 Power BI Essential Training
+Premiere Pro 2020 Essential Training
 Publishing Apps and Sites with GitHub
+Python Essential Libraries
 Python Essential Training
+Python Data Science Mistakes to Avoid
 Python Data Structures and Algorithms
 Python Data Analysis
 Python: Design Patterns
@@ -230,6 +244,8 @@ Python for Data Science Essential Training Part 1
 Python for Data Science Essential Training Part 2
 Python for Data Visualization
 Python for Engineers and Scientists
+Python Functions for Data Science
+Python Programming Efficiently
 Python Project Build a Quiz Application
 Python Projects
 Python vs. JavaScript for Development
@@ -250,8 +266,10 @@ React.js Building an Interface
 Reinforcement Learning Foundations
 Relational Databases Essential Training
 Sass Essential Training
+Selenium Essential Training
 Serverless Static Websites on AWS
 Scrollytelling Creating a One-Page Web Experience
+Software Design From Requirements to Release
 Spark for Machine Learning & AI
 SQL Data Science Code Challenges
 SQL Data Reporting and Analysis
