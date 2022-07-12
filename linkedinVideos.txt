@@ -191,6 +191,7 @@ Learning R
 Learning React Native
 Learning Selenium
 Learning SQL Programming
+Learning SOLID Programming Principles
 Learning the AWS Well-Architected Framework
 Learning TensorFlow with JavaScript
 Linux Foundation Cert Prep Essential Commands (Ubuntu)
@@ -221,6 +222,8 @@ Next Generation AI An Intro to GPT-3
 NLP with Python for Machine Learning Essential Training
 Node.js Essential Training
 NoSQL Essential Training
+NumPy Essential Training 1 Foundations of NumPy
+NumPy Essential Training 2 MatPlotlib and Linear Algebra Capabilities
 Practice JavaScript Loops and Conditionals
 Predictive Analytics Essential Training Data Mining
 Processing Text with Python Essential Training
@@ -265,6 +268,7 @@ React Software Architecture
 React.js Building an Interface
 Reinforcement Learning Foundations
 Relational Databases Essential Training
+RPA Automation Anywhere
 Sass Essential Training
 Selenium Essential Training
 Serverless Static Websites on AWS
@@ -296,6 +300,7 @@ The Essential Elements of Predictive Analytics and Data Mining
 Training Neural Networks in Python
 Transfer Learning for Images Using PyTorch Essential Training
 Transformers Text Classification for NLP Using BERT
+Using Python for Automation
 Using Python with Excel
 Using SQL with Python
 Using Tableau to Discover Powerful Business Insights (2021)
