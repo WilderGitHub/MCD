@@ -1,0 +1,1000 @@
+genero;edad;distancia;comida;limpieza;retraso;satisfaccion
+Male;13;460;5;5;25;neutral or dissatisfied
+Male;25;235;1;1;1;neutral or dissatisfied
+Female;26;1142;5;5;0;satisfied
+Female;25;562;2;2;11;neutral or dissatisfied
+Male;61;214;4;3;0;satisfied
+Female;26;1180;1;1;0;neutral or dissatisfied
+Male;47;1276;2;2;9;neutral or dissatisfied
+Female;52;2035;5;4;4;satisfied
+Female;41;853;4;2;0;neutral or dissatisfied
+Male;20;1061;2;2;0;neutral or dissatisfied
+Female;24;1182;2;2;0;neutral or dissatisfied
+Female;12;308;1;1;0;neutral or dissatisfied
+Male;53;834;1;1;28;neutral or dissatisfied
+Male;33;946;4;4;0;satisfied
+Female;26;453;2;2;43;neutral or dissatisfied
+Male;13;486;4;4;1;neutral or dissatisfied
+Female;26;2123;4;4;49;satisfied
+Male;41;2075;4;5;0;satisfied
+Female;45;2486;3;4;7;satisfied
+Male;38;460;5;5;17;neutral or dissatisfied
+Male;9;1174;2;2;0;neutral or dissatisfied
+Female;17;208;5;5;0;neutral or dissatisfied
+Female;43;752;5;4;52;neutral or dissatisfied
+Female;58;2139;4;2;0;neutral or dissatisfied
+Female;23;452;1;1;54;satisfied
+Male;57;719;5;5;27;neutral or dissatisfied
+Female;33;1561;1;2;0;satisfied
+Female;49;315;2;2;0;satisfied
+Female;36;3347;1;2;18;neutral or dissatisfied
+Male;22;2342;3;3;19;neutral or dissatisfied
+Female;31;819;5;5;0;satisfied
+Female;15;1043;5;5;3;neutral or dissatisfied
+Female;35;2611;4;4;109;satisfied
+Female;67;1192;2;5;18;neutral or dissatisfied
+Male;37;1182;1;1;9;neutral or dissatisfied
+Female;40;349;1;1;0;neutral or dissatisfied
+Female;34;883;5;5;0;neutral or dissatisfied
+Male;40;550;2;2;23;neutral or dissatisfied
+Female;47;302;2;4;23;satisfied
+Male;41;354;1;1;0;neutral or dissatisfied
+Male;39;1734;3;3;0;satisfied
+Female;25;1452;3;3;9;neutral or dissatisfied
+Male;41;296;2;3;0;satisfied
+Female;38;2882;2;4;0;satisfied
+Female;50;460;3;5;1;satisfied
+Male;29;529;5;5;4;satisfied
+Female;22;349;4;4;0;neutral or dissatisfied
+Female;13;1522;1;1;0;neutral or dissatisfied
+Male;54;612;5;3;8;satisfied
+Male;21;1454;5;5;0;neutral or dissatisfied
+Male;28;731;2;2;14;neutral or dissatisfied
+Male;27;2076;4;4;0;satisfied
+Female;69;309;1;2;0;satisfied
+Male;35;775;4;4;1;neutral or dissatisfied
+Female;60;861;1;4;10;neutral or dissatisfied
+Female;45;3334;4;5;51;satisfied
+Female;57;2496;3;5;0;satisfied
+Male;40;602;2;4;0;satisfied
+Female;38;308;4;4;39;neutral or dissatisfied
+Male;23;446;4;4;4;neutral or dissatisfied
+Male;39;216;3;3;0;neutral or dissatisfied
+Female;52;3475;4;3;0;satisfied
+Male;25;646;4;4;13;neutral or dissatisfied
+Female;48;2501;5;4;0;satisfied
+Female;59;2227;2;4;30;satisfied
+Male;25;1426;4;4;4;satisfied
+Male;38;190;4;4;0;neutral or dissatisfied
+Male;46;1532;2;4;0;satisfied
+Male;50;308;2;2;18;neutral or dissatisfied
+Female;38;157;4;4;0;satisfied
+Female;53;1506;3;5;0;satisfied
+Male;30;205;3;3;64;neutral or dissatisfied
+Male;39;895;5;5;0;neutral or dissatisfied
+Male;66;516;2;2;0;neutral or dissatisfied
+Male;45;909;1;1;0;neutral or dissatisfied
+Female;25;1435;1;1;1;satisfied
+Male;52;1190;1;4;0;neutral or dissatisfied
+Male;64;1259;2;2;20;satisfied
+Female;50;216;4;4;0;neutral or dissatisfied
+Female;41;1670;3;3;0;neutral or dissatisfied
+Male;26;3960;4;4;45;satisfied
+Female;25;817;3;3;0;neutral or dissatisfied
+Female;44;1670;5;5;0;neutral or dissatisfied
+Female;21;861;1;1;0;satisfied
+Male;47;406;3;4;44;satisfied
+Male;31;404;4;4;17;satisfied
+Female;57;500;3;5;0;neutral or dissatisfied
+Male;44;689;5;5;0;neutral or dissatisfied
+Male;45;3100;1;1;0;satisfied
+Male;13;525;3;3;0;neutral or dissatisfied
+Male;60;931;4;4;0;satisfied
+Female;41;304;2;2;31;satisfied
+Male;30;1896;4;4;81;neutral or dissatisfied
+Female;51;261;4;1;0;satisfied
+Female;61;347;5;4;0;satisfied
+Female;32;1042;4;4;35;satisfied
+Female;39;1773;5;5;14;neutral or dissatisfied
+Male;19;342;3;3;0;neutral or dissatisfied
+Female;15;297;5;5;67;neutral or dissatisfied
+Female;42;883;3;3;22;satisfied
+Female;16;332;3;3;40;neutral or dissatisfied
+Male;19;2388;4;4;0;satisfied
+Female;29;748;5;5;0;neutral or dissatisfied
+Female;27;1080;3;3;0;neutral or dissatisfied
+Male;22;231;5;5;0;satisfied
+Female;15;551;4;4;3;neutral or dissatisfied
+Male;11;972;1;1;0;neutral or dissatisfied
+Female;34;265;5;5;0;neutral or dissatisfied
+Female;26;488;1;1;0;neutral or dissatisfied
+Female;26;1144;4;4;0;neutral or dissatisfied
+Male;53;2332;5;3;0;satisfied
+Male;36;3024;1;1;30;neutral or dissatisfied
+Male;32;1750;1;1;0;neutral or dissatisfied
+Male;20;483;5;5;91;neutral or dissatisfied
+Female;35;2128;1;4;0;satisfied
+Male;15;235;1;1;1;neutral or dissatisfied
+Male;52;689;3;3;0;neutral or dissatisfied
+Male;45;1852;5;5;0;satisfied
+Female;24;372;3;3;21;neutral or dissatisfied
+Female;46;3705;4;4;4;neutral or dissatisfied
+Male;26;416;1;1;0;neutral or dissatisfied
+Male;28;337;4;4;3;neutral or dissatisfied
+Male;11;335;3;3;0;neutral or dissatisfied
+Male;45;1400;2;5;4;satisfied
+Male;62;2521;4;1;7;neutral or dissatisfied
+Female;34;374;4;3;0;satisfied
+Male;51;308;4;5;17;satisfied
+Female;58;575;2;4;14;neutral or dissatisfied
+Male;22;618;3;3;0;neutral or dissatisfied
+Male;8;1304;4;4;0;satisfied
+Male;26;351;2;2;4;satisfied
+Female;22;549;3;3;15;neutral or dissatisfied
+Female;21;3510;3;3;0;neutral or dissatisfied
+Male;31;1620;3;3;0;neutral or dissatisfied
+Female;44;326;2;5;0;neutral or dissatisfied
+Male;27;588;5;5;0;satisfied
+Female;47;1020;2;5;0;satisfied
+Male;24;2903;3;3;0;neutral or dissatisfied
+Male;67;2659;1;1;0;neutral or dissatisfied
+Male;32;3037;4;4;0;satisfied
+Female;58;2475;4;1;29;satisfied
+Male;12;978;1;1;0;neutral or dissatisfied
+Female;56;2568;5;4;0;neutral or dissatisfied
+Female;58;371;2;3;0;neutral or dissatisfied
+Male;24;791;5;5;39;neutral or dissatisfied
+Male;68;480;5;5;7;neutral or dissatisfied
+Male;46;1786;3;3;1;satisfied
+Male;43;1849;2;4;0;satisfied
+Female;55;3634;4;3;0;satisfied
+Female;54;844;2;4;0;neutral or dissatisfied
+Female;42;3094;4;3;0;satisfied
+Female;47;3465;3;4;13;neutral or dissatisfied
+Female;29;1035;5;5;0;neutral or dissatisfied
+Female;36;237;2;2;0;neutral or dissatisfied
+Female;50;3175;2;3;0;satisfied
+Female;31;760;1;1;17;neutral or dissatisfied
+Male;13;853;4;4;105;neutral or dissatisfied
+Male;24;446;5;5;0;neutral or dissatisfied
+Female;60;1071;4;1;0;satisfied
+Female;42;728;5;2;0;neutral or dissatisfied
+Female;57;2585;4;4;0;satisfied
+Female;42;707;2;3;27;satisfied
+Male;20;861;2;2;0;satisfied
+Female;51;719;3;3;19;neutral or dissatisfied
+Male;45;1790;2;4;0;satisfied
+Female;26;680;5;5;12;satisfied
+Male;26;888;5;5;51;neutral or dissatisfied
+Female;24;1660;3;3;0;neutral or dissatisfied
+Male;49;578;5;5;162;satisfied
+Female;17;606;5;5;15;satisfied
+Female;39;1487;4;3;7;satisfied
+Female;49;317;3;5;0;satisfied
+Female;48;844;4;3;0;neutral or dissatisfied
+Male;52;3747;2;5;24;satisfied
+Female;25;2748;3;3;0;satisfied
+Female;16;1503;3;3;0;neutral or dissatisfied
+Male;58;1717;2;4;0;satisfied
+Male;8;1117;3;3;0;neutral or dissatisfied
+Male;42;1372;4;4;141;satisfied
+Female;52;2768;2;4;0;neutral or dissatisfied
+Female;47;370;2;4;0;satisfied
+Female;69;1546;4;3;1;neutral or dissatisfied
+Female;47;1023;5;4;0;neutral or dissatisfied
+Female;41;3636;3;2;0;satisfied
+Female;40;1325;1;1;0;neutral or dissatisfied
+Female;56;2556;3;2;0;neutral or dissatisfied
+Male;41;1052;4;4;6;satisfied
+Female;40;773;3;3;15;neutral or dissatisfied
+Male;12;817;1;1;0;neutral or dissatisfied
+Male;59;516;1;1;3;satisfied
+Female;21;447;2;2;34;neutral or dissatisfied
+Male;12;462;2;2;0;neutral or dissatisfied
+Male;31;361;1;1;0;neutral or dissatisfied
+Female;37;125;2;2;6;neutral or dissatisfied
+Female;38;271;2;2;0;satisfied
+Male;45;173;2;2;0;neutral or dissatisfied
+Male;43;1950;4;5;0;satisfied
+Female;52;719;3;3;0;neutral or dissatisfied
+Female;57;153;5;2;0;neutral or dissatisfied
+Female;13;337;1;1;0;neutral or dissatisfied
+Female;45;3732;5;4;17;satisfied
+Female;43;3854;5;3;0;satisfied
+Male;53;977;2;2;20;neutral or dissatisfied
+Male;23;3073;5;5;0;satisfied
+Female;16;1379;2;2;2;neutral or dissatisfied
+Male;23;631;2;2;0;neutral or dissatisfied
+Male;45;666;4;4;0;neutral or dissatisfied
+Female;46;2820;2;3;1;satisfied
+Female;49;577;3;3;23;neutral or dissatisfied
+Female;40;2808;3;3;7;neutral or dissatisfied
+Female;19;2172;4;4;0;satisfied
+Female;48;1192;4;1;0;neutral or dissatisfied
+Female;64;1773;5;4;0;neutral or dissatisfied
+Female;38;109;5;5;31;satisfied
+Male;23;1749;3;3;97;neutral or dissatisfied
+Female;38;3753;1;1;0;satisfied
+Male;41;214;2;2;16;neutral or dissatisfied
+Male;29;1020;1;1;0;neutral or dissatisfied
+Male;47;368;4;4;0;satisfied
+Male;50;1448;4;4;20;neutral or dissatisfied
+Female;18;1127;3;3;0;neutral or dissatisfied
+Female;20;545;5;5;4;neutral or dissatisfied
+Female;41;3238;5;4;0;satisfied
+Female;12;2466;1;1;0;neutral or dissatisfied
+Female;36;2715;2;2;0;neutral or dissatisfied
+Male;49;337;4;3;10;satisfied
+Female;55;1608;2;2;0;neutral or dissatisfied
+Female;43;3004;2;2;0;neutral or dissatisfied
+Female;49;980;3;3;11;neutral or dissatisfied
+Female;35;1462;3;3;0;neutral or dissatisfied
+Male;45;1521;3;4;0;satisfied
+Female;28;862;5;5;9;satisfied
+Male;60;1833;1;2;0;satisfied
+Male;35;2398;1;3;0;neutral or dissatisfied
+Female;38;349;4;4;29;neutral or dissatisfied
+Male;48;1722;4;1;0;satisfied
+Female;65;578;2;3;99;neutral or dissatisfied
+Male;30;163;1;1;9;neutral or dissatisfied
+Female;51;395;2;1;0;neutral or dissatisfied
+Male;23;416;4;4;18;satisfied
+Female;37;977;3;3;0;neutral or dissatisfied
+Male;23;3095;5;5;9;satisfied
+Male;32;738;4;4;0;neutral or dissatisfied
+Male;67;719;1;1;24;neutral or dissatisfied
+Male;65;226;5;3;37;neutral or dissatisfied
+Female;48;1943;3;5;0;satisfied
+Male;60;2371;2;3;66;satisfied
+Female;31;551;3;3;53;neutral or dissatisfied
+Male;22;493;4;4;19;satisfied
+Male;27;925;5;5;4;neutral or dissatisfied
+Female;19;405;1;1;0;neutral or dissatisfied
+Female;26;1055;4;4;0;neutral or dissatisfied
+Male;72;305;4;4;0;neutral or dissatisfied
+Female;34;589;1;5;0;satisfied
+Female;45;1587;4;3;0;satisfied
+Male;51;3090;3;1;0;neutral or dissatisfied
+Female;26;804;4;4;7;neutral or dissatisfied
+Female;12;719;1;1;0;neutral or dissatisfied
+Female;72;67;2;3;28;neutral or dissatisfied
+Male;45;550;4;4;0;satisfied
+Female;22;2809;5;5;36;satisfied
+Female;53;552;4;5;0;neutral or dissatisfied
+Female;33;356;4;4;12;neutral or dissatisfied
+Female;46;119;5;3;13;neutral or dissatisfied
+Male;54;1545;5;4;1;satisfied
+Female;40;819;4;4;23;neutral or dissatisfied
+Female;37;1801;4;4;0;neutral or dissatisfied
+Female;35;1658;1;3;6;satisfied
+Female;26;114;4;4;0;satisfied
+Female;62;128;2;1;0;satisfied
+Male;58;813;5;3;0;satisfied
+Female;55;349;2;3;0;neutral or dissatisfied
+Female;60;1508;2;2;15;neutral or dissatisfied
+Female;15;89;5;5;0;neutral or dissatisfied
+Male;67;157;5;5;45;neutral or dissatisfied
+Male;43;2828;5;5;39;satisfied
+Male;30;3131;5;5;7;satisfied
+Female;42;718;3;1;0;satisfied
+Male;40;1959;4;4;209;satisfied
+Male;47;3496;2;4;0;satisfied
+Male;38;2300;4;2;60;neutral or dissatisfied
+Female;25;2845;3;3;0;neutral or dissatisfied
+Male;26;406;3;3;149;neutral or dissatisfied
+Male;66;580;4;4;26;neutral or dissatisfied
+Female;69;735;3;2;12;neutral or dissatisfied
+Female;22;1722;2;2;0;neutral or dissatisfied
+Male;8;1201;3;3;24;neutral or dissatisfied
+Female;37;372;4;4;11;satisfied
+Female;69;1072;4;4;18;neutral or dissatisfied
+Male;28;733;4;4;15;neutral or dissatisfied
+Male;51;1075;2;2;5;neutral or dissatisfied
+Female;46;2586;3;4;59;neutral or dissatisfied
+Male;39;140;4;4;0;satisfied
+Female;21;903;1;1;35;neutral or dissatisfied
+Male;46;2423;2;5;1;satisfied
+Female;36;3130;5;3;62;satisfied
+Male;60;2198;3;3;23;satisfied
+Male;23;602;2;2;21;neutral or dissatisfied
+Male;52;685;4;4;0;satisfied
+Male;36;1208;4;4;3;satisfied
+Male;41;2789;4;5;10;satisfied
+Male;45;3305;3;3;8;satisfied
+Male;67;2342;5;5;0;neutral or dissatisfied
+Female;45;3712;3;5;0;satisfied
+Female;56;1431;4;5;91;neutral or dissatisfied
+Female;62;255;2;2;113;neutral or dissatisfied
+Female;30;3720;2;2;27;neutral or dissatisfied
+Male;48;1107;4;4;0;satisfied
+Female;32;2999;4;4;28;satisfied
+Female;30;2438;2;2;38;satisfied
+Female;40;156;4;4;0;neutral or dissatisfied
+Male;42;3665;5;3;83;satisfied
+Female;52;2917;5;5;15;satisfied
+Male;50;1235;3;3;0;satisfied
+Female;18;549;2;2;0;neutral or dissatisfied
+Male;30;1500;5;5;0;satisfied
+Female;26;190;1;1;0;neutral or dissatisfied
+Male;37;468;4;4;0;satisfied
+Male;64;261;1;1;0;neutral or dissatisfied
+Male;21;255;2;2;0;satisfied
+Female;52;1609;3;3;0;neutral or dissatisfied
+Female;52;413;5;3;4;satisfied
+Female;29;119;5;5;0;neutral or dissatisfied
+Female;13;387;1;1;16;neutral or dissatisfied
+Male;28;1087;5;5;0;satisfied
+Male;13;323;2;2;15;neutral or dissatisfied
+Male;16;282;5;5;8;neutral or dissatisfied
+Male;58;1721;3;5;18;satisfied
+Male;24;347;5;5;0;neutral or dissatisfied
+Male;25;3465;2;2;0;neutral or dissatisfied
+Male;34;948;4;4;0;neutral or dissatisfied
+Female;44;1707;5;3;0;satisfied
+Female;23;1372;1;1;0;neutral or dissatisfied
+Male;20;369;1;1;0;satisfied
+Male;8;552;3;3;0;neutral or dissatisfied
+Female;26;1188;1;1;0;neutral or dissatisfied
+Male;43;1005;5;5;0;neutral or dissatisfied
+Female;72;1870;3;4;0;neutral or dissatisfied
+Female;48;896;4;1;12;satisfied
+Male;27;429;3;3;0;neutral or dissatisfied
+Male;25;1796;4;4;176;neutral or dissatisfied
+Male;26;842;5;5;38;neutral or dissatisfied
+Male;16;1107;1;1;0;neutral or dissatisfied
+Female;36;327;5;5;0;neutral or dissatisfied
+Male;55;432;5;5;0;neutral or dissatisfied
+Female;23;577;5;5;0;satisfied
+Male;50;1877;5;4;0;neutral or dissatisfied
+Female;45;1123;2;3;0;satisfied
+Male;57;1749;4;4;19;satisfied
+Female;50;2454;5;5;46;satisfied
+Female;42;270;3;4;0;neutral or dissatisfied
+Female;34;1825;3;3;13;satisfied
+Female;17;191;4;4;39;neutral or dissatisfied
+Male;45;679;4;4;0;satisfied
+Female;59;812;4;4;0;satisfied
+Male;39;1056;5;5;20;satisfied
+Male;28;101;2;2;0;neutral or dissatisfied
+Female;44;73;4;1;0;neutral or dissatisfied
+Male;9;936;4;4;22;satisfied
+Female;24;287;5;5;0;neutral or dissatisfied
+Female;37;255;3;3;0;neutral or dissatisfied
+Female;25;317;5;5;9;satisfied
+Male;22;2027;4;4;7;satisfied
+Male;55;936;5;5;0;satisfied
+Male;53;432;4;4;0;satisfied
+Female;46;888;5;4;0;satisfied
+Male;62;1061;5;5;0;satisfied
+Female;53;216;5;4;0;satisfied
+Female;50;1814;2;4;0;satisfied
+Male;57;2993;2;3;0;satisfied
+Female;54;2632;2;5;0;satisfied
+Female;42;199;5;5;0;satisfied
+Male;17;802;4;4;0;neutral or dissatisfied
+Female;53;581;3;3;1;satisfied
+Male;49;1938;3;4;22;satisfied
+Female;37;174;5;5;0;satisfied
+Male;35;326;4;4;0;satisfied
+Male;30;1821;2;2;5;neutral or dissatisfied
+Female;16;1437;5;5;0;neutral or dissatisfied
+Male;46;3995;3;4;0;satisfied
+Female;51;1488;4;2;73;neutral or dissatisfied
+Male;70;1892;1;1;0;neutral or dissatisfied
+Male;26;502;5;5;53;neutral or dissatisfied
+Male;46;2491;4;3;0;satisfied
+Female;12;944;1;1;20;neutral or dissatisfied
+Male;25;496;4;4;0;satisfied
+Female;63;329;5;3;0;satisfied
+Female;48;402;4;3;0;satisfied
+Female;43;3946;3;4;0;satisfied
+Female;35;337;2;5;54;satisfied
+Female;32;2133;4;4;0;satisfied
+Male;44;192;4;4;0;neutral or dissatisfied
+Male;60;491;5;5;22;neutral or dissatisfied
+Female;20;1120;2;2;0;neutral or dissatisfied
+Female;10;1440;4;4;0;neutral or dissatisfied
+Female;51;140;1;2;0;neutral or dissatisfied
+Female;22;451;2;2;0;neutral or dissatisfied
+Female;42;798;5;3;1;neutral or dissatisfied
+Male;32;3607;5;5;0;satisfied
+Male;24;1096;1;1;1;neutral or dissatisfied
+Female;43;373;2;3;0;satisfied
+Male;7;405;4;4;3;neutral or dissatisfied
+Male;29;2542;5;5;18;satisfied
+Female;48;907;5;5;0;satisfied
+Male;25;1258;3;2;199;neutral or dissatisfied
+Male;25;550;1;1;56;neutral or dissatisfied
+Female;35;602;3;4;0;satisfied
+Female;57;1399;4;4;3;neutral or dissatisfied
+Male;52;3245;2;3;93;satisfied
+Female;17;677;4;4;0;satisfied
+Female;30;1616;1;1;70;neutral or dissatisfied
+Male;38;1561;2;5;0;satisfied
+Female;38;285;1;5;0;satisfied
+Female;38;1189;3;3;3;neutral or dissatisfied
+Male;23;1021;3;3;0;satisfied
+Female;39;2442;2;4;80;satisfied
+Female;55;918;5;4;12;neutral or dissatisfied
+Female;25;545;5;5;0;neutral or dissatisfied
+Male;59;459;4;3;0;neutral or dissatisfied
+Female;9;804;1;1;0;neutral or dissatisfied
+Female;26;569;3;3;96;satisfied
+Male;51;3991;3;3;0;satisfied
+Male;40;1620;4;5;0;satisfied
+Male;56;1173;4;1;0;neutral or dissatisfied
+Female;56;236;5;5;57;neutral or dissatisfied
+Female;18;134;3;3;0;neutral or dissatisfied
+Female;8;647;2;2;0;neutral or dissatisfied
+Male;33;654;4;4;0;satisfied
+Male;46;2623;3;5;0;satisfied
+Female;41;209;1;2;95;neutral or dissatisfied
+Female;36;257;4;1;0;satisfied
+Male;26;1629;5;5;0;satisfied
+Female;36;371;5;5;11;neutral or dissatisfied
+Male;31;2201;2;2;0;satisfied
+Male;24;836;1;1;27;neutral or dissatisfied
+Female;39;3081;2;4;7;satisfied
+Female;20;859;4;4;3;neutral or dissatisfied
+Female;69;1055;3;3;29;neutral or dissatisfied
+Female;27;399;5;5;0;neutral or dissatisfied
+Female;10;632;3;3;44;neutral or dissatisfied
+Male;60;3626;4;5;35;satisfied
+Male;44;833;3;4;15;satisfied
+Female;68;1288;4;5;6;neutral or dissatisfied
+Male;41;2163;5;4;60;neutral or dissatisfied
+Female;46;645;3;3;141;neutral or dissatisfied
+Male;54;515;3;3;44;neutral or dissatisfied
+Female;44;3767;5;2;44;neutral or dissatisfied
+Male;43;888;4;4;0;satisfied
+Female;44;288;4;4;0;satisfied
+Female;26;1024;5;5;16;neutral or dissatisfied
+Male;48;3185;5;5;0;satisfied
+Male;30;2974;4;4;74;satisfied
+Female;46;2981;2;3;1;satisfied
+Male;23;1428;2;2;0;neutral or dissatisfied
+Male;39;2454;5;3;0;satisfied
+Male;24;3482;4;4;0;satisfied
+Female;48;296;4;3;0;neutral or dissatisfied
+Male;63;391;5;5;0;neutral or dissatisfied
+Male;37;3744;5;5;172;satisfied
+Male;37;1558;1;3;0;neutral or dissatisfied
+Male;57;1389;5;5;0;satisfied
+Male;21;1947;1;1;0;neutral or dissatisfied
+Male;9;776;2;2;16;neutral or dissatisfied
+Female;24;3536;4;4;0;satisfied
+Male;36;414;3;3;0;neutral or dissatisfied
+Male;44;3165;4;3;0;satisfied
+Female;49;1600;4;3;0;neutral or dissatisfied
+Male;42;3605;3;3;0;satisfied
+Female;52;247;5;3;0;satisfied
+Male;52;550;2;2;0;neutral or dissatisfied
+Male;20;446;1;1;0;neutral or dissatisfied
+Male;47;728;1;3;0;satisfied
+Male;45;3692;1;4;63;neutral or dissatisfied
+Female;44;3979;3;3;0;satisfied
+Female;47;3546;4;2;19;neutral or dissatisfied
+Female;57;177;1;5;91;satisfied
+Female;34;760;4;3;6;satisfied
+Female;26;2378;4;4;4;satisfied
+Female;45;228;3;5;0;satisfied
+Female;33;163;2;3;0;satisfied
+Male;22;251;2;2;0;neutral or dissatisfied
+Male;51;406;5;4;9;satisfied
+Male;60;624;4;4;175;satisfied
+Male;40;3764;4;3;16;satisfied
+Male;62;696;2;2;24;neutral or dissatisfied
+Female;68;746;5;3;27;neutral or dissatisfied
+Male;38;2930;2;3;7;neutral or dissatisfied
+Male;44;192;3;3;23;satisfied
+Male;11;507;1;1;11;neutral or dissatisfied
+Female;33;226;2;2;0;neutral or dissatisfied
+Female;10;338;5;5;0;neutral or dissatisfied
+Male;51;380;2;2;16;satisfied
+Male;34;3144;3;1;3;satisfied
+Male;69;3714;1;1;0;neutral or dissatisfied
+Female;49;90;3;3;0;satisfied
+Male;30;204;2;2;105;neutral or dissatisfied
+Female;40;399;1;1;0;neutral or dissatisfied
+Female;29;802;2;2;0;neutral or dissatisfied
+Male;68;406;3;3;0;neutral or dissatisfied
+Female;53;676;5;3;0;neutral or dissatisfied
+Female;24;1476;5;5;0;satisfied
+Male;43;3677;4;5;2;satisfied
+Male;7;1034;2;4;143;neutral or dissatisfied
+Female;65;1042;3;5;48;neutral or dissatisfied
+Female;8;597;2;2;0;neutral or dissatisfied
+Male;50;1635;4;4;0;neutral or dissatisfied
+Male;26;2556;3;4;0;neutral or dissatisfied
+Female;24;859;2;2;37;neutral or dissatisfied
+Female;55;1236;3;5;0;neutral or dissatisfied
+Female;21;192;1;1;0;neutral or dissatisfied
+Female;57;649;4;3;27;satisfied
+Male;22;936;4;4;0;satisfied
+Female;49;484;3;3;0;neutral or dissatisfied
+Female;31;2279;3;3;0;neutral or dissatisfied
+Male;21;1444;5;1;1;satisfied
+Female;38;1389;2;2;3;satisfied
+Female;42;1846;5;4;0;neutral or dissatisfied
+Male;55;1884;3;5;4;satisfied
+Male;26;285;3;3;0;neutral or dissatisfied
+Male;43;2256;5;2;19;neutral or dissatisfied
+Male;12;2342;4;4;31;neutral or dissatisfied
+Female;32;163;2;2;0;neutral or dissatisfied
+Female;46;2502;3;5;5;satisfied
+Male;19;337;4;4;12;neutral or dissatisfied
+Female;38;261;4;3;0;satisfied
+Female;52;332;4;3;1;satisfied
+Male;47;707;3;3;16;neutral or dissatisfied
+Male;19;888;1;1;1;neutral or dissatisfied
+Female;43;301;5;5;0;neutral or dissatisfied
+Female;23;130;2;2;8;neutral or dissatisfied
+Male;45;3052;3;3;0;satisfied
+Female;58;2405;2;2;10;satisfied
+Male;25;2585;3;3;0;neutral or dissatisfied
+Female;68;666;1;5;2;neutral or dissatisfied
+Female;64;3239;3;3;0;satisfied
+Male;57;2718;3;4;2;satisfied
+Female;43;362;4;3;47;neutral or dissatisfied
+Male;28;3545;5;5;45;satisfied
+Male;30;813;3;3;105;neutral or dissatisfied
+Male;23;1698;5;5;101;satisfied
+Male;37;148;4;4;1;satisfied
+Male;54;544;5;5;0;satisfied
+Female;40;3011;4;4;9;satisfied
+Male;47;783;5;5;0;satisfied
+Female;24;255;3;3;0;satisfied
+Female;25;140;4;4;27;neutral or dissatisfied
+Female;40;809;4;4;118;satisfied
+Female;38;2472;3;5;0;satisfied
+Female;45;175;1;1;0;satisfied
+Female;29;331;3;3;0;neutral or dissatisfied
+Female;42;2243;4;5;18;satisfied
+Female;42;1874;3;3;0;neutral or dissatisfied
+Male;27;326;5;5;5;neutral or dissatisfied
+Male;38;130;1;1;15;neutral or dissatisfied
+Female;64;1158;4;3;0;neutral or dissatisfied
+Male;46;2074;3;3;27;neutral or dissatisfied
+Male;46;1635;5;5;26;satisfied
+Female;53;1744;4;4;0;satisfied
+Male;48;1703;4;4;45;neutral or dissatisfied
+Female;9;883;1;1;28;neutral or dissatisfied
+Male;39;1979;3;3;0;satisfied
+Male;16;306;5;5;76;neutral or dissatisfied
+Male;29;992;5;5;0;neutral or dissatisfied
+Female;41;2077;5;3;0;satisfied
+Male;51;3304;5;5;0;satisfied
+Female;42;2274;3;3;0;satisfied
+Male;51;1084;3;4;0;satisfied
+Female;50;2335;4;3;0;satisfied
+Male;48;1851;2;4;0;satisfied
+Male;50;3960;3;5;0;satisfied
+Male;20;1269;3;3;0;neutral or dissatisfied
+Female;36;965;3;3;4;neutral or dissatisfied
+Male;10;192;2;2;3;neutral or dissatisfied
+Male;64;1728;1;1;18;neutral or dissatisfied
+Male;58;541;1;1;4;neutral or dissatisfied
+Female;55;1440;5;3;0;satisfied
+Female;64;213;5;5;0;neutral or dissatisfied
+Male;52;3496;3;3;0;satisfied
+Male;10;325;1;1;13;neutral or dissatisfied
+Male;7;491;5;5;22;neutral or dissatisfied
+Female;43;253;5;5;0;satisfied
+Female;42;1010;1;2;0;satisfied
+Female;16;2899;4;4;220;satisfied
+Male;51;2093;3;3;0;satisfied
+Male;35;2295;1;2;18;neutral or dissatisfied
+Male;47;1749;5;5;0;neutral or dissatisfied
+Female;35;668;5;5;0;neutral or dissatisfied
+Female;13;1384;4;4;141;neutral or dissatisfied
+Male;24;326;3;3;1;satisfied
+Male;34;2627;3;4;0;satisfied
+Male;51;1644;4;5;9;satisfied
+Male;39;813;2;2;0;neutral or dissatisfied
+Female;35;200;2;2;0;neutral or dissatisfied
+Female;48;304;4;3;33;satisfied
+Male;44;373;5;5;0;satisfied
+Female;66;1097;4;2;0;neutral or dissatisfied
+Male;26;472;3;3;18;neutral or dissatisfied
+Female;65;745;1;5;0;neutral or dissatisfied
+Female;20;1394;2;4;0;neutral or dissatisfied
+Male;30;607;3;3;55;neutral or dissatisfied
+Male;40;67;4;4;0;satisfied
+Male;45;1294;2;2;11;neutral or dissatisfied
+Male;58;1208;2;2;0;neutral or dissatisfied
+Male;37;107;2;4;232;neutral or dissatisfied
+Female;37;235;4;4;0;neutral or dissatisfied
+Male;25;1009;5;5;0;satisfied
+Female;26;1303;3;3;0;neutral or dissatisfied
+Female;27;628;4;4;46;satisfied
+Male;52;1517;3;3;0;satisfied
+Male;26;2836;5;5;0;satisfied
+Male;58;1034;5;5;170;satisfied
+Male;50;2350;4;1;0;neutral or dissatisfied
+Female;11;529;4;4;15;neutral or dissatisfied
+Male;25;483;5;5;0;satisfied
+Male;22;480;3;3;17;neutral or dissatisfied
+Male;43;2588;0;5;0;satisfied
+Female;41;3396;4;4;0;satisfied
+Female;40;384;2;2;0;neutral or dissatisfied
+Female;20;1788;1;1;25;neutral or dissatisfied
+Male;43;1506;5;5;173;satisfied
+Female;50;427;5;1;38;satisfied
+Female;24;1042;1;1;0;neutral or dissatisfied
+Male;32;157;2;2;0;neutral or dissatisfied
+Male;47;3349;5;3;0;satisfied
+Female;28;160;1;1;52;neutral or dissatisfied
+Female;23;1400;4;4;0;satisfied
+Male;38;2027;5;1;124;satisfied
+Male;53;1741;4;3;0;satisfied
+Male;52;3092;2;3;7;satisfied
+Female;20;386;4;4;0;satisfied
+Female;43;2585;5;5;0;satisfied
+Female;40;304;3;4;0;satisfied
+Male;43;2835;5;4;0;satisfied
+Male;34;859;4;4;0;neutral or dissatisfied
+Female;37;3969;5;3;27;neutral or dissatisfied
+Female;61;2402;4;2;0;neutral or dissatisfied
+Female;29;925;1;1;0;satisfied
+Female;41;369;3;3;0;satisfied
+Female;28;867;5;5;30;neutral or dissatisfied
+Female;58;515;1;2;5;neutral or dissatisfied
+Male;50;964;1;1;93;neutral or dissatisfied
+Male;46;762;3;3;0;satisfied
+Female;28;1620;5;5;0;satisfied
+Male;61;731;1;1;0;satisfied
+Female;27;1744;3;3;0;neutral or dissatisfied
+Female;43;109;2;2;0;neutral or dissatisfied
+Male;34;2457;2;2;0;neutral or dissatisfied
+Male;56;2615;2;5;0;neutral or dissatisfied
+Male;69;783;2;2;112;neutral or dissatisfied
+Male;62;483;1;1;12;neutral or dissatisfied
+Male;30;2253;5;5;40;satisfied
+Male;25;1264;2;2;3;satisfied
+Male;53;2248;2;3;0;satisfied
+Male;46;480;2;3;94;satisfied
+Male;48;290;5;5;0;neutral or dissatisfied
+Female;46;544;4;5;0;satisfied
+Female;40;666;2;2;0;satisfied
+Male;39;299;4;4;0;neutral or dissatisfied
+Male;22;748;3;3;0;satisfied
+Female;35;391;5;5;0;satisfied
+Female;29;612;4;4;0;neutral or dissatisfied
+Female;33;1598;1;1;0;neutral or dissatisfied
+Male;26;304;4;4;0;neutral or dissatisfied
+Female;27;776;4;4;6;neutral or dissatisfied
+Female;24;411;2;2;0;satisfied
+Female;16;1325;5;4;243;satisfied
+Male;47;427;5;3;0;satisfied
+Female;45;531;3;4;0;neutral or dissatisfied
+Female;39;1582;2;4;0;satisfied
+Male;35;2392;5;3;0;neutral or dissatisfied
+Female;23;399;4;4;0;neutral or dissatisfied
+Male;35;589;2;3;44;neutral or dissatisfied
+Male;50;993;3;5;0;satisfied
+Female;40;192;2;2;7;neutral or dissatisfied
+Male;45;483;4;2;128;neutral or dissatisfied
+Female;60;1797;5;5;0;satisfied
+Male;11;1310;5;5;24;neutral or dissatisfied
+Male;38;762;4;4;0;satisfied
+Female;26;2475;4;4;0;neutral or dissatisfied
+Female;17;808;5;5;0;neutral or dissatisfied
+Male;40;1723;5;3;2;satisfied
+Female;60;123;5;4;0;satisfied
+Female;43;2825;3;3;16;satisfied
+Male;50;3610;5;4;0;satisfied
+Male;46;337;2;2;0;neutral or dissatisfied
+Male;29;1642;1;1;24;neutral or dissatisfied
+Male;23;1041;2;2;15;satisfied
+Male;17;991;5;5;0;neutral or dissatisfied
+Male;65;473;1;1;11;satisfied
+Male;47;608;1;1;83;neutral or dissatisfied
+Male;34;455;4;4;0;satisfied
+Male;64;862;4;4;25;neutral or dissatisfied
+Male;42;3381;5;5;0;satisfied
+Male;53;972;2;2;0;neutral or dissatisfied
+Male;38;834;4;4;92;neutral or dissatisfied
+Female;8;1107;5;5;18;neutral or dissatisfied
+Male;31;3561;5;5;0;satisfied
+Male;41;606;1;1;18;neutral or dissatisfied
+Male;32;1069;2;2;49;neutral or dissatisfied
+Female;56;1707;3;4;7;satisfied
+Male;19;501;3;3;0;neutral or dissatisfied
+Male;25;541;4;4;0;neutral or dissatisfied
+Female;39;421;4;4;0;neutral or dissatisfied
+Male;9;1390;2;2;270;neutral or dissatisfied
+Female;39;266;2;2;49;neutral or dissatisfied
+Female;21;1062;4;4;17;satisfied
+Male;20;992;3;3;0;neutral or dissatisfied
+Male;55;502;5;4;0;satisfied
+Female;69;1334;4;4;4;satisfied
+Female;25;854;5;5;9;satisfied
+Male;69;173;1;1;0;neutral or dissatisfied
+Female;67;1033;2;5;37;neutral or dissatisfied
+Male;33;236;1;1;2;neutral or dissatisfied
+Male;39;1685;2;4;0;satisfied
+Female;17;647;2;2;6;neutral or dissatisfied
+Female;39;2088;5;5;10;satisfied
+Female;25;1576;1;1;0;neutral or dissatisfied
+Male;32;3802;5;5;90;satisfied
+Female;23;101;5;5;0;neutral or dissatisfied
+Female;46;650;2;1;0;neutral or dissatisfied
+Female;50;416;2;4;0;satisfied
+Female;43;223;4;1;28;neutral or dissatisfied
+Male;35;1005;4;4;0;satisfied
+Male;62;834;2;2;110;neutral or dissatisfied
+Female;47;247;4;4;0;neutral or dissatisfied
+Female;13;986;1;1;2;neutral or dissatisfied
+Female;68;1635;3;3;0;neutral or dissatisfied
+Female;29;868;3;3;0;neutral or dissatisfied
+Male;57;370;3;2;0;satisfied
+Female;32;1237;4;4;8;neutral or dissatisfied
+Male;55;110;3;3;0;neutral or dissatisfied
+Female;31;749;5;5;11;satisfied
+Male;7;1154;3;3;0;neutral or dissatisfied
+Female;59;145;5;2;0;neutral or dissatisfied
+Male;62;581;2;2;0;neutral or dissatisfied
+Male;33;1197;4;4;0;neutral or dissatisfied
+Female;30;2450;2;2;2;satisfied
+Female;30;1966;3;3;0;neutral or dissatisfied
+Male;41;493;3;3;0;satisfied
+Male;60;3664;1;3;0;neutral or dissatisfied
+Female;60;214;1;3;0;neutral or dissatisfied
+Male;15;1039;5;5;4;satisfied
+Female;36;140;2;2;2;neutral or dissatisfied
+Male;50;1937;4;3;0;satisfied
+Male;22;434;1;1;5;neutral or dissatisfied
+Male;39;294;1;1;0;neutral or dissatisfied
+Male;24;473;1;1;0;neutral or dissatisfied
+Female;51;2818;2;5;6;satisfied
+Male;49;74;2;5;0;satisfied
+Female;56;3538;3;4;0;satisfied
+Male;57;308;2;2;0;neutral or dissatisfied
+Male;57;308;3;3;0;satisfied
+Female;50;2583;5;4;6;satisfied
+Female;53;1621;1;2;0;neutral or dissatisfied
+Female;53;251;3;3;5;neutral or dissatisfied
+Female;41;3247;2;3;0;satisfied
+Male;42;685;4;4;0;satisfied
+Male;62;148;4;4;31;neutral or dissatisfied
+Female;50;860;5;4;0;neutral or dissatisfied
+Female;54;1565;3;4;4;satisfied
+Male;49;224;5;5;3;satisfied
+Female;60;438;5;5;1;neutral or dissatisfied
+Female;59;1379;2;1;0;neutral or dissatisfied
+Female;24;303;3;3;0;satisfied
+Male;60;67;5;5;25;neutral or dissatisfied
+Male;23;862;4;4;1;neutral or dissatisfied
+Male;37;223;4;4;0;neutral or dissatisfied
+Male;49;569;2;4;0;satisfied
+Male;62;2475;1;1;0;neutral or dissatisfied
+Male;56;1835;2;1;0;neutral or dissatisfied
+Female;25;1444;4;4;0;neutral or dissatisfied
+Female;49;346;2;2;9;satisfied
+Male;32;1546;3;3;20;neutral or dissatisfied
+Male;25;846;4;4;10;satisfied
+Male;55;459;3;3;50;neutral or dissatisfied
+Female;50;2731;3;4;0;satisfied
+Male;39;2040;3;3;0;satisfied
+Female;42;1971;4;5;0;satisfied
+Male;52;3807;1;3;0;neutral or dissatisfied
+Female;57;2446;2;2;54;neutral or dissatisfied
+Female;34;1142;2;4;4;neutral or dissatisfied
+Male;22;395;5;5;8;satisfied
+Female;42;160;3;4;0;satisfied
+Female;61;588;1;1;0;neutral or dissatisfied
+Female;40;937;4;3;0;satisfied
+Female;55;3275;3;2;0;neutral or dissatisfied
+Male;66;484;2;2;2;neutral or dissatisfied
+Male;26;678;4;4;0;neutral or dissatisfied
+Female;43;358;5;5;0;neutral or dissatisfied
+Female;24;605;2;2;0;neutral or dissatisfied
+Male;60;594;3;4;7;satisfied
+Female;17;876;2;2;2;neutral or dissatisfied
+Female;22;1249;2;2;144;neutral or dissatisfied
+Female;27;992;4;4;0;neutral or dissatisfied
+Female;43;3967;1;4;0;neutral or dissatisfied
+Male;46;764;5;5;39;satisfied
+Male;40;588;5;5;0;satisfied
+Male;68;630;1;1;4;neutral or dissatisfied
+Female;42;510;1;4;112;neutral or dissatisfied
+Female;44;3954;4;5;0;satisfied
+Male;44;528;1;1;20;neutral or dissatisfied
+Male;29;1963;4;4;0;satisfied
+Male;50;3548;5;3;0;satisfied
+Female;37;308;5;5;0;neutral or dissatisfied
+Male;33;731;3;3;0;neutral or dissatisfied
+Female;58;229;4;4;63;satisfied
+Female;26;908;2;2;0;neutral or dissatisfied
+Male;49;2537;2;3;0;satisfied
+Female;22;304;5;5;0;satisfied
+Male;50;189;5;5;56;satisfied
+Male;22;447;2;2;0;satisfied
+Female;41;373;5;5;0;satisfied
+Female;11;1020;2;2;2;neutral or dissatisfied
+Female;59;1562;1;4;35;satisfied
+Female;41;2139;2;4;19;satisfied
+Female;56;409;4;5;36;neutral or dissatisfied
+Female;31;2918;5;5;12;satisfied
+Male;27;3657;5;5;31;satisfied
+Female;56;179;4;4;0;neutral or dissatisfied
+Female;38;2318;5;3;0;neutral or dissatisfied
+Male;56;220;2;2;29;neutral or dissatisfied
+Female;56;431;4;2;0;neutral or dissatisfied
+Male;25;495;3;3;0;neutral or dissatisfied
+Female;47;528;5;4;0;satisfied
+Male;72;1204;2;2;55;neutral or dissatisfied
+Male;43;1371;3;5;4;satisfied
+Male;27;391;1;1;1;neutral or dissatisfied
+Male;39;1724;1;4;0;satisfied
+Female;11;2378;3;3;0;neutral or dissatisfied
+Male;21;187;4;4;71;neutral or dissatisfied
+Male;43;1190;5;5;118;satisfied
+Female;47;3391;4;1;0;satisfied
+Male;40;733;3;3;0;neutral or dissatisfied
+Female;52;458;4;1;3;satisfied
+Male;38;271;5;5;0;neutral or dissatisfied
+Male;66;2243;2;4;0;satisfied
+Female;44;1788;3;5;0;satisfied
+Female;42;468;1;3;0;neutral or dissatisfied
+Male;39;689;3;3;1;neutral or dissatisfied
+Female;55;1849;5;5;0;satisfied
+Female;8;794;5;5;11;neutral or dissatisfied
+Female;50;3455;2;3;0;satisfied
+Female;58;1958;2;5;13;satisfied
+Female;41;502;4;5;0;satisfied
+Female;18;447;3;3;0;neutral or dissatisfied
+Male;30;163;5;5;0;neutral or dissatisfied
+Female;19;601;1;1;46;neutral or dissatisfied
+Male;25;403;4;4;20;neutral or dissatisfied
+Male;58;631;1;1;0;neutral or dissatisfied
+Male;23;1448;3;3;0;satisfied
+Female;49;1013;5;4;31;neutral or dissatisfied
+Female;18;581;2;2;56;neutral or dissatisfied
+Female;26;403;2;2;53;neutral or dissatisfied
+Female;50;421;2;1;27;satisfied
+Female;32;3066;5;5;0;satisfied
+Female;70;315;1;5;0;satisfied
+Male;14;377;1;1;0;neutral or dissatisfied
+Male;56;1886;4;5;0;satisfied
+Female;70;1810;5;3;0;neutral or dissatisfied
+Male;22;253;2;2;113;neutral or dissatisfied
+Female;37;320;5;5;0;satisfied
+Female;24;1013;3;3;25;satisfied
+Female;33;2602;1;3;1;neutral or dissatisfied
+Female;37;761;3;3;2;neutral or dissatisfied
+Male;70;2173;4;4;30;neutral or dissatisfied
+Male;36;292;1;1;5;neutral or dissatisfied
+Male;32;612;4;4;67;neutral or dissatisfied
+Female;8;594;3;3;37;neutral or dissatisfied
+Male;26;1085;4;4;94;neutral or dissatisfied
+Female;51;3993;4;4;8;satisfied
+Male;47;449;1;1;0;neutral or dissatisfied
+Female;36;226;2;2;0;neutral or dissatisfied
+Male;25;1947;3;3;0;neutral or dissatisfied
+Male;51;2248;3;5;1;satisfied
+Female;49;1023;1;3;0;neutral or dissatisfied
+Male;44;783;5;3;3;satisfied
+Male;31;1076;4;4;13;satisfied
+Male;27;3534;4;4;0;satisfied
+Female;27;589;3;3;0;neutral or dissatisfied
+Male;52;3885;2;4;0;satisfied
+Male;55;667;1;1;25;neutral or dissatisfied
+Female;64;277;5;1;8;neutral or dissatisfied
+Female;8;354;3;3;0;neutral or dissatisfied
+Female;37;145;4;1;0;neutral or dissatisfied
+Male;44;547;1;1;28;neutral or dissatisfied
+Male;41;1182;2;2;0;neutral or dissatisfied
+Female;37;679;3;3;10;neutral or dissatisfied
+Female;59;1471;2;3;0;neutral or dissatisfied
+Female;43;372;4;4;0;neutral or dissatisfied
+Female;25;1318;4;4;8;satisfied
+Female;54;737;3;3;0;satisfied
+Male;58;589;4;4;29;neutral or dissatisfied
+Male;46;954;2;2;0;satisfied
+Female;39;399;4;4;0;satisfied
+Female;58;2475;4;5;0;satisfied
+Male;10;868;2;2;315;neutral or dissatisfied
+Female;16;3494;3;3;0;neutral or dissatisfied
+Male;43;488;5;4;0;satisfied
+Female;63;487;3;5;0;neutral or dissatisfied
+Female;25;588;4;4;0;neutral or dissatisfied
+Male;47;393;4;3;0;satisfied
+Female;23;190;2;2;158;neutral or dissatisfied
+Female;58;862;4;2;0;neutral or dissatisfied
+Female;49;332;5;4;0;neutral or dissatisfied
+Female;49;3465;1;4;0;neutral or dissatisfied
+Female;16;337;3;3;2;neutral or dissatisfied
+Male;40;639;4;4;0;neutral or dissatisfied
+Male;58;950;5;5;0;satisfied
+Male;27;689;3;3;0;neutral or dissatisfied
+Female;29;589;4;4;6;neutral or dissatisfied
+Male;43;125;5;5;0;satisfied
+Male;58;2415;4;3;19;satisfied
+Male;46;451;5;5;88;satisfied
+Female;38;1947;3;5;0;satisfied
+Female;15;2153;3;3;38;neutral or dissatisfied
+Female;49;612;3;2;0;satisfied
+Male;49;163;4;4;0;neutral or dissatisfied
+Female;42;587;4;3;1;neutral or dissatisfied
+Female;63;1947;3;1;0;neutral or dissatisfied
+Female;33;546;5;5;80;neutral or dissatisfied
+Female;55;1438;1;3;65;neutral or dissatisfied
+Male;29;1192;3;3;0;neutral or dissatisfied
+Female;25;594;4;4;0;neutral or dissatisfied
+Male;45;170;4;4;0;satisfied
+Male;70;679;1;1;0;satisfied
+Female;25;978;4;4;0;satisfied
+Female;67;143;2;2;64;neutral or dissatisfied
+Male;45;2337;4;3;1;satisfied
+Female;39;2358;5;4;1;satisfied
+Male;41;602;2;3;0;neutral or dissatisfied
+Female;56;189;5;4;111;satisfied
+Male;11;301;1;1;2;neutral or dissatisfied
+Male;19;528;4;4;0;neutral or dissatisfied
+Female;22;214;5;5;2;satisfied
+Female;27;163;2;2;0;neutral or dissatisfied
+Female;29;1024;4;4;26;satisfied
+Female;34;280;3;3;0;neutral or dissatisfied
+Male;21;605;1;1;32;neutral or dissatisfied
+Female;51;833;3;4;0;neutral or dissatisfied
+Female;52;3895;4;3;24;satisfied
+Male;34;304;2;2;74;neutral or dissatisfied
+Male;40;429;5;2;25;neutral or dissatisfied
+Female;33;874;2;2;0;neutral or dissatisfied
+Male;26;3434;1;1;0;satisfied
+Female;56;1972;5;2;0;neutral or dissatisfied
+Female;28;1085;4;4;17;neutral or dissatisfied
+Male;53;214;4;4;0;neutral or dissatisfied
+Male;56;378;1;1;34;neutral or dissatisfied
+Male;23;130;5;5;0;neutral or dissatisfied
+Male;27;680;2;2;0;neutral or dissatisfied
+Male;38;308;2;2;0;neutral or dissatisfied
+Female;23;1749;1;1;8;neutral or dissatisfied
+Male;41;337;3;3;66;neutral or dissatisfied
+Male;31;2342;4;4;8;satisfied
+Female;42;1346;5;3;2;satisfied
+Female;52;316;4;2;112;neutral or dissatisfied
+Female;16;1056;5;5;0;satisfied
+Male;29;224;3;3;0;neutral or dissatisfied
+Female;35;1834;5;5;10;satisfied
+Male;29;488;2;2;0;neutral or dissatisfied
+Male;21;534;3;3;26;neutral or dissatisfied
+Male;38;1642;1;1;156;neutral or dissatisfied
+Female;48;337;2;4;4;neutral or dissatisfied
+Male;61;333;5;5;4;neutral or dissatisfied
+Female;52;257;3;2;0;satisfied
+Male;52;733;1;1;13;neutral or dissatisfied
+Male;33;262;3;3;4;neutral or dissatisfied
+Male;39;420;4;4;9;neutral or dissatisfied
+Female;26;895;2;2;0;neutral or dissatisfied
+Male;58;158;2;2;0;neutral or dissatisfied
+Male;24;177;1;1;0;satisfied
+Male;45;2176;3;4;0;satisfied
+Female;28;1416;3;3;1;neutral or dissatisfied
+Male;30;390;5;5;10;satisfied
+Male;34;153;3;3;0;neutral or dissatisfied
+Male;49;2538;2;5;0;satisfied
+Female;58;2342;5;3;0;satisfied
+Male;41;2285;1;1;0;satisfied
+Female;58;3944;4;4;0;satisfied
+Female;21;185;3;3;0;satisfied
+Female;27;1426;1;1;12;neutral or dissatisfied
+Female;49;302;1;4;30;satisfied
+Male;13;861;2;2;0;neutral or dissatisfied
+Female;27;347;4;4;43;satisfied
+Male;28;1680;5;5;0;satisfied
+Male;17;160;1;1;0;neutral or dissatisfied
+Female;54;1209;4;4;0;neutral or dissatisfied
+Male;59;590;3;3;0;neutral or dissatisfied
+Female;24;391;3;3;0;neutral or dissatisfied
+Male;27;2072;4;4;6;satisfied
+Female;29;737;4;4;0;satisfied
+Male;40;258;5;3;62;satisfied
+Female;26;1073;3;3;16;neutral or dissatisfied
+Male;60;1587;4;4;0;satisfied
+Female;26;4243;4;4;26;satisfied
+Male;28;1091;4;4;0;satisfied
+Male;53;2075;5;5;45;neutral or dissatisfied
+Male;48;284;5;5;0;neutral or dissatisfied
+Female;46;448;2;5;0;satisfied
