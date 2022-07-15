@@ -73,13 +73,34 @@ library(PerformanceAnalytics)
 library(psych)
 library(rela)
 library(factoextra)
+library(ggplot2)
+library(gridExtra)
 
 localidades<-read_excel("localidades.xlsx")
 head(localidades)
+summary(localidades)
 
-str(localidades)
 missing(localidades)
+d <- ggplot(localidades, aes(x = desempleo)) +
+  geom_histogram()
+s <- ggplot(localidades, aes(x = salario)) +
+  geom_histogram()
+i <- ggplot(localidades, aes(x = inflacion)) +
+  geom_histogram()
+a <- ggplot(localidades, aes(x = activos)) +
+  geom_histogram()
+r <- ggplot(localidades, aes(x = remesas)) +
+  geom_histogram()
 
+
+grid.arrange(d,s,i,a,r)
+
+library(GGally)
+ggpairs(localidades[,2:6], lower = list(continuous = "smooth"),
+        diag = list(continuous = "bar"), axisLabels = "none")
+
+
+plot(localidades)
 localidades2=localidades[c(2:6)]
 
 
@@ -87,45 +108,27 @@ cor(localidades2)
 
 corrplot(cor(localidades2))
 
-
 cortest(cor(localidades2))
 
-#Se rechaza H0 , por lo cual se acepta H1 lo que da a entender que las correlaciones son distintas.
-
-#PRUEBA DE ESFERICIDAD DE BARLETT
+#  Test de Esfericidad
 
 cortest.bartlett(cor(localidades2),n=850)
 
-#Pvalue es 0 por ello se acepta Ha , lo cual significa que existe correlación entre las 
-#variables cuando usas cor(data).
-
-#Prueba KMO
+# test KMO
 KMO(localidades2)
-
-#Según el resultado se justifica la realizacion del PCA (ya que MSA>0.5).
 
 scree(localidades2)
 
-#Visualizamos en el grafico de sedimentacion la cantidad optima de componentes que pueden haber en 
-#la data en este caso se observa que el numero de componentes son 3.
 
-#Analisis paralelo
 fa.parallel(localidades2,fa="pc")
 
-#Se utilizara la funcion fa.parallel con lo cual podemos realziar gráficos de pantalla de datos o 
-#matrices de correlación en comparación con matrices aleatorias.
 
 comp_localidades<-prcomp(localidades2, scale=TRUE,center = TRUE)
 comp_localidades
 
-#Con la función prcomp podemos realiza un analisis de PCA en la matriz de datoS para posteriormente 
-#pasarla a objeto y mediante la funcion scale se escalan los datos para que todos tengan un valor 
-#igualitario y se centra la data para que se distribuya y organize de una mejor manera
 
 summary(comp_localidades)
 
-#Con esta funcion podemos apreciar algunas caracteristicas de los objetos de la matriz de componentes ,
-#de los cuales se puede resaltar “proportion of variance” el cual nos muestra que tan alejada estan los datos de la media
 
 localidadesA <- localidades[,2:5]
 pca <- prcomp(localidadesA, scale = TRUE)

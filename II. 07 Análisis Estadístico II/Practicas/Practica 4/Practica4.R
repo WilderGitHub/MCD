@@ -1,26 +1,44 @@
 ############## Ejercicio 1 ########
 ###### Cluster  #########
+install.packages("readxl")
+install.packages("useful")
+library (readxl)
+library(useful)
+library(GGally)
 
-data(iris)
-datos<-iris
-View(datos)
-# 
-datos[,1:4]<-scale(datos[,1:4])
-View(datos)
+exportaciones<-read_excel("exportaciones.xlsx")
+head(exportaciones)
+summary(exportaciones)
+exportaciones$pais<-as.factor(exportaciones$pais)
+
+ggpairs(exportaciones[,2:5], lower = list(continuous = "smooth"),
+        diag = list(continuous = "bar"), axisLabels = "none")
+
+exportaciones[,2:5]<-scale(exportaciones[,2:5])
+head(exportaciones)
 ##
-distancias<-dist(datos[,1:4])
+distancias<-dist(exportaciones[,2:5])
 distancias
 ##agrupamiento
 agrupamiento<-hclust(distancias)
 
+
 ## k grupos
 (grupos<-cutree(agrupamiento, k=3))
 ###
-plot(agrupamiento,hang=-1,cex=0.7, labels=datos[,5], main="Cluster
-sobre tipos de flor")
+plot(agrupamiento,hang=-1,cex=0.7, labels=exportaciones$pais, main="Cluster
+de exportaciones por País destino")
 
-##
 rect.hclust(agrupamiento, k=3, border="red")
+
+# grafico kmeans
+train <- exportaciones[, which(names(exportaciones) != "pais")]
+set.seed(123)
+w <- kmeans(x=train, centers=3)
+w
+
+plot(w, data=train)
+
 
 
 ############## Ejercicio 2 ########
