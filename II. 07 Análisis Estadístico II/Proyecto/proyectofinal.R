@@ -1,6 +1,6 @@
 ############ PROYECTO FINAL ############
 ## instalamos las librerias necesarias
-paquetes<-c("GGally","useful","ggstream","ggfortify","readxl","ggplot2","tidyverse","dplyr","fpp2")
+paquetes<-c("treemapify","GGally","useful","ggstream","ggfortify","readxl","ggplot2","tidyverse","dplyr","fpp2","tseries")
 installed_packages <- paquetes %in% rownames(installed.packages())
 if (any(installed_packages == FALSE)) {install.packages(packages[!installed_packages])}
 invisible(lapply(paquetes, library, character.only = TRUE))
@@ -10,7 +10,8 @@ ine<-read_excel("ine.xlsx")
 ine$FECHA <- as.Date(ine$FECHA, "%Y-%m-%d")
 head(ine)
 summary(ine)
-destino<-"CHINA"
+str(ine)
+destino<-"CHILE"
 ################# analisis mediante clustering ######
 #agrupamos
 inex<-aggregate(x = ine$VALOR,by = list(FECHA=ine$FECHA,DESTINO=ine$DESTINO),FUN = sum)  
@@ -52,6 +53,22 @@ grafico (unpais,paste("Exportaciones a ",destino))
 ## descomposición
 descomposicion <-decompose(unpais,"multiplicative")
 autoplot(descomposicion)
+
+
+#########
+# install.packages("treemapify")
+#library(treemapify)
+# install.packages("ggplot2")
+#library(ggplot2)
+
+# ggplot(df, aes(area = valor, fill = valor, label = grupo)) +
+#   geom_treemap() +
+#   geom_treemap_text(colour = c(rep("white", 2),
+#                                1, rep("white", 6)),
+#                     place = "centre", size = 15) +
+#   scale_fill_viridis_c() 
+
+
 ## Test de no estacionariedad
 adf.test(unpais)
 # modelo
