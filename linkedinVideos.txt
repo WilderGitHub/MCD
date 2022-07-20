@@ -60,6 +60,7 @@ AWS Well-Architected Framework Performance Efficiency Pillar
 AWS Well-Architected Framework Reliability Pillar
 AWS Well-Architected Framework Security Pillar
 Building Dynamic Websites using AWS Lambdas
+Building and Deploying Deep Learning Applications with TensorFlow
 Building a GraphQL Project with React.js
 Build a React Application Using AWS Amplify
 Building Modern Projects with React
@@ -100,6 +101,7 @@ Data Infrastructure and AIML
 Data Science Foundations Data Engineering
 Data Science Foundations Data Mining in Python
 Data Science Foundations Python Scientific Stack
+Data Science Methodologies Making Business Sense
 Data Cleaning in Python Essential Training
 Data Visualization Best Practices
 Data Visualization Tips and Tricks
@@ -167,6 +169,8 @@ Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
 Learning Amazon Web Services Lambda
 Learning AWS Amplify
+Learning Data Analytics 1 Foundations
+Learning Data Analytics Part 2 Extending and Applying Core Knowledge
 Learning Data Visualization
 Learning Data Visualization with D3.js
 Learning Docker
@@ -209,6 +213,7 @@ Machine Learning with Python Foundations
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
 Microsoft SQL Server 2019 Essential Training
+Mistakes to Avoid in Machine Learning
 MonogoDB Essential Training
 More Python Tips, Tricks, and Techniques for Data Science
 Motion Control 3D Bringing Photos to Life in Three Dimensions with After Effects and Photoshop CC
@@ -216,6 +221,7 @@ Motion Design in After Effects
 Motion Graphics for Social Media
 MySQL Advanced Topics
 Nail Your SQL Interview
+Neural Networks and Convolutional Neural Networks Essential Training
 Next Generation AI An Intro to GPT-3
 Natural Language Processing with PyTorch
 Next Generation AI An Intro to GPT-3
