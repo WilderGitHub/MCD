@@ -91,6 +91,7 @@ CSS Combining Grid and Flexbox
 CSS Scrolling and Parallax
 D3.js Essential Training for Data Scientists
 Data Analytics Dashboards vs. Data Stories
+Data Analytics Graph Analytics
 Database Clinic Neo4J
 Database Foundations Administration
 Database Foundations Application Development
@@ -105,6 +106,7 @@ Data Science Methodologies Making Business Sense
 Data Cleaning in Python Essential Training
 Data Visualization Best Practices
 Data Visualization Tips and Tricks
+Data Visualization in Python with Dash
 Data Visualizations with Plotly
 Data Ingestion with Python
 Databases for Node.js Developers
@@ -118,8 +120,13 @@ DevOps with AWS
 Docker for Data Scientists
 Exam Tips AWS Certified Solutions Architect - Associate (SAA-C02)
 Electron Building Cross Platform Desktop Apps
+Excel 2016 Macros in Depth
+Excel Advanced Formatting Techniques
 Excel Business Intelligence Power Pivot and DAX
 Excel Business Intelligence Power Query
+Excel Creating a Basic Dashboard
+Excel Spreadsheet Design Extreme Makeover
+Excel VBA Managing Files and Data
 Express Essential Training
 Faster pandas
 Financial Forecasting with Big Data
@@ -165,6 +172,7 @@ JavaScript Prototypes
 JavaScript Recursion
 JavaScript The Tricky Bits
 Learn Apache Kafka for Beginners
+Learning Arduino Foundations
 Learning After Effects 2022
 Learning Amazon Web Services (AWS) for Developers
 Learning Amazon Web Services Lambda
@@ -198,6 +206,8 @@ Learning SQL Programming
 Learning SOLID Programming Principles
 Learning the AWS Well-Architected Framework
 Learning TensorFlow with JavaScript
+Learning VBA in Excel
+Learning XAI Explainable Artificial Intelligence
 Linux Foundation Cert Prep Essential Commands (Ubuntu)
 Linux Overview and Installation
 Machine Learning and AI Foundations Recommendations
