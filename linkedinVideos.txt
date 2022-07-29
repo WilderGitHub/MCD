@@ -66,6 +66,7 @@ Build a React Application Using AWS Amplify
 Building Modern Projects with React
 Building Monorepos on GitHub
 Building RESTful APIs with Flask
+Building RESTful APIs with Node.js and Express
 Building a Website with Node.js and Express.js
 Building a Recommendation System with Python Machine Learning & AI
 Bootstrap 5 Essential Training
@@ -97,6 +98,7 @@ Database Foundations Administration
 Database Foundations Application Development
 Database Foundations Data Structures
 Database Foundations Database Management
+Data Dashboards in Power BI
 Data Engineering Foundations
 Data Infrastructure and AIML
 Data Science Foundations Data Engineering
@@ -222,6 +224,7 @@ Machine Learning with Python Decision Trees
 Machine Learning with Python Foundations
 Machine Learning with Python k-Means Clustering
 Mastering Web Developer Interview Code
+MERN Essential Training
 Microsoft SQL Server 2019 Essential Training
 Mistakes to Avoid in Machine Learning
 MonogoDB Essential Training
@@ -247,6 +250,7 @@ Program Databases with Transact-SQL
 PostgreSQL Essential Training
 Postman Essential Training
 Power BI Dataflows Essential Training
+Power BI Data Methods
 Power BI Data Modeling with DAX
 Power BI Data Visualization and Dashboard Tips, Tricks, & Techniques
 Power BI Essential Training
@@ -267,30 +271,40 @@ Python Functions for Data Science
 Python Programming Efficiently
 Python Project Build a Quiz Application
 Python Projects
+Python Recursion
 Python vs. JavaScript for Development
+Python Working with Files
 Python Working with Predictive Analytics
 PyTorch Essential Training Deep Learning
 R Data Science Code Challenges
 R Essential Training Wrangling and Visualizing Data
 React avanzado 1
+React Creating and Hosting a Full-Stack Site
 React Design Patterns
+React.js Code Challenges
 React.js Essential Training
 React.js Essential Training (2020)
 React for Web Designers
+React Hooks
 React Hooks esencial
 React Native Ecosystem and Workflow
 React Native Essential Training
+React React Router
+React Server-Side Rendering
 React Software Architecture
 React.js Building an Interface
 Reinforcement Learning Foundations
 Relational Databases Essential Training
 RPA Automation Anywhere
 Sass Essential Training
+Secure Coding in Python
 Selenium Essential Training
 Serverless Static Websites on AWS
 Scrollytelling Creating a One-Page Web Experience
 Software Design From Requirements to Release
 Spark for Machine Learning & AI
+Supervised Learning Essential Training
+SQL Code Challenges
 SQL Data Science Code Challenges
 SQL Data Reporting and Analysis
 SQL Essential Training
@@ -316,6 +330,7 @@ The Essential Elements of Predictive Analytics and Data Mining
 Training Neural Networks in Python
 Transfer Learning for Images Using PyTorch Essential Training
 Transformers Text Classification for NLP Using BERT
+Unit Testing in Python
 Using Python for Automation
 Using Python with Excel
 Using SQL with Python
